@@ -1,0 +1,11 @@
+<input class="form-control w-100" [(ngModel)]="text" [placeholder]="_placeholder" (focus)="open();refresh();" (focusout)="close()"
+    (keyup)="setHeight();refresh();" [disabled]="_disabled">
+<!-- <ui-loader style="background-color: #ffffff00;width: 30px;left: initial;z-index: initial;" class="h-100" circle-class="bg-dark" base-width="15px" base-height="15px" [hidden]="!loading"></ui-loader> -->
+<i class="fas fa-times" *ngIf="_unselect" [hidden]="(!isSelected()||_disabled)"
+    (click)="setSelected(undefined,true)"></i>
+<ul class="card list-group d-block" [hidden]="!isOpened()" [ngStyle]="{'height': height+'px' }">
+    <ng-container *ngFor="let item of getItens(text)">
+        <li #itemli [ngClass]="getClass(item)" (mousedown)="setSelected(item,true);close()"
+            [innerHtml]="getHighlighted(item,text)" [attr.value]="getLabel(item,true)"></li>
+    </ng-container>
+</ul>

@@ -1,0 +1,7 @@
+<div class="d-flex flex-column align-items-stretch justify-content-between container-fluid h-100 app-root">
+    <app-top-bar-component class="d-flex align-items-stretch justify-content-between w-100 pt-2" *ngIf="isAuthenticated()"></app-top-bar-component>
+    <div class="d-flex w-100 h-100 pt-4">
+        <router-outlet></router-outlet>
+    </div>
+    <app-loading-component class="position-absolute" style="top:0;bottom:0;left:0;right:0;" [hidden]="!isLoading()"></app-loading-component>
+</div>

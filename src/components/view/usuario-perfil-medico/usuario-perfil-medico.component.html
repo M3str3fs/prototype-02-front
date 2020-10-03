@@ -1,0 +1,170 @@
+<div class="row">
+    <div class="col-12 mb-2" *ngIf="usuario">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <b>Informações Básicas</b>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 col-md-3 mb-2">
+                        <b>Nome</b>
+                        <input type="text" class="form-control" placeholder="Nome" [(ngModel)]="usuario.nome" disabled>
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <b>Documento</b>
+                        <input type="text" class="form-control" placeholder="Documento" [(ngModel)]="usuario.documento" disabled>
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <ng-container *ngIf="usuadioDadosMedicos">
+                            <b>Crm</b>
+                            <input type="text" class="form-control" placeholder="Crm" [(ngModel)]="usuadioDadosMedicos.crm" [disabled]="!updatable">
+                        </ng-container>
+                    </div>
+                    <div class="col-12 col-md-5 mb-2 d-none d-md-block">
+
+                    </div>
+                    <div class="col-12 col-md-3 mb-2">
+                        <b>Email</b>
+                        <input type="text" class="form-control" placeholder="Email" [(ngModel)]="usuario.email" disabled>
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <b>Data de Nascimento</b>
+                        <input type="date" class="form-control" placeholder="Data de Nascimento" [(ngModel)]="usuario.dataNascimento" disabled>
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <b>Telefone</b>
+                        <input type="text" class="form-control" placeholder="Telefone" [(ngModel)]="usuario.telefone" disabled>
+                    </div>
+                    <div class="col-12 col-md-5 d-flex flex-row justify-content-end" *ngIf="updatable">
+                        <button class="btn btn-primary" *ngIf="isMedico()" (click)="doSalvar(usuadioDadosMedicos)">Salvar</button>
+                        <button class="btn btn-primary" *ngIf="!isMedico()" (click)="doCriar(usuadioDadosMedicos)">Solicitar Cadastro</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ng-container *ngIf="usuadioDadosMedicos">
+        <div class="col-12 col-md-4">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-1">
+                            <b>Especialidades</b>
+                        </div>
+                        <ng-container *ngIf="updatable">
+                            <div class="col-12 col-md-12 d-flex align-items-end justify-content-between">
+                                <ui-data-selector class="flex-grow-1" [(ngModel)]="especializacaoSelecionada" [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('especializacao-medica')">
+                                </ui-data-selector>
+                                <button class="btn btn-primary ml-2" (click)="especializacoes.add(especializacaoSelecionada)" [disabled]="!especializacaoSelecionada">
+                                    Adicionar
+                                </button>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+                <ui-data-list [ui-data-list]="especializacoes" [removable]="updatable" item-property="valor">
+                </ui-data-list>
+            </div>
+
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-1">
+                            <b>Convênios</b>
+                        </div>
+                        <ng-container *ngIf="updatable">
+                            <div class="col-12 col-md-12 d-flex align-items-end justify-content-between">
+                                <ui-data-selector class="flex-grow-1" [(ngModel)]="convenioSelecionado" [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('convenio')">
+                                </ui-data-selector>
+                                <button class="btn btn-primary ml-2" (click)="convenios.add(convenioSelecionado)" [disabled]="!convenioSelecionado">
+                                    Adicionar
+                                </button>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+                <ui-data-list [ui-data-list]="convenios" [removable]="updatable" item-property="valor">
+                </ui-data-list>
+            </div>
+
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-1">
+                            <b>Telefones</b>
+                        </div>
+                        <ng-container *ngIf="updatable">
+                            <div class="col-12 col-md-12 d-flex align-items-end justify-content-between">
+                                <input type="number" class="form-control flex-grow-1" style="width:initial;" placeholder="Telefone" [(ngModel)]="telefone">
+                                <button class="btn btn-primary ml-2" (click)="telefones.add(telefone.toString().normalize().trim())" [disabled]="!telefone">
+                                    Adicionar
+                                </button>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+                <ui-data-list [ui-data-list]="telefones" [removable]="updatable">
+                </ui-data-list>
+            </div>
+
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-1">
+                            <b>Secretários(as)</b>
+                        </div>
+                        <ng-container *ngIf="updatable">
+                            <div class="col-12 col-md-12 d-flex align-items-end justify-content-between">
+                                <ui-data-selector class="flex-grow-1" [(ngModel)]="secretarioSelecionada" [label]="getUiDataSelectUsuarioLabel" [query]="getUiDataSelectUsuarioQuery()">
+                                </ui-data-selector>
+                                <button class="btn btn-primary ml-2" (click)="secretarios.add(secretarioSelecionada)" [disabled]="!secretarioSelecionada">
+                                    Adicionar
+                                </button>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+                <ui-data-list [ui-data-list]="secretarios"  item-property="nome" [removable]="updatable">
+                </ui-data-list>
+            </div>
+        </div>
+        <div class="col-12 col-md-8">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-1">
+                            <b>Horários</b>
+                            <hr>
+                        </div>
+                        <ng-container *ngIf="updatable">
+                            <div class="col-12 col-md-4">
+                                <select class="form-control" [(ngModel)]="diaHorario">
+                                    <option [value]="i" *ngFor="let dia of dias; let i = index;">{{dia}}</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" placeholder="Início" [(ngModel)]="inicioHorario">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" placeholder="Fim" [(ngModel)]="fimHorario">
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <button class="btn btn-primary btn-block" (click)="doInserirHorario(diaHorario, inicioHorario, fimHorario)">Inserir</button>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex align-items-center justify-content-between" *ngFor="let item of getHorarios(diaHorario)">
+                        {{item.inicio}} - {{item.fim}}
+                        <i class="fas fa-times" style="margin-top: 2px;margin-left: 15px;cursor: pointer;" *ngIf="updatable" (click)="horarios.remove(item)"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </ng-container>
+</div>

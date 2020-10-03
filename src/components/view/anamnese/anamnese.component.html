@@ -1,0 +1,51 @@
+<div class="row" *ngIf="usuario && fichaTecnica">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12">
+            <label class="mr-1">Nome:</label><span>{{usuario.nome}}</span>
+            <span class="mr-4"></span>
+            <label class="mr-1">Data de Nascimento:</label><span>{{usuario.dataNascimento}}</span>
+            <span class="mr-4"></span>
+            <label class="mr-1">Tipo Sanguíneo:</label><span>{{fichaTecnica.tipoSanguineo}}</span>
+            <span class="mr-4"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 mt-2">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Doenças Hereditárias Possíveis</div>
+      </div>
+      <div class="card-body">
+        <span class="badge badge-warning mr-2 mb-2"
+          *ngFor="let doenca of fichaTecnica.idsDoencasHereditariasHistorico">{{getDoenca(doenca).nome}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 mt-2">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Doenças Hereditárias Ativas</div>
+      </div>
+      <div class="card-body">
+        <span class="badge badge-danger mr-2 mb-2"
+          *ngFor="let doenca of fichaTecnica.idsDoencasHereditariasAtivas">{{getDoenca(doenca).nome}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 mt-2">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Doenças Adquiridas</div>
+      </div>
+      <div class="card-body">
+        <span class="badge badge-danger mr-2 mb-2"
+          *ngFor="let doenca of fichaTecnica.idsDoencasAdquiridas">{{getDoenca(doenca).nome}}</span>
+      </div>
+    </div>
+  </div>
+</div>

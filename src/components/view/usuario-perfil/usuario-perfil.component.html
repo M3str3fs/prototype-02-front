@@ -1,0 +1,586 @@
+<div class="row">
+    <div class="col-12 mb-2" *ngIf="usuario">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <b>Informações Básicas</b>
+                        <button class="btn btn-primary" (click)="doGoUsuarioMeuPerfilMedico()">Ir para Curriculum
+                            Médico</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 col-md-3 mb-2">
+                        <b>Nome</b>
+                        <input type="text" class="form-control" placeholder="Nome" [(ngModel)]="usuario.nome">
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <b>Documento</b>
+                        <input type="text" class="form-control" placeholder="Documento" [(ngModel)]="usuario.documento">
+                    </div>
+
+                    <div class="col-12 col-md-7 mb-2 d-none d-md-block">
+
+                    </div>
+                    <div class="col-12 col-md-3 mb-2">
+                        <b>Email</b>
+                        <input type="text" class="form-control" placeholder="Email" [(ngModel)]="usuario.email">
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <b>Data de Nascimento</b>
+                        <input type="date" class="form-control" placeholder="Data de Nascimento"
+                            [(ngModel)]="usuario.dataNascimento">
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <b>Telefone</b>
+                        <input type="text" class="form-control" placeholder="Telefone" [(ngModel)]="usuario.telefone">
+                    </div>
+                    <div class="col-12 col-md-5 d-flex flex-row justify-content-end">
+                        <button class="btn btn-primary"
+                            (click)="doSalvar(usuario,usuarioDadosAnamneseHp,usuarioDadosAnamneseHf,usuarioDadosAnamneseHsHv)">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="card w-100 mb-2">
+            <div class="card-header">
+                <b>Anamnese</b>
+            </div>
+            <div class="card-body">
+                <b>Selecione a Etapa</b>
+                <select class="form-control" [(ngModel)]="etapaAnamnese">
+                    <option value="0">História Progressa</option>
+                    <option value="1">História Familiar</option>
+                    <option value="2">História Psicosocial</option>
+                </select>
+            </div>
+        </div>
+        <hr class="mb-4 mt-4">
+        <ng-container *ngIf="etapaAnamnese=='0' && usuarioDadosAnamneseHp">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Doenças Prévias</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="doencaPreviaSelecionada"
+                                [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('cid')">
+                            </ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="doencasPrevias.add(doencaPreviaSelecionada)"
+                                [disabled]="!doencaPreviaSelecionada">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="doencasPrevias" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Traumatismos</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="traumatismoSelecionado" [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('anatomia')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="traumatismos.add(traumatismoSelecionado)"
+                                [disabled]="!traumatismoSelecionado">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="traumatismos" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <b>Gestação (Início Aproximado)</b>
+                            <br>
+                            <input type="date" class="form-control" placeholder="Início" [(ngModel)]="gestacaoInicio">
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <b>Gestação (Fim Aproximado)</b>
+                            <br>
+                            <input type="date" class="form-control" placeholder="Fim" [(ngModel)]="gestacaoFim">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="gestacoes.add(gestacaoInicio);gestacoes.add(gestacaoFim);"
+                                [disabled]="!gestacaoInicio || !gestacaoFim">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="gestacoes" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <b>Aborto (Início Aproximado)</b>
+                            <br>
+                            <input type="date" class="form-control" placeholder="Início" [(ngModel)]="abortoInicio">
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <b>Aborto (Fim Aproximado)</b>
+                            <br>
+                            <input type="date" class="form-control" placeholder="Fim" [(ngModel)]="abortoFim">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="abortos.add(abortoInicio);abortos.add(abortoFim);"
+                                [disabled]="!abortoInicio || !abortoFim">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="abortos" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <b>Tabagismo (Início Aproximado)</b>
+                            <br>
+                            <input type="date" class="form-control" placeholder="Início" [(ngModel)]="tabagismoInicio">
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <b>Tabagismo (Fim Aproximado)</b>
+                            <br>
+                            <input type="date" class="form-control" placeholder="Fim" [(ngModel)]="tabagismoFim">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="tabagismo.add(tabagismoInicio);tabagismo.add(tabagismoFim);"
+                                [disabled]="!tabagismoInicio || !tabagismoFim">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="tabagismo" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Cirurgias Realizadas</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="cirurgiaSelecionada" [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('anatomia')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="cirurgiasRealizadas.add(cirurgiaSelecionada)"
+                                [disabled]="!cirurgiaSelecionada">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="cirurgiasRealizadas" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Hospitalizações</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Hospitalização"
+                                [(ngModel)]="hospitalizacao">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="hospitalizacoes.add(hospitalizacao.normalize().trim())"
+                                [disabled]="!hospitalizacao">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="hospitalizacoes" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Medicamentos Utilizados</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="medicamentoUtilizadoSelecionado"
+                                [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('medicamento')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="medicamentosUtilizados.add(medicamentoUtilizadoSelecionado)"
+                                [disabled]="!medicamentoUtilizadoSelecionado">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="medicamentosUtilizados" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Medicamentos em Uso</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="medicamentoEmUsoSelecionado"
+                                [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('medicamento')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="medicamentosEmUso.add(medicamentoEmUsoSelecionado)"
+                                [disabled]="!medicamentoEmUsoSelecionado">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="medicamentosEmUso" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Tóxicos Utilizados</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Tóxico" [(ngModel)]="toxicoUtilizado">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="toxicosUtilizados.add(toxicoUtilizado.normalize().trim())"
+                                [disabled]="!toxicoUtilizado">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="toxicosUtilizados" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Tóxicos Em Uso</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Tóxico" [(ngModel)]="toxicoEmUso">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="toxicosEmUso.add(toxicoEmUso.normalize().trim())"
+                                [disabled]="!toxicoEmUso">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="toxicosEmUso" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Fatores de Risco</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="fatorRiscoSelecionado" [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('cid')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="fatoresRisco.add(fatorRiscoSelecionado)"
+                                [disabled]="!fatorRiscoSelecionado">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="fatoresRisco" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Imunizações (Vacínas)</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="imunizacaoSelecionada" [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('cid')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="imunizacoes.add(imunizacaoSelecionada)"
+                                [disabled]="!imunizacaoSelecionada">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="imunizacoes" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <b>Sono (Média de Horas)</b>
+                            <br>
+                            <input type="number" class="form-control" placeholder="Média"
+                                [(ngModel)]="usuarioDadosAnamneseHp.sonoMediaHoras">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Hábitos Alimentares</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Hábito" [(ngModel)]="habitoAlimentar">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="habitosAlimentares.add(habitoAlimentar)"
+                                [disabled]="!habitoAlimentar">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="habitosAlimentares" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="etapaAnamnese=='1' && usuarioDadosAnamneseHf">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Doenças Familiáres</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="doencaFamiliarSelecionada"
+                                [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('cid')">
+                            </ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="doencasFamiliares.add(doencaFamiliarSelecionada)"
+                                [disabled]="!doencaFamiliarSelecionada">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="doencasFamiliares" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="etapaAnamnese=='2' && usuarioDadosAnamneseHsHv">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12">
+                            <b>Local de Nascimento</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Local de Nascimento"
+                                [(ngModel)]="usuarioDadosAnamneseHsHv.localNascimento">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Atividades Físicas Diárias</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Atividade"
+                                [(ngModel)]="atividadeFisicaDiaria">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="atividadesFisicasDiarias.add(atividadeFisicaDiaria.normalize().trim())"
+                                [disabled]="!atividadeFisicaDiaria">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="atividadesFisicasDiarias" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Escolaridades</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="escolaridadeSelecionada"
+                                [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('escolaridade')">
+                            </ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="escolaridades.add(escolaridadeSelecionada)"
+                                [disabled]="!escolaridadeSelecionada">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="escolaridades" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Culturas</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Cultura" [(ngModel)]="cultura">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="culturas.add(cultura.normalize().trim())"
+                                [disabled]="!cultura">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="culturas" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Religiões</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Religião" [(ngModel)]="religiao">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="religioes.add(religiao.normalize().trim())"
+                                [disabled]="!religiao">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="religioes" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Condições de Moradía</b>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Condição de Moradia"
+                                [(ngModel)]="condicaoMoradia">
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary"
+                                (click)="condicoesMoradia.add(condicaoMoradia.normalize().trim())"
+                                [disabled]="!condicaoMoradia">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="condicoesMoradia" [removable]="true">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <b>Vida Sexual</b>
+                            <br>
+                            <ui-data-selector [(ngModel)]="vidaSexualSelecionada" [label]="getUiDataSelectDominioLabel"
+                                [query]="getUiDataSelectDominioQuery('vida-sexual')"></ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="vidaSexual.add(vidaSexualSelecionada)"
+                                [disabled]="!vidaSexualSelecionada">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ui-data-list-badge [ui-data-list]="vidaSexual" [removable]="true"
+                        item-property="valor">
+                    </ui-data-list-badge>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

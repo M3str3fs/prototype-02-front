@@ -1,0 +1,101 @@
+<div class="row">
+    <div class="col-12  mb-2">
+        <div class="card">
+            <div class="card-header">
+                <b>Painel de Agendamento</b>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <b>De:</b>
+                        <br>
+                        <div class="d-flex align-items-end justify-content-between">
+                            <button class="btn btn-primary mr-2" (click)="doDecreaseDay()">
+                                << </button> <input type="date" class="form-control flex-grow-1" placeholder="Início" [(ngModel)]="eInicio">
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <b>Até:</b>
+                        <br>
+                        <div class="d-flex align-items-end justify-content-between">
+                            <input type="date" class="form-control" placeholder="Fim" [value]="getEFim()" disabled>
+                            <button class="btn btn-primary ml-2" (click)="doIncreaseDay()">
+                                >>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 col-md-6">
+                        <b class="invisible">Até:</b>
+                        <br>
+                        <div class="d-flex align-items-end">
+                            <button class="btn btn-primary">
+                                Ir Até a Data Disponível Mais Pŕoxima
+                            </button>
+                            <input type="date" class="form-control invisible w-25" placeholder="Fim" disabled>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" *ngIf="horarios">
+    <ng-container *ngFor="let data of getDates(); let i = index;">
+        <div class="col-12 col-md mb-2">
+            <div class="card">
+                <div class="card-header">
+                    <b>{{dias[getDiaSemana(data)]}}</b>
+                    <br class="m-0">
+                    <span>{{getDataExibicao(data)}}</span>
+                </div>
+                <div class="list-group" style="height: 300px;overflow: hidden;overflow-y: scroll;">
+                    <ng-container *ngFor="let horario of getHorarios(getDiaSemana(data))">
+                        <ng-container *ngIf="getAgendamento(data,horario)">
+                            <button class="list-group-item list-group-item-action" style="cursor: pointer;" [disabled]="true" (click)="doOpenAgendamento(data,horario)">
+                                {{horario.inicio}} - {{horario.fim}}
+                            </button>
+                        </ng-container>
+                        <ng-container *ngIf="!getAgendamento(data,horario)">
+                            <button class="list-group-item list-group-item-action" style="cursor: pointer;" (click)="doOpenAgendamento(data,horario)">
+                                {{horario.inicio}} - {{horario.fim}}
+                            </button>
+                        </ng-container>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="md-agendamento">
+    <div class="modal-dialog w-100" role="document">
+        <div class="modal-content" *ngIf="agendamento">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Agendamento</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4 mb-2">
+                        <b>Data Alvo</b>
+                        <input type="text" class="form-control" placeholder="Fim" [value]="getAAlvo()" disabled>
+                    </div>
+                </div>
+                <app-cadastro-rapido-usuario-component custom-title="Paciente" [readonly-when-selected-or-created]="false" (on-usuario-confirmado)="onPacienteConfirmado($event)"></app-cadastro-rapido-usuario-component>
+                <div class="row">
+                    <div class="col-12">
+                        <b>Observação</b>
+                        <textarea class="form-control" placeholder="Observação"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="doCloseAgendamento()">Fechar</button>
+                <button type="button" class="btn btn-primary" [disabled]="!paciente" (click)="doSaveAgendamento(agendamento,paciente)">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>

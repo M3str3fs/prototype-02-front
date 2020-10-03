@@ -1,0 +1,64 @@
+<ng-container *ngIf="!isSomenteLeitura()">
+    <div class="row mb-3">
+        <div class="col-12 mb-1">
+            <b>Seleção de {{_customTitle||'Usuário'}}</b>
+            <br>
+        </div>
+        <ng-container *ngFor="let option of oSelecaoUsuario; let i=index">
+            <div class="col-12 col-md-12 mb-1">
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="{{option.label}}" name="radio{{i}}" [(ngModel)]="sUsuario" (change)="onUsuarioSelecaoSelecionada($event)" [value]="option.id" class="custom-control-input" [disabled]="isSomenteLeitura()">
+                    <label class="custom-control-label" for="{{option.label}}">{{option.label}}</label>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</ng-container>
+<ng-container *ngIf="sUsuario==='E'">
+    <div class="row">
+        <div class="col-12 col-md-12">
+            <b>{{_customTitle||'Usuário'}}</b>
+        </div>
+        <ng-container>
+            <div class="col-12 col-md-12 d-flex align-items-end justify-content-between mb-2">
+                <ui-data-selector class="flex-grow-1" [(ngModel)]="usuario" [label]="getUiDataSelectUsuarioLabel" [query]="getUiDataSelectUsuarioQuery()" placeholder="Digite o Nome, Telefone, Documento ou Telefone...">
+                </ui-data-selector>
+                <button class="btn btn-primary ml-2" (click)="onUsuarioConfirmado()" [disabled]="!usuario">
+                    Adicionar
+                </button>
+            </div>
+        </ng-container>
+    </div>
+</ng-container>
+<ng-container *ngIf="sUsuario==='N'">
+    <ng-container *ngIf="usuario">
+        <div class="row">
+            <div class="col-12 col-md-4 mb-2">
+                <b>Nome</b>
+                <input type="text" class="form-control" placeholder="Nome" [(ngModel)]="usuario.nome" [disabled]="isUsuarioSomenteLeitura()">
+            </div>
+            <div class="col-12 col-md-4 mb-2">
+                <b>Documento</b>
+                <input type="text" class="form-control" placeholder="Documento" [(ngModel)]="usuario.documento" [disabled]="isUsuarioSomenteLeitura()">
+            </div>
+            <div class="col-12 col-md-4 mb-2">
+                <b>Data de Nascimento</b>
+                <input type="date" class="form-control" placeholder="Data de Nascimento" [(ngModel)]="usuario.dataNascimento" [disabled]="isUsuarioSomenteLeitura()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 mb-2">
+                <b>Email</b>
+                <input type="text" class="form-control" placeholder="Email" [(ngModel)]="usuario.email" [disabled]="isUsuarioSomenteLeitura()">
+            </div>
+            <div class="col-12 col-md-4 mb-2">
+                <b>Telefone</b>
+                <input type="text" class="form-control" placeholder="Telefone" [(ngModel)]="usuario.telefone" [disabled]="isUsuarioSomenteLeitura()">
+            </div>
+            <div class="col-12 col-md-4 mb-2">
+                <b class="d-block invisible">Cadastrar</b>
+                <button class="btn btn-primary" [hidden]="isUsuarioSomenteLeitura()" (click)="doCadastrarUsuario()">Cadastrar</button>
+            </div>
+        </div>
+    </ng-container>
+</ng-container>

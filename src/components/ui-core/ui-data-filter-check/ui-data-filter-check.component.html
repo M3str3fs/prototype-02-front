@@ -1,0 +1,12 @@
+<div class="card mb-2">
+  <div class="card-header">
+    <b>{{_title}}</b>
+  </div>
+  <div class="card-body" style="overflow: overlay;height: 200px;">
+    <div class="custom-control custom-checkbox" *ngFor="let option of _options">
+      <input type="checkbox" class="custom-control-input" [id]="getOptionDocumentId(option)" [checked]="option.checked"
+        (change)="toggleCheck(option)">
+      <label class="custom-control-label" [for]="getOptionDocumentId(option)">{{option.label}}</label>
+    </div>
+  </div>
+</div>

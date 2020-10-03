@@ -1,0 +1,29 @@
+:host {
+    position: relative;
+    display: block;
+
+    i {
+        position: absolute;
+        margin: 0 auto;
+        right: 0;
+        top: 12px;
+        right: 10px;
+        font-size: 1em;
+
+        &.fa-times {
+            cursor: pointer;
+        }
+    }
+
+    .card.list-group {
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        overflow-y: scroll;
+
+        &.closed {
+            display: none;
+        }
+    }
+}

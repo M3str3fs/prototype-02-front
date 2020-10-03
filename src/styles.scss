@@ -1,0 +1,11 @@
+@import "./scss/daemonite-material/daemonite-material";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import '~ngx-toastr/toastr';
+
+body {
+    overflow: overlay;
+}

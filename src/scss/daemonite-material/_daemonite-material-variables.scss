@@ -1,0 +1,14 @@
+$enable-grid-classes:      true !default;
+$enable-print-styles:      true !default;
+
+@import '~daemonite-material/assets/scss/variables/elevation-shadow';
+@import '~daemonite-material/assets/scss/variables/grid';
+// @import '~daemonite-material/assets/scss/variables/palette';
+//sobrescrever paleta de cores
+@import './daemonite-material-pallete';
+@import '~daemonite-material/assets/scss/variables/spacer';
+@import '~daemonite-material/assets/scss/variables/transition';
+@import '~daemonite-material/assets/scss/variables/typography';
+@import '~daemonite-material/assets/scss/variables/variable-bootstrap';
+@import '~daemonite-material/assets/scss/variables/variable-material';
+// @import '~daemonite-material/assets/scss/variables';

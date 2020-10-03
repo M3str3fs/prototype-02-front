@@ -1,0 +1,39 @@
+<div class="">
+    <div class="card bg-primary h-100">
+        <div class="card-body pt-2 pb-2 pl-2 pr-2 d-flex align-items-center">
+            <b class="text-white">Health Care</b>
+        </div>
+    </div>
+</div>
+<div class="ml-2"></div>
+<div class="flex-grow-1">
+    <div class="card">
+        <div class="card-body p-0 d-flex flex-row align-items-center justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 w-100">
+                <div class="d-flex d-md-none align-items-center justify-content-between w-100 pt-2 pb-2">
+                    <button class="navbar-toggler ml-2" type="button" (click)="doToggleMobileMenu()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <button class="btn btn-primary btn-sm mr-2 pl-2 pr-2" (click)="doGoMeuPerfil()">
+                        Bem vindo, {{this.getUsuario().nome}}
+                        <i class="fas fa-user ml-2"></i>
+                    </button>
+                </div>
+                
+                <div id="app-top-bar-navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="nav nav-tabs">
+                        <ng-container *ngFor="let opcao of getMenu()">
+                            <li class="nav-item" (click)="doGo(opcao)">
+                                <a class="nav-link">{{opcao.alias}}</a>
+                            </li>
+                        </ng-container>
+                    </ul>
+                </div>
+            </nav>
+            <button class="btn btn-primary btn-sm mr-2 pl-2 pr-2 d-none d-md-block" style="width: 290px;" (click)="doGoMeuPerfil()">
+                Bem vindo, {{this.getUsuario().nome}}
+                <i class="fas fa-user ml-2"></i>
+            </button>
+        </div>
+    </div>
+</div>

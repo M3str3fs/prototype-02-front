@@ -1,0 +1,13 @@
+<ng-container *ngIf="_uiDataList">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex align-items-center justify-content-between" *ngFor="let item of _uiDataList.itens()">
+            <ng-container *ngIf="_itemProperty">
+                <span>{{item[_itemProperty]}}</span>
+            </ng-container>
+            <ng-container *ngIf="!_itemProperty">
+                <span>{{item}}</span>
+            </ng-container>
+            <i class="fas fa-times" style="margin-top: 2px;margin-left: 15px;cursor: pointer;" *ngIf="_removable" (click)="_uiDataList.remove(item)"></i>
+        </li>
+    </ul>
+</ng-container>

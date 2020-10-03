@@ -1,0 +1,66 @@
+
+<div class="row">
+    <div class="col-12 col-lg-12">
+        <div class="card w-100 mb-2">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col d-flex">
+                        <input class="form-control" placeholder="Buscar por Especialidade, Nome ou CRM" [(ngModel)]="query">
+                        <span class="mr-2"></span>
+                        <button class="btn btn-primary" (click)="doBuscarMedicos(query, 1, getEspecializacoesSelecionadas(),getConveniosSelecionados())">Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-3">
+        <ui-data-filter-check-component class="mb-2" title="Por Especialidade" [options]="oEspecializacoesMedicas" (change)="onFilterChanged()">
+        </ui-data-filter-check-component>
+        <ui-data-filter-check-component class="mb-2" title="Por Convênio" [options]="oConvenios" (change)="onFilterChanged()">
+        </ui-data-filter-check-component>
+    </div>
+    <div class="col-12 col-md-9">
+        <div class="card w-100 mb-2">
+            <div class="card-body">
+                <b class="mt-4">Resultados</b>
+            </div>
+        </div>
+        <ng-container *ngIf="!isLoading() && pUsuarios">
+            <ng-container *ngIf="pUsuarios.docs.length">
+                <div class="card mb-2" *ngFor="let usuario of pUsuarios.docs">
+                    <div class="card-header p-2 pl-3 pr-3">
+                        <div class="row">
+                            <div class="col-12 col-md-8 d-flex align-items-center">
+                                <b class="mr-1">Crm :</b><span>{{getUsuarioDadosMedicos(usuario._id).crm}}</span>
+                                <span class="mr-4"></span>
+                                <b class="mr-1">Nome :</b><span>{{usuario.nome}}</span>
+                            </div>
+                            <div class="col-12 col-md-4 d-flex justify-content-md-end">
+                                <button class="btn btn-primary btn-sm" (click)="doGoUsuarioMeuPerfilMedico(getUsuarioDadosMedicos(usuario._id).crm)">Ver Perfil</button>
+                                <span class="mr-2"></span>
+                                <button class="btn btn-primary btn-sm">Solicitar Agendamento</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <b>Especializações :</b>
+                        <span class="badge badge-primary ml-2" *ngFor="let especializacao of getUsuarioDadosMedicos(usuario._id).especializacoes">
+                            {{getDominio(especializacao).valor}}
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <b>Convênios :</b>
+                        <span class="badge badge-primary ml-2" *ngFor="let convenio of getUsuarioDadosMedicos(usuario._id).convenios">
+                            {{getDominio(convenio).valor}}
+                        </span>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="!pUsuarios.docs.length">
+                <span class="mb-4 mt-4 w-100 d-flex align-items-center justify-content-center text-center text-primary" style="font-size: 3em;margin-top: 100px;">
+                    Oops, nenhum profissional encontrado para essa busca :(
+                </span>
+            </ng-container>
+        </ng-container>
+    </div>
+</div>

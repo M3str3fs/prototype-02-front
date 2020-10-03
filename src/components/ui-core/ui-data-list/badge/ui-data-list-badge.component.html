@@ -1,0 +1,12 @@
+<ng-container *ngIf="_uiDataList">
+    <span *ngFor="let item of _uiDataList.itens()" class="badge badge-pill bg-primary text-light m-1">
+        <ng-container *ngIf="_itemProperty">
+            <span>{{item[_itemProperty]}}</span>
+        </ng-container>
+        <ng-container *ngIf="!_itemProperty">
+            <span>{{item}}</span>
+        </ng-container>
+        <i class="fas fa-times" style="margin-top: 2px;margin-left: 15px;cursor: pointer;" *ngIf="_removable"
+            (click)="_uiDataList.remove(item)"></i>
+    </span>
+</ng-container>

@@ -1,0 +1,6906 @@
+[
+    {
+        "nome": "abacavir (sulfato) 20 mg/mL sol oral",
+        "idAnvisa": "101070234"
+    },
+    {
+        "nome": "abacavir (sulfato) 300 mg com rev",
+        "idAnvisa": "101070234"
+    },
+    {
+        "nome": "abiraterona (acetato) 250mg com",
+        "idAnvisa": "112363401"
+    },
+    {
+        "nome": "abiraterona (acetato) 500mg com rev",
+        "idAnvisa": "112363420"
+    },
+    {
+        "nome": "acalabrutinibe 100mg cap dura",
+        "idAnvisa": "116180269"
+    },
+    {
+        "nome": "acebrofilina 5mg/mL xpe",
+        "idAnvisa": "105730127"
+    },
+    {
+        "nome": "acebrofilina 10 mg/mL xpe",
+        "idAnvisa": "105730127"
+    },
+    {
+        "nome": "acebrofilina 5mg/ml gel or",
+        "idAnvisa": "100431086"
+    },
+    {
+        "nome": "aceclofenaco 100mg com rev",
+        "idAnvisa": "100430817"
+    },
+    {
+        "nome": "aceclofenaco 15mg/g crem derm",
+        "idAnvisa": "100430817"
+    },
+    {
+        "nome": "acetato de fluormetolona 1mg/ mL sol oft",
+        "idAnvisa": "100681096"
+    },
+    {
+        "nome": "acetato de glatiramer 20mg/mL sol inj",
+        "idAnvisa": "155730001"
+    },
+    {
+        "nome": "acetato de glatiramer 40mg/mL sol inj",
+        "idAnvisa": "155730001"
+    },
+    {
+        "nome": "acetato de nomegrestol 5 mg com",
+        "idAnvisa": "155730020"
+    },
+    {
+        "nome": "acetazolamida 250 mg com",
+        "idAnvisa": "104970289"
+    },
+    {
+        "nome": "acetilcisteína 100mg gran",
+        "idAnvisa": "100431294"
+    },
+    {
+        "nome": "acetilcisteína 200mg gran",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "acetilcisteína 600mg gran",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "acetilcisteína 11,5mg/ml sol spr nas",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "acetilcisteína 20 mg/ml xpe",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "acetilcisteína 40mg/ml xpe",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "acetilcisteína 600mg com efer",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "acetilcisteína 100mg/ml sol inj",
+        "idAnvisa": "100840075"
+    },
+    {
+        "nome": "aciclovir 0,03 g/g pom oft",
+        "idAnvisa": "101070253"
+    },
+    {
+        "nome": "aciclovir 200 mg com",
+        "idAnvisa": "101070253"
+    },
+    {
+        "nome": "aciclovir 250mg/10mL pó liof sol inj",
+        "idAnvisa": "101070253"
+    },
+    {
+        "nome": "aciclovir 50 mg/g crem derm",
+        "idAnvisa": "101070253"
+    },
+    {
+        "nome": "aciclovir 400 mg com",
+        "idAnvisa": "100890280"
+    },
+    {
+        "nome": "ácido acetilsalicílico 500mg com",
+        "idAnvisa": "170560020"
+    },
+    {
+        "nome": "ácido acetilsalicílico 500mg com efer",
+        "idAnvisa": "170560020"
+    },
+    {
+        "nome": "ácido acetilsalicílico 100mg com rev lib retard",
+        "idAnvisa": "170560022"
+    },
+    {
+        "nome": "ácido acetilsalicílico 300mg com rev lib retard",
+        "idAnvisa": "170560022"
+    },
+    {
+        "nome": "ácido acetilsalicílico 100mg com",
+        "idAnvisa": "143810104"
+    },
+    {
+        "nome": "ácido acetilsalicílico 81mg com rev",
+        "idAnvisa": "100681045"
+    },
+    {
+        "nome": "ácido carglúmico 200mg com para susp",
+        "idAnvisa": "171260001"
+    },
+    {
+        "nome": "ácido tióctico 600mg com rev",
+        "idAnvisa": "100890330"
+    },
+    {
+        "nome": "ácido ursodesoxicólico 50mg com",
+        "idAnvisa": "100840067"
+    },
+    {
+        "nome": "ácido ursodesoxicólico 150mg com",
+        "idAnvisa": "100840067"
+    },
+    {
+        "nome": "ácido ursodesoxicólico 300mg com",
+        "idAnvisa": "100840067"
+    },
+    {
+        "nome": "ácido valpróico 250mg cap mole",
+        "idAnvisa": "105530315"
+    },
+    {
+        "nome": "acitretina 10mg cap dura",
+        "idAnvisa": "110130271"
+    },
+    {
+        "nome": "acitretina 25 mg cap dura",
+        "idAnvisa": "110130271"
+    },
+    {
+        "nome": "adapaleno 1,0 mg/g gel",
+        "idAnvisa": "129160025"
+    },
+    {
+        "nome": "adapaleno 3,0 mg/g gel",
+        "idAnvisa": "129160025"
+    },
+    {
+        "nome": "adapaleno 1,0 mg/g crem derm",
+        "idAnvisa": "129160025"
+    },
+    {
+        "nome": "adapaleno 1mg/g gel derm lib prol",
+        "idAnvisa": "110130264"
+    },
+    {
+        "nome": "adenosina 3,0 mg/mL sol inj",
+        "idAnvisa": "100330038"
+    },
+    {
+        "nome": "agomelatina 25 mg com rev",
+        "idAnvisa": "112780073"
+    },
+    {
+        "nome": "albendazol 200 mg com",
+        "idAnvisa": "101070089"
+    },
+    {
+        "nome": "albendazol 400 mg com mast",
+        "idAnvisa": "101070089"
+    },
+    {
+        "nome": "albendazol 40 mg/mL sus or",
+        "idAnvisa": "101070089"
+    },
+    {
+        "nome": "alcaftadina 2,5mg/ml sol oft",
+        "idAnvisa": "101470179"
+    },
+    {
+        "nome": "alendronato sódico 70 mg com rev",
+        "idAnvisa": "100470474"
+    },
+    {
+        "nome": "alfaestradiol 0,25 mg/mL sol capilar",
+        "idAnvisa": "129160046"
+    },
+    {
+        "nome": "alfentanila (cloridrato) 0,544 mg/mL sol inj",
+        "idAnvisa": "112360025"
+    },
+    {
+        "nome": "alfuzosina (cloridrato) 10 mg com rev",
+        "idAnvisa": "183260437"
+    },
+    {
+        "nome": "alisquireno (hemifumarato) 150 com rev",
+        "idAnvisa": "100681055"
+    },
+    {
+        "nome": "alisquireno (hemifumarato) 300mg com rev",
+        "idAnvisa": "100681055"
+    },
+    {
+        "nome": "alopurinol 100mg com",
+        "idAnvisa": "137640122"
+    },
+    {
+        "nome": "alopurinol 300mg com",
+        "idAnvisa": "137640122"
+    },
+    {
+        "nome": "alprazolam 0,25mg com",
+        "idAnvisa": "102160272"
+    },
+    {
+        "nome": "alprazolam 0,5mg com",
+        "idAnvisa": "102160272"
+    },
+    {
+        "nome": "alprazolam 1mg com",
+        "idAnvisa": "102160272"
+    },
+    {
+        "nome": "alprazolam 2mg com",
+        "idAnvisa": "102160272"
+    },
+    {
+        "nome": "alprazolam 0,5mg com rev lib lenta",
+        "idAnvisa": "123890015"
+    },
+    {
+        "nome": "alprazolam 1,0mg com rev lib lenta",
+        "idAnvisa": "123890015"
+    },
+    {
+        "nome": "alprazolam 2,0mg com rev lib lenta",
+        "idAnvisa": "123890015"
+    },
+    {
+        "nome": "alprostadil 10μg/mL pó liof sol inj",
+        "idAnvisa": "102160203"
+    },
+    {
+        "nome": "alprostadil 20μg/mL pó liof sol inj",
+        "idAnvisa": "102160203"
+    },
+    {
+        "nome": "alprostadil 20 μg pó liof sol inj",
+        "idAnvisa": "105730576"
+    },
+    {
+        "nome": "alprostadil 500µg/mL sol inj",
+        "idAnvisa": "127480029"
+    },
+    {
+        "nome": "amantadina (cloridrato) 100mg com",
+        "idAnvisa": "194270071"
+    },
+    {
+        "nome": "ambrisetana 5mg com rev",
+        "idAnvisa": "101070281"
+    },
+    {
+        "nome": "ambrisetana 10mg com rev",
+        "idAnvisa": "101070281"
+    },
+    {
+        "nome": "ambroxol (cloridrato) 3 mg/ml xpe",
+        "idAnvisa": "183260357"
+    },
+    {
+        "nome": "ambroxol (cloridrato) 6 mg/ml xpe",
+        "idAnvisa": "183260357"
+    },
+    {
+        "nome": "ambroxol (cloridrato) 7,5mg/mL sol (got)",
+        "idAnvisa": "183260357"
+    },
+    {
+        "nome": "ambroxol (cloridrato) 75mg cap lib cont",
+        "idAnvisa": "183260357"
+    },
+    {
+        "nome": "amicacina (sulfato) 50mg/ml sol inj",
+        "idAnvisa": "103700297"
+    },
+    {
+        "nome": "amicacina (sulfato) 125mg/ml sol inj",
+        "idAnvisa": "103700297"
+    },
+    {
+        "nome": "amicacina (sulfato) 250mg/ml sol inj",
+        "idAnvisa": "103700297"
+    },
+    {
+        "nome": "aminofilina 24 mg/ml sol inj",
+        "idAnvisa": "113430118"
+    },
+    {
+        "nome": "aminofilina 100mg com",
+        "idAnvisa": "103700445"
+    },
+    {
+        "nome": "aminofilina 200mg com",
+        "idAnvisa": "103700445"
+    },
+    {
+        "nome": "amiodarona (cloridrato) 100mg com",
+        "idAnvisa": "183260423"
+    },
+    {
+        "nome": "amiodarona (cloridrato) 200mg com",
+        "idAnvisa": "183260423"
+    },
+    {
+        "nome": "amiodarona (cloridrato) 50mg/mL sol inj",
+        "idAnvisa": "113430122"
+    },
+    {
+        "nome": "amisulprida 50mg com",
+        "idAnvisa": "183260319"
+    },
+    {
+        "nome": "amisulprida 200mg com",
+        "idAnvisa": "183260319"
+    },
+    {
+        "nome": "amitriptilina (cloridrato) 25mg com rev",
+        "idAnvisa": "102980225"
+    },
+    {
+        "nome": "amitriptilina (cloridrato) 75mg com rev",
+        "idAnvisa": "102980225"
+    },
+    {
+        "nome": "amitriptilina (cloridrato) 10mg com rev",
+        "idAnvisa": "102980364"
+    },
+    {
+        "nome": "amorolfina 50mg/mL esml",
+        "idAnvisa": "129160036"
+    },
+    {
+        "nome": "amoxicilina 500mg cap dura",
+        "idAnvisa": "101070003"
+    },
+    {
+        "nome": "amoxicilina 125mg/5mL pó sus or",
+        "idAnvisa": "101070003"
+    },
+    {
+        "nome": "amoxicilina 250mg/5mL pó sus or",
+        "idAnvisa": "101070003"
+    },
+    {
+        "nome": "amoxicilina 500mg/5mL pó sus or",
+        "idAnvisa": "101070003"
+    },
+    {
+        "nome": "amoxicilina 400mg/5ml pó sus or",
+        "idAnvisa": "105730076"
+    },
+    {
+        "nome": "amoxicilina 875mg com rev",
+        "idAnvisa": "105730076"
+    },
+    {
+        "nome": "ampicilina 500mg cap dura",
+        "idAnvisa": "100430687"
+    },
+    {
+        "nome": "ampicilina sódica 1g pó sol inj",
+        "idAnvisa": "103700299"
+    },
+    {
+        "nome": "anagrelida (cloridrato) 0,5mg cap dura",
+        "idAnvisa": "135690030"
+    },
+    {
+        "nome": "anagrelida (cloridrato) 1,0mg cap dura",
+        "idAnvisa": "135690030"
+    },
+    {
+        "nome": "anastrozol 1mg com rev",
+        "idAnvisa": "116180063"
+    },
+    {
+        "nome": "anfotericina b 5mg/ml sus inj",
+        "idAnvisa": "155730034"
+    },
+    {
+        "nome": "anfotericina b (lipossomal) 50mg/12mL pó sol inj",
+        "idAnvisa": "125760007"
+    },
+    {
+        "nome": "anidulafungina 100mg/30mL pó liof sol inj",
+        "idAnvisa": "102160219"
+    },
+    {
+        "nome": "anlodipino (besilato) 5,0mg com",
+        "idAnvisa": "102160266"
+    },
+    {
+        "nome": "anlodipino (besilato) 10mg com",
+        "idAnvisa": "102160266"
+    },
+    {
+        "nome": "anlodipino (besilato) 2,5mg com",
+        "idAnvisa": "105730584"
+    },
+    {
+        "nome": "apixabana 2,5mg com rev",
+        "idAnvisa": "121100464"
+    },
+    {
+        "nome": "apixabana 5mg com rev",
+        "idAnvisa": "121100464"
+    },
+    {
+        "nome": "apremilaste 10mg com rev",
+        "idAnvisa": "102440017"
+    },
+    {
+        "nome": "apremilaste 20mg com rev",
+        "idAnvisa": "102440017"
+    },
+    {
+        "nome": "apremilaste 30mg com rev",
+        "idAnvisa": "102440017"
+    },
+    {
+        "nome": "aripiprazol 10mg com",
+        "idAnvisa": "105730425"
+    },
+    {
+        "nome": "aripiprazol 15mg com",
+        "idAnvisa": "105730425"
+    },
+    {
+        "nome": "aripiprazol 20mg com",
+        "idAnvisa": "105730425"
+    },
+    {
+        "nome": "aripiprazol 30mg com",
+        "idAnvisa": "105730425"
+    },
+    {
+        "nome": "armodafinila 150mg com",
+        "idAnvisa": "155730053"
+    },
+    {
+        "nome": "armodafinila 250mg com",
+        "idAnvisa": "155730054"
+    },
+    {
+        "nome": "atazanavir (sulfato) 100mg cap dura",
+        "idAnvisa": "101800301"
+    },
+    {
+        "nome": "atazanavir (sulfato) 150 mg cap dura",
+        "idAnvisa": "101800301"
+    },
+    {
+        "nome": "atazanavir (sulfato) 200 mg cap dura",
+        "idAnvisa": "101800301"
+    },
+    {
+        "nome": "atazanavir (sulfato) 300 mg cap dura",
+        "idAnvisa": "101800301"
+    },
+    {
+        "nome": "atazanavir (sulfato) 50mg/1,5g po sol extemp",
+        "idAnvisa": "101800301"
+    },
+    {
+        "nome": "atenolol 25mg com",
+        "idAnvisa": "109740100"
+    },
+    {
+        "nome": "atenolol 50mg com",
+        "idAnvisa": "109740100"
+    },
+    {
+        "nome": "atenolol 100mg com",
+        "idAnvisa": "109740100"
+    },
+    {
+        "nome": "atorvastatina cálcica 10mg com rev",
+        "idAnvisa": "102160277"
+    },
+    {
+        "nome": "atorvastatina cálcica 20mg com rev",
+        "idAnvisa": "102160277"
+    },
+    {
+        "nome": "atorvastatina cálcica 40mg com rev",
+        "idAnvisa": "102160277"
+    },
+    {
+        "nome": "atorvastatina cálcica 80mg com rev",
+        "idAnvisa": "102160277"
+    },
+    {
+        "nome": "atosibano (acetato) 7,5mg/mL sol inj",
+        "idAnvisa": "128760010"
+    },
+    {
+        "nome": "atosibano (acetato) 7,5mg/mL sol infus",
+        "idAnvisa": "128760010"
+    },
+    {
+        "nome": "atracúrio (besilato) 10mg/mL sol inj",
+        "idAnvisa": "137640168"
+    },
+    {
+        "nome": "atropina (sulfato) 0,25mg/mL sol inj",
+        "idAnvisa": "116370088"
+    },
+    {
+        "nome": "atropina (sulfato) 0,5mg/mL sol inj",
+        "idAnvisa": "116370088"
+    },
+    {
+        "nome": "axetilcefuroxima 250mg/5mL po sus or",
+        "idAnvisa": "101070205"
+    },
+    {
+        "nome": "axetilcefuroxima 250mg com rev",
+        "idAnvisa": "101070205"
+    },
+    {
+        "nome": "axetilcefuroxima 500mg com rev",
+        "idAnvisa": "101070205"
+    },
+    {
+        "nome": "axetilcefuroxima 250mg com rev",
+        "idAnvisa": "101070205"
+    },
+    {
+        "nome": "axetilcefuroxima 500mg com rev",
+        "idAnvisa": "101070205"
+    },
+    {
+        "nome": "axitinibe 1mg com rev",
+        "idAnvisa": "121100452"
+    },
+    {
+        "nome": "axitinibe 5mg com rev",
+        "idAnvisa": "121100452"
+    },
+    {
+        "nome": "azacitidina 100mg/4mL pó liof sus inj",
+        "idAnvisa": "125760020"
+    },
+    {
+        "nome": "azatioprina 50 mg com rev",
+        "idAnvisa": "137640128"
+    },
+    {
+        "nome": "azelaico, ácido 150 mg/g gel",
+        "idAnvisa": "185690012"
+    },
+    {
+        "nome": "azelaico, ácido 200 mg/g crem derm",
+        "idAnvisa": "185690012"
+    },
+    {
+        "nome": "azelastina (cloridrato) 0,9 pcc sol nas (spr)",
+        "idAnvisa": "105730344"
+    },
+    {
+        "nome": "azitromicina di-hidratada 200mg/5ml po sus or",
+        "idAnvisa": "100430813"
+    },
+    {
+        "nome": "azitromicina di-hidratada 500mg com rev",
+        "idAnvisa": "102160045"
+    },
+    {
+        "nome": "azitromicina di-hidratada 500mg/4,8mL pó liof sol inj",
+        "idAnvisa": "102160045"
+    },
+    {
+        "nome": "azitromicina di-hidratada 1000mg com rev",
+        "idAnvisa": "105830493"
+    },
+    {
+        "nome": "aztreonam 1000mg pó sol inj",
+        "idAnvisa": "114020060"
+    },
+    {
+        "nome": "baclofeno 10mg com",
+        "idAnvisa": "100680059"
+    },
+    {
+        "nome": "bambuterol (cloridrato) 1 mg/ml sol oral",
+        "idAnvisa": "178170782"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 50mcg/dose sol aer inal or + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 100mcg/dose sol aer inal or + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 200mcg/dose sol aer inal or + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 250mcg/dose sol aer inal or + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 50mcg/dose sol aer inal or + inal",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 100mcg/dose sol aer inal or + inal",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 200mcg/dose sol aer inal or + inal",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 250mcg/dose sol aer inal or + inal",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 50mcg/dose sol aer inal or+ inal + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 100mcg/dose sol aer inal or+ inal + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 200mcg/dose sol aer inal or+ inal + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 250mcg/dose sol aer inal or+ inal + espaç",
+        "idAnvisa": "100580111"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 100mcg/dose sus nas",
+        "idAnvisa": "100580104"
+    },
+    {
+        "nome": "beclometasona (dipropionato) 50 mcg/mg sus spr nas",
+        "idAnvisa": "101070188"
+    },
+    {
+        "nome": "benazepril (cloridrato) 5mg com rev",
+        "idAnvisa": "100680063"
+    },
+    {
+        "nome": "benazepril (cloridrato) 10 mg com rev",
+        "idAnvisa": "100680063"
+    },
+    {
+        "nome": "bendamustina (cloridrato) 25mg pó liof sol inj",
+        "idAnvisa": "112363413"
+    },
+    {
+        "nome": "bendamustina (cloridrato) 100mg pó liof sol inj",
+        "idAnvisa": "112363413"
+    },
+    {
+        "nome": "benfotiamina 150mg drag",
+        "idAnvisa": "178170796"
+    },
+    {
+        "nome": "benzidamina (cloridrato) 1,5mg/mL colut spray",
+        "idAnvisa": "105730313"
+    },
+    {
+        "nome": "benzidamina (cloridrato) 1,5mg/mL colut",
+        "idAnvisa": "105730313"
+    },
+    {
+        "nome": "benzidamina (cloridrato) 3mg past",
+        "idAnvisa": "105730313"
+    },
+    {
+        "nome": "benzidamina (cloridrato) 5mg/g crem dental",
+        "idAnvisa": "105730313"
+    },
+    {
+        "nome": "benzilpenicilina  benzatina 1.200.000UI (300.000UI/mLX4mL) sus inj",
+        "idAnvisa": "100430686"
+    },
+    {
+        "nome": "benzilpenicilina  benzatina 600.000 UI (150.000UI/mLX4mL) sus inj",
+        "idAnvisa": "100430686"
+    },
+    {
+        "nome": "benzoato de alogliptina 6,25mg com rev",
+        "idAnvisa": "106390266"
+    },
+    {
+        "nome": "benzoato de alogliptina 12,5mg com rev",
+        "idAnvisa": "106390266"
+    },
+    {
+        "nome": "benzoato de alogliptina 25mg com rev",
+        "idAnvisa": "106390266"
+    },
+    {
+        "nome": "betaistina (dicloridrato) 8mg com",
+        "idAnvisa": "101180157"
+    },
+    {
+        "nome": "betaistina (dicloridrato) 16mg com",
+        "idAnvisa": "105530343"
+    },
+    {
+        "nome": "betaistina (dicloridrato) 24mg com",
+        "idAnvisa": "105530343"
+    },
+    {
+        "nome": "betaistina (dicloridrato) 32mg com lib prol",
+        "idAnvisa": "105730730"
+    },
+    {
+        "nome": "betaistina (dicloridrato) 48mg com lib prol",
+        "idAnvisa": "105730730"
+    },
+    {
+        "nome": "betametasona (dipropionato) 0,64mg/g pom derm",
+        "idAnvisa": "100930033"
+    },
+    {
+        "nome": "betametasona (dipropionato) 0,64mg/g crem derm",
+        "idAnvisa": "100930033"
+    },
+    {
+        "nome": "betametasona (dipropionato) 0,64mg/mL loç derm",
+        "idAnvisa": "100930033"
+    },
+    {
+        "nome": "betametasona (fosfato dissódico) 4mg/mL sol inj",
+        "idAnvisa": "178170785"
+    },
+    {
+        "nome": "betametasona (valerato) 1mg/g loção",
+        "idAnvisa": "101070233"
+    },
+    {
+        "nome": "betametasona (valerato) 1mg/g solução capilar",
+        "idAnvisa": "101070233"
+    },
+    {
+        "nome": "betametasona (valerato) 1mg/g crem derm",
+        "idAnvisa": "101070233"
+    },
+    {
+        "nome": "betametasona (valerato) 1mg/g pom derm",
+        "idAnvisa": "101070233"
+    },
+    {
+        "nome": "betametsona 0,1mg/mL elx",
+        "idAnvisa": "178170785"
+    },
+    {
+        "nome": "betametsona 0,5mg com",
+        "idAnvisa": "178170785"
+    },
+    {
+        "nome": "betametsona 2mg com",
+        "idAnvisa": "178170785"
+    },
+    {
+        "nome": "betametsona 0,5mg sol oral",
+        "idAnvisa": "178170785"
+    },
+    {
+        "nome": "betaxolol (cloridrato) 5,0mg/mL sol oft",
+        "idAnvisa": "100681111"
+    },
+    {
+        "nome": "betaxolol (cloridrato) 2,5mg/mL sus oft",
+        "idAnvisa": "100681111"
+    },
+    {
+        "nome": "bezafibrato 200mg com rev",
+        "idAnvisa": "101000558"
+    },
+    {
+        "nome": "bezafibrato 400mg com desint lenta",
+        "idAnvisa": "101000558"
+    },
+    {
+        "nome": "bicalutamida 50mg com rev",
+        "idAnvisa": "116180062"
+    },
+    {
+        "nome": "bilastina 20mg com",
+        "idAnvisa": "106390259"
+    },
+    {
+        "nome": "bimatoprosta 0,3mg/ml sol derm",
+        "idAnvisa": "101470177"
+    },
+    {
+        "nome": "bimatoprosta 0,1mg/mL sol oft",
+        "idAnvisa": "101470155"
+    },
+    {
+        "nome": "bimatoprosta 0,3mg/mL sol oft",
+        "idAnvisa": "101470155"
+    },
+    {
+        "nome": "biperideno (cloridrato) 2mg com",
+        "idAnvisa": "105530334"
+    },
+    {
+        "nome": "biperideno (cloridrato) 4mg com rev lib retard",
+        "idAnvisa": "105530334"
+    },
+    {
+        "nome": "bisacodil 5mg drag",
+        "idAnvisa": "183260401"
+    },
+    {
+        "nome": "bisoprolol (hemifumarato) 1,25mg com rev",
+        "idAnvisa": "100890194"
+    },
+    {
+        "nome": "bisoprolol (hemifumarato) 2,5mg com rev",
+        "idAnvisa": "100890194"
+    },
+    {
+        "nome": "bisoprolol (hemifumarato) 5mg com rev",
+        "idAnvisa": "100890194"
+    },
+    {
+        "nome": "bisoprolol (hemifumarato) 10,0mg com rev",
+        "idAnvisa": "100890194"
+    },
+    {
+        "nome": "bleomicina (sulfato) 15 UI pó liof sol inj",
+        "idAnvisa": "105730676"
+    },
+    {
+        "nome": "bortezomibe 1mg pó liof sol inj",
+        "idAnvisa": "112363373"
+    },
+    {
+        "nome": "bortezomibe 3,5 mg pó liof sol inj",
+        "idAnvisa": "112363373"
+    },
+    {
+        "nome": "bosentana 62,5mg com rev",
+        "idAnvisa": "112363430"
+    },
+    {
+        "nome": "bosentana 125 mg com rev",
+        "idAnvisa": "112363430"
+    },
+    {
+        "nome": "brimonidina (tartarato) 2mg/mL sol oft",
+        "idAnvisa": "101470142"
+    },
+    {
+        "nome": "brimonidina (tartarato) 1,5mg/mL sol oft",
+        "idAnvisa": "101470142"
+    },
+    {
+        "nome": "brimonidina (tartarato) 1mg/ml sol oft",
+        "idAnvisa": "101470142"
+    },
+    {
+        "nome": "brinzolamida 10mg/mL sus oft",
+        "idAnvisa": "100230225"
+    },
+    {
+        "nome": "bromazepam 2,5mg/ml sol oral",
+        "idAnvisa": "105730152"
+    },
+    {
+        "nome": "bromazepam 3,0mg com",
+        "idAnvisa": "115240008"
+    },
+    {
+        "nome": "bromazepam 6,0mg com",
+        "idAnvisa": "115240008"
+    },
+    {
+        "nome": "brometo de glicopirrônio 50 mcg cap dura po inal or + inal",
+        "idAnvisa": "100681117"
+    },
+    {
+        "nome": "brometo de pancurônio 2mg/ml sol inj",
+        "idAnvisa": "114020066"
+    },
+    {
+        "nome": "bromexina (cloridrato) 0,8mg/mL xpe (infantil)",
+        "idAnvisa": "183260383"
+    },
+    {
+        "nome": "bromexina (cloridrato) 1,6mg/mL xpe (adulto)",
+        "idAnvisa": "183260383"
+    },
+    {
+        "nome": "bromexina (cloridrato) 2,0mg/mL sol oral",
+        "idAnvisa": "183260383"
+    },
+    {
+        "nome": "bromidrato de galantamina 8,0mg cap dura lib prol",
+        "idAnvisa": "112363352"
+    },
+    {
+        "nome": "bromidrato de galantamina 16mg cap dura lib prol",
+        "idAnvisa": "112363352"
+    },
+    {
+        "nome": "bromidrato de galantamina 24mg cap dura lib prol",
+        "idAnvisa": "112363352"
+    },
+    {
+        "nome": "bromocriptina (mesilato) 2,5mg com",
+        "idAnvisa": "100680017"
+    },
+    {
+        "nome": "bromoprida 10mg cap dura",
+        "idAnvisa": "183260382"
+    },
+    {
+        "nome": "bromoprida 1mg/mL sol oral",
+        "idAnvisa": "183260382"
+    },
+    {
+        "nome": "bromoprida 4mg/mL sol oral",
+        "idAnvisa": "183260382"
+    },
+    {
+        "nome": "bromoprida 5mg/ml sol inj",
+        "idAnvisa": "183260382"
+    },
+    {
+        "nome": "buclizina (cloridrato) 25mg com",
+        "idAnvisa": "183260362"
+    },
+    {
+        "nome": "budesonida 32mcg/dose sus spr nas",
+        "idAnvisa": "116180091"
+    },
+    {
+        "nome": "budesonida 64mcg/dose sus spr nas",
+        "idAnvisa": "116180091"
+    },
+    {
+        "nome": "budesonida 3mg cap dura lib retard",
+        "idAnvisa": "116180097"
+    },
+    {
+        "nome": "budesonida 2,3mg emul ret",
+        "idAnvisa": "116180097"
+    },
+    {
+        "nome": "budesonida 0,25mg/mL sus inal",
+        "idAnvisa": "116180076"
+    },
+    {
+        "nome": "budesonida 0,50mg/mL sus inal",
+        "idAnvisa": "116180076"
+    },
+    {
+        "nome": "budesonida 100mcg/dose sus aq nas",
+        "idAnvisa": "105730590"
+    },
+    {
+        "nome": "budesonida 200mcg cap dura po inal or + inal",
+        "idAnvisa": "105730590"
+    },
+    {
+        "nome": "budesonida 400mcg cap dura po inal or + inal",
+        "idAnvisa": "105730590"
+    },
+    {
+        "nome": "budesonida 50mcg/dose sus spr nas",
+        "idAnvisa": "105730590"
+    },
+    {
+        "nome": "budesonida 100mcg/dose sus  spr nas",
+        "idAnvisa": "105730590"
+    },
+    {
+        "nome": "buflomedil (cloridrato) 150mg com rev",
+        "idAnvisa": "105530013"
+    },
+    {
+        "nome": "buflomedil (cloridrato) 300 mg com rev",
+        "idAnvisa": "105530013"
+    },
+    {
+        "nome": "bupivacaína (cloridrato) 5mg/mL sol inj",
+        "idAnvisa": "103870053"
+    },
+    {
+        "nome": "buprenorfina 5mg ades",
+        "idAnvisa": "191980002"
+    },
+    {
+        "nome": "buprenorfina 10mg ades",
+        "idAnvisa": "191980002"
+    },
+    {
+        "nome": "buprenorfina 20mg ades",
+        "idAnvisa": "191980002"
+    },
+    {
+        "nome": "bupropiona (cloridrato) 150mg com rev lib prol",
+        "idAnvisa": "101070238"
+    },
+    {
+        "nome": "bupropiona (cloridrato) 300mg com rev lib prol",
+        "idAnvisa": "101070238"
+    },
+    {
+        "nome": "bupropiona (cloridrato) 150mg com rev lib prol",
+        "idAnvisa": "101070238"
+    },
+    {
+        "nome": "bupropiona (cloridrato) 150mg com rev lib prol",
+        "idAnvisa": "101070272"
+    },
+    {
+        "nome": "buspirona (cloridrato) 5mg com",
+        "idAnvisa": "100330041"
+    },
+    {
+        "nome": "buspirona (cloridrato) 10mg com",
+        "idAnvisa": "100330042"
+    },
+    {
+        "nome": "bussulfano 6mg/ml sol inj",
+        "idAnvisa": "101620250"
+    },
+    {
+        "nome": "butenafina (cloridrato) 10mg/g crem derm",
+        "idAnvisa": "155840042"
+    },
+    {
+        "nome": "butoconazol (nitrato) 20mg/g crem vag",
+        "idAnvisa": "135690028"
+    },
+    {
+        "nome": "cabazitaxel 40mg/ml sol inj",
+        "idAnvisa": "183260312"
+    },
+    {
+        "nome": "cabergolina 0,5mg com",
+        "idAnvisa": "102160140"
+    },
+    {
+        "nome": "calcipotriol 50mcg/g pom derm",
+        "idAnvisa": "185690003"
+    },
+    {
+        "nome": "calcitonina (sintética de salmão) 200UI/dose sol spr nas",
+        "idAnvisa": "106460161"
+    },
+    {
+        "nome": "calcitriol 1mcg/mL sol inj",
+        "idAnvisa": "198600005"
+    },
+    {
+        "nome": "canaglifozina anidra 100mg com rev",
+        "idAnvisa": "112363408"
+    },
+    {
+        "nome": "canaglifozina anidra 300mg com rev",
+        "idAnvisa": "112363408"
+    },
+    {
+        "nome": "candesartana cilexetila 8mg com",
+        "idAnvisa": "116180095"
+    },
+    {
+        "nome": "candesartana cilexetila 16mg com",
+        "idAnvisa": "116180095"
+    },
+    {
+        "nome": "candesartana cilexetila 32mg com",
+        "idAnvisa": "116180095"
+    },
+    {
+        "nome": "capecitabina 150mg com rev",
+        "idAnvisa": "101000549"
+    },
+    {
+        "nome": "capecitabina 500mg com rev",
+        "idAnvisa": "101000549"
+    },
+    {
+        "nome": "captopril 25mg com",
+        "idAnvisa": "141070025"
+    },
+    {
+        "nome": "captopril 50mg com",
+        "idAnvisa": "141070025"
+    },
+    {
+        "nome": "captopril 12,5mg com",
+        "idAnvisa": "141070025"
+    },
+    {
+        "nome": "carbamazepina 20mg/ml sus or",
+        "idAnvisa": "100680085"
+    },
+    {
+        "nome": "carbamazepina 200mg com",
+        "idAnvisa": "100680085"
+    },
+    {
+        "nome": "carbamazepina 400mg com",
+        "idAnvisa": "100680085"
+    },
+    {
+        "nome": "carbamazepina 200mg com desint lenta",
+        "idAnvisa": "100680085"
+    },
+    {
+        "nome": "carbamazepina 400mg com desint lenta",
+        "idAnvisa": "100680085"
+    },
+    {
+        "nome": "carboplatina 10mg/ml sol inj",
+        "idAnvisa": "116370014"
+    },
+    {
+        "nome": "carfilzomibe 60mg pó liof sol inj",
+        "idAnvisa": "102440010"
+    },
+    {
+        "nome": "carvedilol 3,125mg com",
+        "idAnvisa": "100330066"
+    },
+    {
+        "nome": "carvedilol 6,25mg com",
+        "idAnvisa": "100330066"
+    },
+    {
+        "nome": "carvedilol 12,5mg com",
+        "idAnvisa": "100330066"
+    },
+    {
+        "nome": "carvedilol 25mg com",
+        "idAnvisa": "100330066"
+    },
+    {
+        "nome": "caspofungina (acetato) 50mg pó liof sol inj",
+        "idAnvisa": "100290033"
+    },
+    {
+        "nome": "caspofungina (acetato) 70mg pó liof sol inj",
+        "idAnvisa": "100290033"
+    },
+    {
+        "nome": "cefadroxila 500 mg cap dura",
+        "idAnvisa": "100430733"
+    },
+    {
+        "nome": "cefadroxila 50 mg/ml po sus or",
+        "idAnvisa": "102350512"
+    },
+    {
+        "nome": "cefadroxila 100 mg/ml po sus or",
+        "idAnvisa": "102350512"
+    },
+    {
+        "nome": "cefalexina monoidratada 500mg cap dura",
+        "idAnvisa": "155620001"
+    },
+    {
+        "nome": "cefalexina monoidratada 50mg/mL sus or",
+        "idAnvisa": "156260017"
+    },
+    {
+        "nome": "cefalexina monoidratada 1,5g/15mL (100mg/mL) po sol extemp",
+        "idAnvisa": "156260017"
+    },
+    {
+        "nome": "cefalexina monoidratada 100mg/mL sus or",
+        "idAnvisa": "156260017"
+    },
+    {
+        "nome": "cefalexina monoidratada 500mg drag",
+        "idAnvisa": "156260017"
+    },
+    {
+        "nome": "cefalexina monoidratada 1000mg drag",
+        "idAnvisa": "156260017"
+    },
+    {
+        "nome": "cefalexina monoidratada 5g/100mL (50mg/mL) pó sus or + diluente",
+        "idAnvisa": "100470241"
+    },
+    {
+        "nome": "cefalotina sódica (tamponada) 1000mg pó liof sol inj",
+        "idAnvisa": "155620004"
+    },
+    {
+        "nome": "cefazolina sódica 250 mg pó sol inj",
+        "idAnvisa": "155620003"
+    },
+    {
+        "nome": "cefazolina sódica 500 mg pó sol inj",
+        "idAnvisa": "155620003"
+    },
+    {
+        "nome": "cefazolina sódica 1000 mg/100mL pó sol inj",
+        "idAnvisa": "155620003"
+    },
+    {
+        "nome": "cefotaxima sódica 1000mg pó sol inj",
+        "idAnvisa": "114020006"
+    },
+    {
+        "nome": "ceftarolina fosamila 600mg Po Sol Ext",
+        "idAnvisa": "116180247"
+    },
+    {
+        "nome": "ceftazidima 1g/10mL pó sol inj",
+        "idAnvisa": "101070170"
+    },
+    {
+        "nome": "ceftriaxona dissódica hemieptaidratada 500mg/5mL pó sol inj",
+        "idAnvisa": "101000132"
+    },
+    {
+        "nome": "ceftriaxona dissódica hemieptaidratada 1000mg/10mL pó sol inj",
+        "idAnvisa": "101000132"
+    },
+    {
+        "nome": "ceftriaxona dissódica hemieptaidratada 500mg/2mL pó sol inj (im)",
+        "idAnvisa": "101000132"
+    },
+    {
+        "nome": "ceftriaxona dissódica hemieptaidratada 1000mg/3,5mL pó sol inj (im)",
+        "idAnvisa": "101000132"
+    },
+    {
+        "nome": "cefuroxima sódica 750mg/6mL pó sol inj",
+        "idAnvisa": "101070221"
+    },
+    {
+        "nome": "celecoxibe 100mg cap dura",
+        "idAnvisa": "102160269"
+    },
+    {
+        "nome": "celecoxibe 200 mg cap dura",
+        "idAnvisa": "102160269"
+    },
+    {
+        "nome": "cetirizina (dicloridrato) 10mg com rev",
+        "idAnvisa": "101070252"
+    },
+    {
+        "nome": "cetirizina (dicloridrato) 1mg/mL sol oral",
+        "idAnvisa": "101070252"
+    },
+    {
+        "nome": "cetoconazol 200mg com",
+        "idAnvisa": "105730067"
+    },
+    {
+        "nome": "cetoconazol 20mg/g crem derm",
+        "idAnvisa": "112360016"
+    },
+    {
+        "nome": "cetoconazol 20mg/g shampoo",
+        "idAnvisa": "102980294"
+    },
+    {
+        "nome": "cetoprofeno 150mg com lib prol",
+        "idAnvisa": "113000271"
+    },
+    {
+        "nome": "cetoprofeno 100mg sup",
+        "idAnvisa": "183260360"
+    },
+    {
+        "nome": "cetoprofeno 20mg/mL sol oral",
+        "idAnvisa": "183260360"
+    },
+    {
+        "nome": "cetoprofeno 25mg gel",
+        "idAnvisa": "183260360"
+    },
+    {
+        "nome": "cetoprofeno 50mg cap dura",
+        "idAnvisa": "183260360"
+    },
+    {
+        "nome": "cetoprofeno 1mg/mL xpe",
+        "idAnvisa": "183260360"
+    },
+    {
+        "nome": "cetoprofeno 100mg com lib retard",
+        "idAnvisa": "113000271"
+    },
+    {
+        "nome": "cetoprofeno 50mg/mL sol inj",
+        "idAnvisa": "113000271"
+    },
+    {
+        "nome": "cetoprofeno 100mg /2mL pó liof sol inj",
+        "idAnvisa": "113000271"
+    },
+    {
+        "nome": "cetoprofeno 200mg com lib retard",
+        "idAnvisa": "113000271"
+    },
+    {
+        "nome": "cetoprofeno (lisinato) 160mg cap",
+        "idAnvisa": "105730128"
+    },
+    {
+        "nome": "cetoprofeno (lisinato) 320mg cap",
+        "idAnvisa": "105730128"
+    },
+    {
+        "nome": "cetotifeno (fumarato) 0,250 mg/mL sol oft",
+        "idAnvisa": "104971358"
+    },
+    {
+        "nome": "cetrorrelix (acetato) 0,25mg pó liof inj",
+        "idAnvisa": "100890369"
+    },
+    {
+        "nome": "ciclesonida 50 mcg/dose sus spr nas",
+        "idAnvisa": "164250005"
+    },
+    {
+        "nome": "ciclesonida 80mcg/dose sol inal",
+        "idAnvisa": "106390230"
+    },
+    {
+        "nome": "ciclesonida 160mcg/dose sol inal",
+        "idAnvisa": "106390230"
+    },
+    {
+        "nome": "ciclobenzaprina (cloridrato) 5mg com rev",
+        "idAnvisa": "101180129"
+    },
+    {
+        "nome": "ciclobenzaprina (cloridrato) 10mg com rev",
+        "idAnvisa": "101180129"
+    },
+    {
+        "nome": "ciclobenzaprina (cloridrato) 15mg cap dur lib prol",
+        "idAnvisa": "122140093"
+    },
+    {
+        "nome": "ciclofosfamida 20mg/ml po liof inj prep extemp",
+        "idAnvisa": "106830168"
+    },
+    {
+        "nome": "ciclopentolato (cloridrato) 10mg/mL sol oft",
+        "idAnvisa": "101470131"
+    },
+    {
+        "nome": "ciclopirox olamina 10mg/g crem derm",
+        "idAnvisa": "183260432"
+    },
+    {
+        "nome": "ciclopirox olamina 10mg/mL sol top",
+        "idAnvisa": "183260432"
+    },
+    {
+        "nome": "ciclosporina 0,5mg/g emul oft",
+        "idAnvisa": "101470160"
+    },
+    {
+        "nome": "ciclosporina 50 mg/mL sol inj",
+        "idAnvisa": "100680020"
+    },
+    {
+        "nome": "ciclosporina 100 mg/mL sol oral",
+        "idAnvisa": "100680020"
+    },
+    {
+        "nome": "ciclosporina 25mg cap mole",
+        "idAnvisa": "100680020"
+    },
+    {
+        "nome": "ciclosporina 50mg cap mole",
+        "idAnvisa": "100680020"
+    },
+    {
+        "nome": "ciclosporina 100mg cap mole",
+        "idAnvisa": "100680020"
+    },
+    {
+        "nome": "cilazapril 1mg com rev",
+        "idAnvisa": "101000181"
+    },
+    {
+        "nome": "cilazapril 2,5mg com rev",
+        "idAnvisa": "101000181"
+    },
+    {
+        "nome": "cilazapril 5,0mg com rev",
+        "idAnvisa": "101000181"
+    },
+    {
+        "nome": "cilostazol 50mg com",
+        "idAnvisa": "100330101"
+    },
+    {
+        "nome": "cilostazol 100mg com",
+        "idAnvisa": "100330101"
+    },
+    {
+        "nome": "cimetidina 150mg/mL sol inj",
+        "idAnvisa": "103700402"
+    },
+    {
+        "nome": "cinacalcete (cloridrato) 30mg com rev",
+        "idAnvisa": "102440001"
+    },
+    {
+        "nome": "cinacalcete (cloridrato) 60mg com rev",
+        "idAnvisa": "102440001"
+    },
+    {
+        "nome": "cinarizina 25mg com",
+        "idAnvisa": "112360002"
+    },
+    {
+        "nome": "cinarizina 75mg com",
+        "idAnvisa": "112360002"
+    },
+    {
+        "nome": "ciprofibrato 100mg com",
+        "idAnvisa": "183260419"
+    },
+    {
+        "nome": "ciprofloxacino (cloridrato) 250mg com rev",
+        "idAnvisa": "104290056"
+    },
+    {
+        "nome": "ciprofloxacino (cloridrato) 500mg com rev",
+        "idAnvisa": "104290056"
+    },
+    {
+        "nome": "ciprofloxacino (cloridrato) 3mg/mL sol oft",
+        "idAnvisa": "100681093"
+    },
+    {
+        "nome": "ciprofloxacino (cloridrato) 3mg/mL sol oto",
+        "idAnvisa": "100681103"
+    },
+    {
+        "nome": "ciprofloxacino (solução de cloreto de sódio) 2mg/ml sol inj",
+        "idAnvisa": "103110155"
+    },
+    {
+        "nome": "ciproterona (acetato) 50mg com",
+        "idAnvisa": "170560066"
+    },
+    {
+        "nome": "ciproterona (acetato) 100mg com",
+        "idAnvisa": "170560066"
+    },
+    {
+        "nome": "cisatracúrio (besilato) 2mg/mL sol inj",
+        "idAnvisa": "137640169"
+    },
+    {
+        "nome": "cisatracúrio (besilato) 5mg/mL sol inj",
+        "idAnvisa": "137640169"
+    },
+    {
+        "nome": "cisplatina 1mg/ml sol inj",
+        "idAnvisa": "116370039"
+    },
+    {
+        "nome": "cisplatina 0,5mg/ml sol inj",
+        "idAnvisa": "116370039"
+    },
+    {
+        "nome": "citalopram (bromidrato) 20mg com rev",
+        "idAnvisa": "104750043"
+    },
+    {
+        "nome": "citalopram (bromidrato) 40mg com rev",
+        "idAnvisa": "100330107"
+    },
+    {
+        "nome": "citarabina 100mg/5mL pó liof sol inj",
+        "idAnvisa": "102160143"
+    },
+    {
+        "nome": "citarabina 20mg/mL sol inj",
+        "idAnvisa": "102160143"
+    },
+    {
+        "nome": "citarabina 100mg/mL sol inj",
+        "idAnvisa": "102160143"
+    },
+    {
+        "nome": "citrato de cafeína 20mg/mL sol inj",
+        "idAnvisa": "100580115"
+    },
+    {
+        "nome": "cladribina 1mg/mL sol inj",
+        "idAnvisa": "112363341"
+    },
+    {
+        "nome": "claritromicina 50mg/mL gran sus or",
+        "idAnvisa": "105530200"
+    },
+    {
+        "nome": "claritromicina 500mg/10mL pó liof sol inj",
+        "idAnvisa": "105530200"
+    },
+    {
+        "nome": "claritromicina 25mg/mL gran sus or",
+        "idAnvisa": "105530200"
+    },
+    {
+        "nome": "claritromicina 500mg com rev lib prol",
+        "idAnvisa": "105530200"
+    },
+    {
+        "nome": "claritromicina 500mg com rev",
+        "idAnvisa": "183260025"
+    },
+    {
+        "nome": "clindamicina (cloridrato) 300mg cap dura",
+        "idAnvisa": "102160173"
+    },
+    {
+        "nome": "clindamicina (fosfato) 10mg/ml sol top",
+        "idAnvisa": "102160153"
+    },
+    {
+        "nome": "clindamicina (fosfato) 150 mg/ml sol inj",
+        "idAnvisa": "104970284"
+    },
+    {
+        "nome": "clobazam 10mg com",
+        "idAnvisa": "183260324"
+    },
+    {
+        "nome": "clobazam 20 mg com",
+        "idAnvisa": "183260324"
+    },
+    {
+        "nome": "clobetasol (propionato) 0,5mg/g sol capilar",
+        "idAnvisa": "101070198"
+    },
+    {
+        "nome": "clobetasol (propionato) 0,5mg/g crem derm",
+        "idAnvisa": "101070198"
+    },
+    {
+        "nome": "clobetasol (propionato) 0,5mg/g pom derm",
+        "idAnvisa": "101070198"
+    },
+    {
+        "nome": "clobutinol (cloridrato) 4mg/ml xpe",
+        "idAnvisa": "102350816"
+    },
+    {
+        "nome": "clomipramina (cloridrato) 25 mg drag",
+        "idAnvisa": "100680061"
+    },
+    {
+        "nome": "clomipramina (cloridrato) 75mg com lib lenta",
+        "idAnvisa": "100680061"
+    },
+    {
+        "nome": "clonazepam 0,5mg com",
+        "idAnvisa": "101000072"
+    },
+    {
+        "nome": "clonazepam 2,0mg com",
+        "idAnvisa": "101000072"
+    },
+    {
+        "nome": "clonazepam 0,25mg com subl",
+        "idAnvisa": "101000072"
+    },
+    {
+        "nome": "clonazepam 2,5mg/ml sol oral",
+        "idAnvisa": "101000072"
+    },
+    {
+        "nome": "clonidina (cloridrato) 100mcg com",
+        "idAnvisa": "103670058"
+    },
+    {
+        "nome": "clonidina (cloridrato) 150mcg com",
+        "idAnvisa": "103670058"
+    },
+    {
+        "nome": "clonidina (cloridrato) 200mcg com",
+        "idAnvisa": "103670058"
+    },
+    {
+        "nome": "clonidina (cloridrato) 150 mcg/mL sol inj",
+        "idAnvisa": "102980193"
+    },
+    {
+        "nome": "clonixinato de lisina 125mg com rev",
+        "idAnvisa": "103900139"
+    },
+    {
+        "nome": "cloperastina (fendizoato) 35,4mg/ml sus or",
+        "idAnvisa": "100840140"
+    },
+    {
+        "nome": "cloperastina (fendizoato) 3,54mg/ml xpe",
+        "idAnvisa": "100840140"
+    },
+    {
+        "nome": "clopidogrel (bissulfato) 75 mg com rev",
+        "idAnvisa": "183260370"
+    },
+    {
+        "nome": "clorambucila 2mg com rev",
+        "idAnvisa": "137640148"
+    },
+    {
+        "nome": "cloranfenicol (levógiro) 500 mg drag",
+        "idAnvisa": "102160127"
+    },
+    {
+        "nome": "cloranfenicol (succinato sódico) 1g pó liof sol inj",
+        "idAnvisa": "116370118"
+    },
+    {
+        "nome": "cloridrato de aminolevulinato de metila 160mg/g crem derm",
+        "idAnvisa": "129160065"
+    },
+    {
+        "nome": "cloridrato de amorolfina 2,5mg/g crem derm",
+        "idAnvisa": "129160036"
+    },
+    {
+        "nome": "cloridrato de cefepima 1g pó sol inj",
+        "idAnvisa": "100630227"
+    },
+    {
+        "nome": "cloridrato de cefepima 2g pó sol inj",
+        "idAnvisa": "100630227"
+    },
+    {
+        "nome": "cloridrato de epinastina 0,5mg/mL sol oft",
+        "idAnvisa": "101470163"
+    },
+    {
+        "nome": "cloridrato de oxicodona 10mg com rev lib prol",
+        "idAnvisa": "191980001"
+    },
+    {
+        "nome": "cloridrato de oxicodona 20mg com rev lib prol",
+        "idAnvisa": "191980001"
+    },
+    {
+        "nome": "cloridrato de oxicodona 40mg com rev lib prol",
+        "idAnvisa": "191980001"
+    },
+    {
+        "nome": "cloridrato de palonosetrona 0,05mg/mL sol inj",
+        "idAnvisa": "101710181"
+    },
+    {
+        "nome": "cloridrato de sibutramina 10mg cap dura",
+        "idAnvisa": "105730371"
+    },
+    {
+        "nome": "cloridrato de sibutramina 15mg cap dura",
+        "idAnvisa": "105730371"
+    },
+    {
+        "nome": "cloridrato de valganciclovir 450mg com rev",
+        "idAnvisa": "101000593"
+    },
+    {
+        "nome": "clorpromazina (cloridrato) 25mg com rev",
+        "idAnvisa": "183260385"
+    },
+    {
+        "nome": "clorpromazina (cloridrato) 100mg com rev",
+        "idAnvisa": "183260385"
+    },
+    {
+        "nome": "clorpromazina (cloridrato) 40mg/mL sol oral",
+        "idAnvisa": "183260385"
+    },
+    {
+        "nome": "clorpromazina (cloridrato) 5,0mg/mL sol inj",
+        "idAnvisa": "183260385"
+    },
+    {
+        "nome": "clorpropamida 250mg com",
+        "idAnvisa": "102160010"
+    },
+    {
+        "nome": "clortalidona 12,5mg com",
+        "idAnvisa": "102350614"
+    },
+    {
+        "nome": "clortalidona 25mg com",
+        "idAnvisa": "102350614"
+    },
+    {
+        "nome": "clortalidona 50mg com",
+        "idAnvisa": "102350614"
+    },
+    {
+        "nome": "clotrimazol 10mg/g sol top (spr)",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clotrimazol 10mg/g crem derm",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clotrimazol 10mg/g po uso top",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clotrimazol 10mg/g crem vag",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clotrimazol 20mg/g crem vag",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clotrimazol 100mg com vag",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clotrimazol 500mg com vag",
+        "idAnvisa": "170560102"
+    },
+    {
+        "nome": "clozapina 100mg com",
+        "idAnvisa": "100680027"
+    },
+    {
+        "nome": "clozapina 25mg com",
+        "idAnvisa": "100680027"
+    },
+    {
+        "nome": "cobimetinibe (hemifumarato) 20mg com rev",
+        "idAnvisa": "101000662"
+    },
+    {
+        "nome": "codeína (fosfato) 30mg com",
+        "idAnvisa": "102980199"
+    },
+    {
+        "nome": "codeína (fosfato) 60mg com",
+        "idAnvisa": "102980199"
+    },
+    {
+        "nome": "codeína (fosfato) 3mg/mL sol oral",
+        "idAnvisa": "102980199"
+    },
+    {
+        "nome": "codeína (fosfato) 30mg/mL sol inj",
+        "idAnvisa": "102980199"
+    },
+    {
+        "nome": "codergocrina (mesilato) 4,5mg/1,5ml sol oral",
+        "idAnvisa": "105730693"
+    },
+    {
+        "nome": "colchicina 0,5mg com",
+        "idAnvisa": "101180109"
+    },
+    {
+        "nome": "colchicina 1mg com",
+        "idAnvisa": "101180109"
+    },
+    {
+        "nome": "colestiramina 4g/90mL po or",
+        "idAnvisa": "164250004"
+    },
+    {
+        "nome": "colistimetato sódico 150mg colistina base/2mL pó sol inj",
+        "idAnvisa": "127480023"
+    },
+    {
+        "nome": "colistimetato sódico 500.000 UI/mL a 250.000 UI/mL pó estéril",
+        "idAnvisa": "100849957"
+    },
+    {
+        "nome": "crizotinibe 250mg cap gel dur",
+        "idAnvisa": "121100454"
+    },
+    {
+        "nome": "crizotinibe 200mg cap gel dur",
+        "idAnvisa": "121100454"
+    },
+    {
+        "nome": "cromoglicato dissódico 2PCC (20mg/g) sol oft",
+        "idAnvisa": "101470096"
+    },
+    {
+        "nome": "cromoglicato dissódico 4PCC (40mg/g) sol oft",
+        "idAnvisa": "101470096"
+    },
+    {
+        "nome": "cromoglicato dissódico 20mg/mL sol spr nas",
+        "idAnvisa": "105500068"
+    },
+    {
+        "nome": "cromoglicato dissódico 40mg/mL sol spr nas",
+        "idAnvisa": "105500068"
+    },
+    {
+        "nome": "dabigatrana (etexilato) 75mg cap",
+        "idAnvisa": "103670160"
+    },
+    {
+        "nome": "dabigatrana (etexilato) 110mg cap",
+        "idAnvisa": "103670160"
+    },
+    {
+        "nome": "dabigatrana (etexilato) 150 mg cap",
+        "idAnvisa": "103670160"
+    },
+    {
+        "nome": "dacarbazina 10mg/ml pó liof sol inj",
+        "idAnvisa": "100430636"
+    },
+    {
+        "nome": "daclatasvir dicloridrato 30mg com rev",
+        "idAnvisa": "101800406"
+    },
+    {
+        "nome": "daclatasvir dicloridrato 60mg com rev",
+        "idAnvisa": "101800406"
+    },
+    {
+        "nome": "dactinomicina 0,5mg/1,1mL pó liof sol inj",
+        "idAnvisa": "156260014"
+    },
+    {
+        "nome": "danazol 100mg cap dura",
+        "idAnvisa": "183260355"
+    },
+    {
+        "nome": "danazol 200mg cap dura",
+        "idAnvisa": "183260355"
+    },
+    {
+        "nome": "dantroleno sódico 20mg pó liof sol inj",
+        "idAnvisa": "102980206"
+    },
+    {
+        "nome": "dapaglifozina 5mg com rev",
+        "idAnvisa": "116180259"
+    },
+    {
+        "nome": "dapaglifozina 10mg com rev",
+        "idAnvisa": "116180259"
+    },
+    {
+        "nome": "daptomicina 500 mg/10mL pó liof sol inj",
+        "idAnvisa": "100290197"
+    },
+    {
+        "nome": "darifenacina (bromidrato) 7,5mg com rev lib progr",
+        "idAnvisa": "100681049"
+    },
+    {
+        "nome": "darifenacina (bromidrato) 15,0mg com rev lib progr",
+        "idAnvisa": "100681049"
+    },
+    {
+        "nome": "darunavir 75mg com rev",
+        "idAnvisa": "112363387"
+    },
+    {
+        "nome": "darunavir 150mg com rev",
+        "idAnvisa": "112363387"
+    },
+    {
+        "nome": "darunavir 300mg com rev",
+        "idAnvisa": "112363387"
+    },
+    {
+        "nome": "darunavir 600 mg com rev",
+        "idAnvisa": "112363387"
+    },
+    {
+        "nome": "darunavir 800mg com rev",
+        "idAnvisa": "112363387"
+    },
+    {
+        "nome": "dasatinibe 20mg com rev",
+        "idAnvisa": "101800392"
+    },
+    {
+        "nome": "dasatinibe 50mg com rev",
+        "idAnvisa": "101800392"
+    },
+    {
+        "nome": "dasatinibe 100mg com rev",
+        "idAnvisa": "101800392"
+    },
+    {
+        "nome": "daunorrubicina (cloridrato) 20mg/ 10mL pó liof sol inj",
+        "idAnvisa": "102160214"
+    },
+    {
+        "nome": "decitabina 50mg/ 10mL pó liof sol inj",
+        "idAnvisa": "112363390"
+    },
+    {
+        "nome": "deferasirox 125mg com disp",
+        "idAnvisa": "100681040"
+    },
+    {
+        "nome": "deferasirox 250mg com disp",
+        "idAnvisa": "100681040"
+    },
+    {
+        "nome": "deferasirox 500mg com disp",
+        "idAnvisa": "100681040"
+    },
+    {
+        "nome": "deferoxamina (mesilato) 500mg/ 5mL pó liof sol inj",
+        "idAnvisa": "100680053"
+    },
+    {
+        "nome": "deflazacorte 6,0mg com",
+        "idAnvisa": "183260416"
+    },
+    {
+        "nome": "deflazacorte 30mg com",
+        "idAnvisa": "183260416"
+    },
+    {
+        "nome": "degarelix (acetato) 80mg/4,2mL pó liof sol inj",
+        "idAnvisa": "128760017"
+    },
+    {
+        "nome": "degarelix (acetato) 120mg/3,0 mL pó liof sol inj",
+        "idAnvisa": "128760017"
+    },
+    {
+        "nome": "deslanósido 0,2mg/mL sol inj",
+        "idAnvisa": "104971229"
+    },
+    {
+        "nome": "desloratadina 0,5mg/ml xpe",
+        "idAnvisa": "100290191"
+    },
+    {
+        "nome": "desloratadina 5mg com rev",
+        "idAnvisa": "100290191"
+    },
+    {
+        "nome": "desloratadina 1,25mg/mL sol oral",
+        "idAnvisa": "105730465"
+    },
+    {
+        "nome": "desmopressina (acetato) 0,1mg/mL sol nas spray",
+        "idAnvisa": "128760015"
+    },
+    {
+        "nome": "desmopressina (acetato) 0,1mg/mL sol nas",
+        "idAnvisa": "128760015"
+    },
+    {
+        "nome": "desmopressina (acetato) 0,1mg com",
+        "idAnvisa": "128760015"
+    },
+    {
+        "nome": "desmopressina (acetato) 0,2mg com",
+        "idAnvisa": "128760015"
+    },
+    {
+        "nome": "desmopressina (acetato) 4mcg/mL sol inj",
+        "idAnvisa": "128760015"
+    },
+    {
+        "nome": "desogestrel 75mcg com rev",
+        "idAnvisa": "101710089"
+    },
+    {
+        "nome": "desonida 0,500mg/g gel crem",
+        "idAnvisa": "105730378"
+    },
+    {
+        "nome": "desonida 0,5mg/g crem derm",
+        "idAnvisa": "183260053"
+    },
+    {
+        "nome": "desonida 0,5mg/g loç derm",
+        "idAnvisa": "183260053"
+    },
+    {
+        "nome": "desonida 0,5mg/g pom derm",
+        "idAnvisa": "183260053"
+    },
+    {
+        "nome": "desoximetasona 2,5mg/g pom derm",
+        "idAnvisa": "183260375"
+    },
+    {
+        "nome": "desvenlafaxina (succinato monoidratado) 75,87 mg (50mg) com rev lib prol",
+        "idAnvisa": "121100273"
+    },
+    {
+        "nome": "desvenlafaxina (succinato monoidratado) 151,77 mg (100mg) com rev lib prol",
+        "idAnvisa": "121100273"
+    },
+    {
+        "nome": "dexametasona 0,1mg/mL elx",
+        "idAnvisa": "105730303"
+    },
+    {
+        "nome": "dexametasona 0,5mg com",
+        "idAnvisa": "105730303"
+    },
+    {
+        "nome": "dexametasona 0,75mg com",
+        "idAnvisa": "105730303"
+    },
+    {
+        "nome": "dexametasona 4mg com",
+        "idAnvisa": "105730303"
+    },
+    {
+        "nome": "dexametasona 1mg/mL sus  oft",
+        "idAnvisa": "100681097"
+    },
+    {
+        "nome": "dexametasona 1mg/g pom oft",
+        "idAnvisa": "100681097"
+    },
+    {
+        "nome": "dexametasona (acetato) 1mg/g crem derm",
+        "idAnvisa": "103700060"
+    },
+    {
+        "nome": "dexametasona (fosfato dissódico) 4mg/mL sol inj",
+        "idAnvisa": "105730302"
+    },
+    {
+        "nome": "dexametasona (fosfato dissódico) 2mg/mL sol inj",
+        "idAnvisa": "105730302"
+    },
+    {
+        "nome": "dexclorfeniramina (maleato) 10mg/g crem derm",
+        "idAnvisa": "178170811"
+    },
+    {
+        "nome": "dexclorfeniramina (maleato) 2mg com rev",
+        "idAnvisa": "178170811"
+    },
+    {
+        "nome": "dexclorfeniramina (maleato) 6,0mg drag",
+        "idAnvisa": "178170811"
+    },
+    {
+        "nome": "dexclorfeniramina (maleato) 0,4mg/ml sol oral",
+        "idAnvisa": "178170811"
+    },
+    {
+        "nome": "dexclorfeniramina (maleato) 2,8mg/ml sol oral",
+        "idAnvisa": "178170811"
+    },
+    {
+        "nome": "dexlansoprazol 30mg cap gel dur com microg de lib mod",
+        "idAnvisa": "106390261"
+    },
+    {
+        "nome": "dexlansoprazol 60mg cap gel dur com microg de lib mod",
+        "idAnvisa": "106390262"
+    },
+    {
+        "nome": "dexmedetomidina(cloridrato) 100mcg/ml sol inj",
+        "idAnvisa": "162500001"
+    },
+    {
+        "nome": "dextrocetamina (cloridrato) 50mg/ml sol inj",
+        "idAnvisa": "102980213"
+    },
+    {
+        "nome": "dextrometorfano (bromidrato) 3mg/mL xpe",
+        "idAnvisa": "112363424"
+    },
+    {
+        "nome": "diazepam 5mg com",
+        "idAnvisa": "101000091"
+    },
+    {
+        "nome": "diazepam 10 mg com",
+        "idAnvisa": "101000091"
+    },
+    {
+        "nome": "diazepam 5mg/mL sol inj",
+        "idAnvisa": "104971235"
+    },
+    {
+        "nome": "diclofenaco (ácido) 1,8mg/mL sus or",
+        "idAnvisa": "100680038"
+    },
+    {
+        "nome": "diclofenaco (ácido) 44,3mg com disp",
+        "idAnvisa": "100680038"
+    },
+    {
+        "nome": "diclofenaco (colestiramina) 140mg cap dura",
+        "idAnvisa": "100680102"
+    },
+    {
+        "nome": "diclofenaco (dietilamônio) 11,6mg sol derm (aerossol)",
+        "idAnvisa": "101070328"
+    },
+    {
+        "nome": "diclofenaco (dietilamônio) 11,6mg/g gel",
+        "idAnvisa": "101070328"
+    },
+    {
+        "nome": "diclofenaco (dietilamônio) 23,2mg/g gel",
+        "idAnvisa": "101070328"
+    },
+    {
+        "nome": "diclofenaco (resinato) 44,94mg/mL sus or (got)",
+        "idAnvisa": "100680038"
+    },
+    {
+        "nome": "diclofenaco potássico 25mg/mL sol inj",
+        "idAnvisa": "100680038"
+    },
+    {
+        "nome": "diclofenaco potássico 50mg drag",
+        "idAnvisa": "100680038"
+    },
+    {
+        "nome": "diclofenaco potássico 12,5mg com rev",
+        "idAnvisa": "100680038"
+    },
+    {
+        "nome": "diclofenaco sódico 10mg/g gel",
+        "idAnvisa": "102350785"
+    },
+    {
+        "nome": "diclofenaco sódico 100mg com rev desint lenta",
+        "idAnvisa": "100680060"
+    },
+    {
+        "nome": "diclofenaco sódico 25mg/mL sol inj",
+        "idAnvisa": "100680060"
+    },
+    {
+        "nome": "diclofenaco sódico 50mg com rev lib retard",
+        "idAnvisa": "100680060"
+    },
+    {
+        "nome": "diclofenaco sódico 75mg com rev lib prol",
+        "idAnvisa": "100680060"
+    },
+    {
+        "nome": "diclofenaco sódico 150mg com desint lenta",
+        "idAnvisa": "122140043"
+    },
+    {
+        "nome": "diclofenaco sódico 1mg/mL sol oft",
+        "idAnvisa": "117250030"
+    },
+    {
+        "nome": "dicloridrato de sapropterina 100mg com disp",
+        "idAnvisa": "173330004"
+    },
+    {
+        "nome": "didrogesterona 10mg com rev",
+        "idAnvisa": "105530347"
+    },
+    {
+        "nome": "dienogeste 2mg com",
+        "idAnvisa": "170560088"
+    },
+    {
+        "nome": "diltiazem (cloridrato) 30mg com",
+        "idAnvisa": "103670062"
+    },
+    {
+        "nome": "diltiazem (cloridrato) 60mg com",
+        "idAnvisa": "103670062"
+    },
+    {
+        "nome": "diltiazem (cloridrato) 180mg cap dura lib gradual",
+        "idAnvisa": "103670062"
+    },
+    {
+        "nome": "diltiazem (cloridrato) 240mg cap dura lib gradual",
+        "idAnvisa": "103670062"
+    },
+    {
+        "nome": "diltiazem (cloridrato) 90mg cap dura + microgran",
+        "idAnvisa": "103670062"
+    },
+    {
+        "nome": "diltiazem (cloridrato) 120mg cap dura + microgran",
+        "idAnvisa": "103670062"
+    },
+    {
+        "nome": "dimaleato de afatinibe 30mg com rev",
+        "idAnvisa": "103670174"
+    },
+    {
+        "nome": "dimaleato de afatinibe 40mg com rev",
+        "idAnvisa": "103670174"
+    },
+    {
+        "nome": "dimenidrinato 100mg com",
+        "idAnvisa": "106390155"
+    },
+    {
+        "nome": "dimenidrinato 2,5mg/ml sol oral",
+        "idAnvisa": "106390155"
+    },
+    {
+        "nome": "dimenidrinato 25mg cap mole",
+        "idAnvisa": "106390155"
+    },
+    {
+        "nome": "dimenidrinato 50mg cap mole",
+        "idAnvisa": "106390155"
+    },
+    {
+        "nome": "dipiridamol 100mg drag",
+        "idAnvisa": "103670030"
+    },
+    {
+        "nome": "dipiridamol 5mg/mL sol inj",
+        "idAnvisa": "103670030"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 300mg sup",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 500mg com",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 1000mg com",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 500mg/mL sol inj",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 50mg/mL sol oral",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 500mg/mL sol oral",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dipirona sódica monoidratada 1g com efer",
+        "idAnvisa": "183260351"
+    },
+    {
+        "nome": "dissulfiram 250mg com",
+        "idAnvisa": "113000229"
+    },
+    {
+        "nome": "divalproato de sódio 250mg com rev",
+        "idAnvisa": "105530203"
+    },
+    {
+        "nome": "divalproato de sódio 500mg com rev",
+        "idAnvisa": "105530203"
+    },
+    {
+        "nome": "divalproato de sódio 250mg com rev lib prol",
+        "idAnvisa": "105530203"
+    },
+    {
+        "nome": "divalproato de sódio 500mg com rev lib prol",
+        "idAnvisa": "105530203"
+    },
+    {
+        "nome": "divalproato de sódio 125mg cap + microgran",
+        "idAnvisa": "105530203"
+    },
+    {
+        "nome": "dobesilato de cálcio 500mg cap dura",
+        "idAnvisa": "101180612"
+    },
+    {
+        "nome": "dobutamina (cloridrato) 12,5mg/mL sol inj",
+        "idAnvisa": "155620008"
+    },
+    {
+        "nome": "docetaxel (triidratado) 40mg/ml sol inj + diluente",
+        "idAnvisa": "100330121"
+    },
+    {
+        "nome": "docetaxel (triidratado) 20mg/ml sol inj",
+        "idAnvisa": "183260439"
+    },
+    {
+        "nome": "dolutegravir sódico 10mg com rev",
+        "idAnvisa": "101070300"
+    },
+    {
+        "nome": "dolutegravir sódico 25mg com rev",
+        "idAnvisa": "101070300"
+    },
+    {
+        "nome": "dolutegravir sódico 50mg com rev",
+        "idAnvisa": "101070300"
+    },
+    {
+        "nome": "domperidona 10mg com",
+        "idAnvisa": "112360022"
+    },
+    {
+        "nome": "domperidona 1mg/mL sus or",
+        "idAnvisa": "112360022"
+    },
+    {
+        "nome": "donepezila (cloridrato) 5mg com rev",
+        "idAnvisa": "121100106"
+    },
+    {
+        "nome": "donepezila (cloridrato) 10 mg com rev",
+        "idAnvisa": "121100106"
+    },
+    {
+        "nome": "dopamina (cloridrato) 5mg/mL sol inj",
+        "idAnvisa": "102980106"
+    },
+    {
+        "nome": "dorzolamida (cloridrato) 20mg/mL sol oft",
+        "idAnvisa": "104971295"
+    },
+    {
+        "nome": "doxazosina (mesilato) 2mg com",
+        "idAnvisa": "100890277"
+    },
+    {
+        "nome": "doxazosina (mesilato) 4 mg com",
+        "idAnvisa": "100890277"
+    },
+    {
+        "nome": "doxazosina (mesilato) 4,0 mg com lib cont",
+        "idAnvisa": "102160276"
+    },
+    {
+        "nome": "doxiciclina (cloridrato) 100mg com rev",
+        "idAnvisa": "121100437"
+    },
+    {
+        "nome": "doxiciclina monoidratada 100mg com sol",
+        "idAnvisa": "121100437"
+    },
+    {
+        "nome": "doxorrubicina (cloridrato) 10mg pó sol inj",
+        "idAnvisa": "121100357"
+    },
+    {
+        "nome": "doxorrubicina (cloridrato) 50mg pó sol inj",
+        "idAnvisa": "121100357"
+    },
+    {
+        "nome": "doxorrubicina (cloridrato) 2 mg/mL sus inj",
+        "idAnvisa": "112363399"
+    },
+    {
+        "nome": "doxorrubicina (cloridrato) 2mg/mL sol inj",
+        "idAnvisa": "100330134"
+    },
+    {
+        "nome": "droperidol 2,5mg/mL sol inj",
+        "idAnvisa": "102980078"
+    },
+    {
+        "nome": "dropropizina 1,5mg/mL xpe (infantil)",
+        "idAnvisa": "105530348"
+    },
+    {
+        "nome": "dropropizina 3mg/mL xpe (adulto)",
+        "idAnvisa": "105530348"
+    },
+    {
+        "nome": "dropropizina 30mg/mL sol or (got)",
+        "idAnvisa": "105530348"
+    },
+    {
+        "nome": "duloxetina (cloridrato) 30mg cap + microgran gastrorresistentes",
+        "idAnvisa": "112600164"
+    },
+    {
+        "nome": "duloxetina (cloridrato) 60mg cap + microgran gastrorresistentes",
+        "idAnvisa": "112600164"
+    },
+    {
+        "nome": "dutasterida 0,5mg cap  mole",
+        "idAnvisa": "101070231"
+    },
+    {
+        "nome": "ebastina 1mg/mL sol oral",
+        "idAnvisa": "100430760"
+    },
+    {
+        "nome": "ebastina 10mg com rev",
+        "idAnvisa": "100430760"
+    },
+    {
+        "nome": "edoxabana (tosilato) 15 mg com rev",
+        "idAnvisa": "104540185"
+    },
+    {
+        "nome": "edoxabana (tosilato) 30 mg com rev",
+        "idAnvisa": "104540185"
+    },
+    {
+        "nome": "edoxabana (tosilato) 60 mg com rev",
+        "idAnvisa": "104540185"
+    },
+    {
+        "nome": "efavirenz 600mg com rev",
+        "idAnvisa": "110630126"
+    },
+    {
+        "nome": "efedrina (sulfato) 50mg/mL sol inj",
+        "idAnvisa": "102980198"
+    },
+    {
+        "nome": "eltrombopague olamina 25mg com rev",
+        "idAnvisa": "100681132"
+    },
+    {
+        "nome": "eltrombopague olamina 50mg com rev",
+        "idAnvisa": "100681132"
+    },
+    {
+        "nome": "empagliflozina 10mg com rev",
+        "idAnvisa": "103670172"
+    },
+    {
+        "nome": "empagliflozina 25mg com rev",
+        "idAnvisa": "103670172"
+    },
+    {
+        "nome": "enalapril (maleato) 5mg com",
+        "idAnvisa": "100290031"
+    },
+    {
+        "nome": "enalapril (maleato) 10mg com",
+        "idAnvisa": "100290031"
+    },
+    {
+        "nome": "enalapril (maleato) 20mg com",
+        "idAnvisa": "100290031"
+    },
+    {
+        "nome": "enflurano 1ml/ml sol inal",
+        "idAnvisa": "102980157"
+    },
+    {
+        "nome": "enfuvirtida 108mg/1,1mL (90mg/mL) pó liof sol inj",
+        "idAnvisa": "101000617"
+    },
+    {
+        "nome": "entacapona 200mg com rev",
+        "idAnvisa": "100680095"
+    },
+    {
+        "nome": "entecavir 0,5mg com rev",
+        "idAnvisa": "101800377"
+    },
+    {
+        "nome": "enzalutamida 40mg cap mole",
+        "idAnvisa": "177170006"
+    },
+    {
+        "nome": "epinastina (cloridrato) 10mg com rev",
+        "idAnvisa": "105730364"
+    },
+    {
+        "nome": "epinastina (cloridrato) 20mg com rev",
+        "idAnvisa": "105730364"
+    },
+    {
+        "nome": "epinastina (cloridrato) 2mg/mL xpe",
+        "idAnvisa": "105730364"
+    },
+    {
+        "nome": "epinefrina 1mg/mL sol inj",
+        "idAnvisa": "113430001"
+    },
+    {
+        "nome": "epirrubicina (cloridrato) 2mg/mL sol inj",
+        "idAnvisa": "102160151"
+    },
+    {
+        "nome": "epirrubicina (cloridrato) 10mg/5mL pó liof sol inj",
+        "idAnvisa": "102160151"
+    },
+    {
+        "nome": "epirrubicina (cloridrato) 50mg/25mL pó liof sol inj",
+        "idAnvisa": "102160151"
+    },
+    {
+        "nome": "eribulina (mesilato) 0,5mg/ml sol inj",
+        "idAnvisa": "173100001"
+    },
+    {
+        "nome": "eritromicina (lactobionato) 1000mg po sol inj",
+        "idAnvisa": "127480025"
+    },
+    {
+        "nome": "erlotinibe (cloridrato) 25mg com rev",
+        "idAnvisa": "101000651"
+    },
+    {
+        "nome": "erlotinibe (cloridrato) 100mg com rev",
+        "idAnvisa": "101000651"
+    },
+    {
+        "nome": "erlotinibe (cloridrato) 150mg com rev",
+        "idAnvisa": "101000651"
+    },
+    {
+        "nome": "ertapeném sódico 1g po liof sol inj",
+        "idAnvisa": "100290034"
+    },
+    {
+        "nome": "escitalopram (oxalato) 20 mg/ml sol oral",
+        "idAnvisa": "104750044"
+    },
+    {
+        "nome": "escitalopram (oxalato) 10mg com rev",
+        "idAnvisa": "104750044"
+    },
+    {
+        "nome": "escitalopram (oxalato) 15mg com rev",
+        "idAnvisa": "104750044"
+    },
+    {
+        "nome": "escitalopram (oxalato) 20mg com rev",
+        "idAnvisa": "104750044"
+    },
+    {
+        "nome": "escitalopram (oxalato) 10 mg/ml sol oral",
+        "idAnvisa": "100330156"
+    },
+    {
+        "nome": "escopolamina (butilbrometo) 10mg drag",
+        "idAnvisa": "103670014"
+    },
+    {
+        "nome": "escopolamina (butilbrometo) 10mg/mL sol or (got)",
+        "idAnvisa": "103670014"
+    },
+    {
+        "nome": "escopolamina (butilbrometo) 20mg/mL sol inj",
+        "idAnvisa": "103670014"
+    },
+    {
+        "nome": "esilato de nintedanibe 100mg cap mole",
+        "idAnvisa": "103670173"
+    },
+    {
+        "nome": "esilato de nintedanibe 150mg cap mole",
+        "idAnvisa": "103670173"
+    },
+    {
+        "nome": "esmolol (cloridrato) 10mg/mL sol inj",
+        "idAnvisa": "102980227"
+    },
+    {
+        "nome": "esomeprazol magnésio triidratado 20mg com rev lib retard",
+        "idAnvisa": "116180105"
+    },
+    {
+        "nome": "esomeprazol magnésio triidratado 40mg com rev lib retard",
+        "idAnvisa": "116180105"
+    },
+    {
+        "nome": "esomeprazol sódico 40mg po liof sol inj",
+        "idAnvisa": "116180209"
+    },
+    {
+        "nome": "espiramicina 1,5 MUI com rev",
+        "idAnvisa": "183260363"
+    },
+    {
+        "nome": "espironolactona 25 mg com",
+        "idAnvisa": "102160176"
+    },
+    {
+        "nome": "espironolactona 50mg com",
+        "idAnvisa": "102160176"
+    },
+    {
+        "nome": "espironolactona 100mg com",
+        "idAnvisa": "102160176"
+    },
+    {
+        "nome": "estazolam 2mg com",
+        "idAnvisa": "105530045"
+    },
+    {
+        "nome": "estradiol 1mg com",
+        "idAnvisa": "100330103"
+    },
+    {
+        "nome": "estradiol 0,1PCC (1mg/g) gel (sachê)",
+        "idAnvisa": "101710084"
+    },
+    {
+        "nome": "estradiol (hemiidratado) 0,1PCC (1mg/g) gel",
+        "idAnvisa": "155730017"
+    },
+    {
+        "nome": "estradiol (hemiidratado) 0,6mg/g gel",
+        "idAnvisa": "187590002"
+    },
+    {
+        "nome": "estradiol hemi-hidratado 1,6mg ades",
+        "idAnvisa": "112363336"
+    },
+    {
+        "nome": "estradiol hemi-hidratado 3,2mg ades",
+        "idAnvisa": "112363336"
+    },
+    {
+        "nome": "estradiol hemi-hidratado 6,4mg ades",
+        "idAnvisa": "112363336"
+    },
+    {
+        "nome": "estriol 1,0 mg/g crem vag",
+        "idAnvisa": "101710030"
+    },
+    {
+        "nome": "estriol 1,0mg com",
+        "idAnvisa": "101710030"
+    },
+    {
+        "nome": "estriol 2,0mg com",
+        "idAnvisa": "101710030"
+    },
+    {
+        "nome": "eszopiclona 1mg com rev",
+        "idAnvisa": "100431248"
+    },
+    {
+        "nome": "eszopiclona 2mg com rev",
+        "idAnvisa": "100431248"
+    },
+    {
+        "nome": "eszopiclona 3mg com rev",
+        "idAnvisa": "100431248"
+    },
+    {
+        "nome": "etionamida 250mg com rev",
+        "idAnvisa": "110630078"
+    },
+    {
+        "nome": "etodolaco 200mg com rev",
+        "idAnvisa": "101180146"
+    },
+    {
+        "nome": "etodolaco 300mg com rev",
+        "idAnvisa": "101180146"
+    },
+    {
+        "nome": "etodolaco 400mg com rev",
+        "idAnvisa": "101180146"
+    },
+    {
+        "nome": "etodolaco 500mg com rev",
+        "idAnvisa": "101180147"
+    },
+    {
+        "nome": "etomidato 2mg/mL sol inj",
+        "idAnvisa": "112360023"
+    },
+    {
+        "nome": "etonogestrel 68mg impl sc",
+        "idAnvisa": "101710088"
+    },
+    {
+        "nome": "etoposídeo 20 mg/ml sol inj",
+        "idAnvisa": "102160215"
+    },
+    {
+        "nome": "etoricoxib 60mg com rev",
+        "idAnvisa": "100290035"
+    },
+    {
+        "nome": "etoricoxib 90mg com rev",
+        "idAnvisa": "100290035"
+    },
+    {
+        "nome": "etravirina 100mg com",
+        "idAnvisa": "112363391"
+    },
+    {
+        "nome": "everolimo 2,5mg com",
+        "idAnvisa": "100681065"
+    },
+    {
+        "nome": "everolimo 5mg com",
+        "idAnvisa": "100681065"
+    },
+    {
+        "nome": "everolimo 10mg com",
+        "idAnvisa": "100681065"
+    },
+    {
+        "nome": "everolimo 0,5mg com",
+        "idAnvisa": "100680959"
+    },
+    {
+        "nome": "everolimo 0,75mg com",
+        "idAnvisa": "100680959"
+    },
+    {
+        "nome": "everolimo 1,0mg com",
+        "idAnvisa": "100680959"
+    },
+    {
+        "nome": "exemestano 25mg drag",
+        "idAnvisa": "102160141"
+    },
+    {
+        "nome": "exenatida 250mcg/ml sol inj",
+        "idAnvisa": "112600182"
+    },
+    {
+        "nome": "ezetimiba 10mg com",
+        "idAnvisa": "100290076"
+    },
+    {
+        "nome": "famotidina 40mg com",
+        "idAnvisa": "105730144"
+    },
+    {
+        "nome": "fampridina 10mg com rev lib prol",
+        "idAnvisa": "169930003"
+    },
+    {
+        "nome": "fanciclovir 125mg com rev",
+        "idAnvisa": "135690607"
+    },
+    {
+        "nome": "fanciclovir 500mg com rev",
+        "idAnvisa": "135690607"
+    },
+    {
+        "nome": "felodipino 2,5mg com rev lib prol",
+        "idAnvisa": "116180074"
+    },
+    {
+        "nome": "felodipino 5,0mg com rev lib prol",
+        "idAnvisa": "116180074"
+    },
+    {
+        "nome": "felodipino 10mg com rev lib prol",
+        "idAnvisa": "116180074"
+    },
+    {
+        "nome": "fenazopiridina (cloridrato) 100mg drag",
+        "idAnvisa": "122140075"
+    },
+    {
+        "nome": "fenazopiridina (cloridrato) 200mg drag",
+        "idAnvisa": "122140075"
+    },
+    {
+        "nome": "fenilbutazona cálcica 200mg com rev",
+        "idAnvisa": "103920155"
+    },
+    {
+        "nome": "fenitoína 100mg com",
+        "idAnvisa": "183260311"
+    },
+    {
+        "nome": "fenitoína sódica 50mg/mL sol inj",
+        "idAnvisa": "183260311"
+    },
+    {
+        "nome": "fenobarbital 40mg/mL sol oral",
+        "idAnvisa": "183260323"
+    },
+    {
+        "nome": "fenobarbital 50mg com",
+        "idAnvisa": "183260323"
+    },
+    {
+        "nome": "fenobarbital 100mg com",
+        "idAnvisa": "183260323"
+    },
+    {
+        "nome": "fenobarbital sódico 200mg/mL sol inj",
+        "idAnvisa": "104970252"
+    },
+    {
+        "nome": "fenofibrato 200mg cap dura",
+        "idAnvisa": "105530358"
+    },
+    {
+        "nome": "fenofibrato 160mg com rev",
+        "idAnvisa": "105530358"
+    },
+    {
+        "nome": "fenofibrato 250mg cap dura com gran gastrorresistentes",
+        "idAnvisa": "178170095"
+    },
+    {
+        "nome": "fenoterol (bromidrato) 5,0 mg/mL sol oral",
+        "idAnvisa": "103670006"
+    },
+    {
+        "nome": "fenoterol (bromidrato) 2mg/ml (100mcg/dose) sol aer dosif",
+        "idAnvisa": "103670006"
+    },
+    {
+        "nome": "fenoterol (bromidrato) 4mg/ml (200mcg/dose) sol aer dosif",
+        "idAnvisa": "103670006"
+    },
+    {
+        "nome": "fentanila 2,1mg ades",
+        "idAnvisa": "112360027"
+    },
+    {
+        "nome": "fentanila 4,2mg ades",
+        "idAnvisa": "112360027"
+    },
+    {
+        "nome": "fentanila 8,4mg ades",
+        "idAnvisa": "112360027"
+    },
+    {
+        "nome": "fentanila 16,8mg ades",
+        "idAnvisa": "112360027"
+    },
+    {
+        "nome": "fentanila (citrato) 50mcg/mL sol inj (ampola)",
+        "idAnvisa": "112360027"
+    },
+    {
+        "nome": "fentanila (citrato) 0,05mg/mL sol inj (frasco ampola)",
+        "idAnvisa": "102980081"
+    },
+    {
+        "nome": "fenticonazol (nitrato) 0,02g/g crem vag",
+        "idAnvisa": "105730327"
+    },
+    {
+        "nome": "fenticonazol (nitrato) 600mg ovul",
+        "idAnvisa": "105730327"
+    },
+    {
+        "nome": "fenticonazol (nitrato) 20mg/ml sol derm",
+        "idAnvisa": "105730327"
+    },
+    {
+        "nome": "fenticonazol (nitrato) 0,02g/g crem derm",
+        "idAnvisa": "105730327"
+    },
+    {
+        "nome": "fexofenadina (cloridrato) 30mg com rev",
+        "idAnvisa": "183260359"
+    },
+    {
+        "nome": "fexofenadina (cloridrato) 60mg com rev",
+        "idAnvisa": "183260359"
+    },
+    {
+        "nome": "fexofenadina (cloridrato) 120mg com rev",
+        "idAnvisa": "183260359"
+    },
+    {
+        "nome": "fexofenadina (cloridrato) 180mg com rev",
+        "idAnvisa": "183260359"
+    },
+    {
+        "nome": "fexofenadina (cloridrato) 6mg/mL sus or",
+        "idAnvisa": "183260359"
+    },
+    {
+        "nome": "finasterida 1 mg com rev",
+        "idAnvisa": "100290019"
+    },
+    {
+        "nome": "finasterida 5mg com rev",
+        "idAnvisa": "100890337"
+    },
+    {
+        "nome": "fingolimode (cloridrato) 0,5mg cap dura",
+        "idAnvisa": "100681076"
+    },
+    {
+        "nome": "fluconazol 2mg/mL sol inj infus iv",
+        "idAnvisa": "102160044"
+    },
+    {
+        "nome": "fluconazol 50mg cap dura",
+        "idAnvisa": "102160044"
+    },
+    {
+        "nome": "fluconazol 100mg cap dura",
+        "idAnvisa": "102160044"
+    },
+    {
+        "nome": "fluconazol 150mg cap dura",
+        "idAnvisa": "102160044"
+    },
+    {
+        "nome": "fludarabina(fosfato) 50mg po liof",
+        "idAnvisa": "100330150"
+    },
+    {
+        "nome": "flumazenil 0,1mg/mL sol inj",
+        "idAnvisa": "137640161"
+    },
+    {
+        "nome": "flunitrazepam 1mg com rev",
+        "idAnvisa": "101000075"
+    },
+    {
+        "nome": "fluoextina 20mg/mL sol oral",
+        "idAnvisa": "135690598"
+    },
+    {
+        "nome": "fluoextina 20mg com rev",
+        "idAnvisa": "135690598"
+    },
+    {
+        "nome": "fluormetolona 1mg/mL sus oft",
+        "idAnvisa": "101470013"
+    },
+    {
+        "nome": "fluormetolona 2,5mg/mL sus oft",
+        "idAnvisa": "101470013"
+    },
+    {
+        "nome": "fluoruracila 50mg/mL sol inj",
+        "idAnvisa": "155370021"
+    },
+    {
+        "nome": "fluoxetina (cloridrato) 20mg cap dura",
+        "idAnvisa": "112600007"
+    },
+    {
+        "nome": "flurbiprofeno 0,3mg/mL sol oft",
+        "idAnvisa": "101470042"
+    },
+    {
+        "nome": "flurbiprofeno 8,75mg past",
+        "idAnvisa": "173900003"
+    },
+    {
+        "nome": "flutamida 250mg com",
+        "idAnvisa": "172870521"
+    },
+    {
+        "nome": "fluticasona (furoato) 27,5mcg/dose spr nas",
+        "idAnvisa": "101070271"
+    },
+    {
+        "nome": "fluticasona (proprionato) 50mcg/dose sus nas",
+        "idAnvisa": "101070167"
+    },
+    {
+        "nome": "fluticasona (proprionato) 50mcg/dose po inal",
+        "idAnvisa": "101070197"
+    },
+    {
+        "nome": "fluticasona (proprionato) 250mcg/dose po inal",
+        "idAnvisa": "101070197"
+    },
+    {
+        "nome": "fluticasona (proprionato) 50mcg/dose sol aer inal or + inal",
+        "idAnvisa": "101070197"
+    },
+    {
+        "nome": "fluticasona (proprionato) 50mcg/dose sus top",
+        "idAnvisa": "100330104"
+    },
+    {
+        "nome": "fluticasona (proprionato) 250mcg/dose sol aer inal or + inal",
+        "idAnvisa": "101070197"
+    },
+    {
+        "nome": "flutrimazol 0,01g/g crem derm",
+        "idAnvisa": "105730701"
+    },
+    {
+        "nome": "flutrimazol 0,01g/mL sol top",
+        "idAnvisa": "105730701"
+    },
+    {
+        "nome": "fluvastatina sódica 80mg com rev lib prol",
+        "idAnvisa": "100680041"
+    },
+    {
+        "nome": "formoterol (fumarato) 12mcg cap dura po inal or",
+        "idAnvisa": "100680026"
+    },
+    {
+        "nome": "fosamprenavir (cálcico) 700mg com rev",
+        "idAnvisa": "101070248"
+    },
+    {
+        "nome": "fosamprenavir (cálcico) 50mg/ml sus or",
+        "idAnvisa": "101070248"
+    },
+    {
+        "nome": "fosaprepitanto dimeglumina 150mg po liof inj",
+        "idAnvisa": "100290184"
+    },
+    {
+        "nome": "fotemustina 50mg/mL po sol inj",
+        "idAnvisa": "112780053"
+    },
+    {
+        "nome": "fulvestranto 50mg/mL sol inj",
+        "idAnvisa": "116180114"
+    },
+    {
+        "nome": "fumarato dimetila 120mg cap lib prol",
+        "idAnvisa": "169930004"
+    },
+    {
+        "nome": "fumarato dimetila 240mg cap lib prol",
+        "idAnvisa": "169930005"
+    },
+    {
+        "nome": "furosemida 10mg/mL sol inj",
+        "idAnvisa": "183260356"
+    },
+    {
+        "nome": "furosemida 40mg com",
+        "idAnvisa": "183260356"
+    },
+    {
+        "nome": "fusídico, ácido 20mg/g crem derm",
+        "idAnvisa": "185690002"
+    },
+    {
+        "nome": "gabapentina 300mg cap dura",
+        "idAnvisa": "102160273"
+    },
+    {
+        "nome": "gabapentina 400mg cap dura",
+        "idAnvisa": "102160273"
+    },
+    {
+        "nome": "gabapentina 600mg com rev",
+        "idAnvisa": "102160273"
+    },
+    {
+        "nome": "ganciclovir sódico 500mg/10mL po liof sol inj",
+        "idAnvisa": "101000536"
+    },
+    {
+        "nome": "gatifloxacino 3mg/mL sol oft",
+        "idAnvisa": "101470159"
+    },
+    {
+        "nome": "Gefitinibe 250 mg com rev",
+        "idAnvisa": "116180236"
+    },
+    {
+        "nome": "gemifloxacino (mesilato) 320 mg com rev",
+        "idAnvisa": "105730363"
+    },
+    {
+        "nome": "gencitabina (cloridrato) 200mg/5mL po liof sol inj",
+        "idAnvisa": "112600017"
+    },
+    {
+        "nome": "gencitabina (cloridrato) 1g/25mL po liof sol inj",
+        "idAnvisa": "112600017"
+    },
+    {
+        "nome": "genfibrozila 600mg com rev",
+        "idAnvisa": "102160098"
+    },
+    {
+        "nome": "genfibrozila 900mg com rev",
+        "idAnvisa": "102160098"
+    },
+    {
+        "nome": "glibenclamina 5,0mg com",
+        "idAnvisa": "183260433"
+    },
+    {
+        "nome": "gliclazida 30mg com lib prol",
+        "idAnvisa": "112780004"
+    },
+    {
+        "nome": "gliclazida 60mg com lib prol",
+        "idAnvisa": "112780004"
+    },
+    {
+        "nome": "glicosamina (sulfato) 1,5g po or",
+        "idAnvisa": "122140031"
+    },
+    {
+        "nome": "glimepirida 1mg com",
+        "idAnvisa": "183260388"
+    },
+    {
+        "nome": "glimepirida 2mg com",
+        "idAnvisa": "183260388"
+    },
+    {
+        "nome": "glimepirida 3mg com",
+        "idAnvisa": "183260388"
+    },
+    {
+        "nome": "glimepirida 4mg com",
+        "idAnvisa": "183260388"
+    },
+    {
+        "nome": "glimepirida 6mg com",
+        "idAnvisa": "183260388"
+    },
+    {
+        "nome": "glipizida 5mg com",
+        "idAnvisa": "102160136"
+    },
+    {
+        "nome": "gosserrelina (acetato) 3,6mg depot",
+        "idAnvisa": "116180043"
+    },
+    {
+        "nome": "gosserrelina (acetato) 10,8mg depot",
+        "idAnvisa": "116180043"
+    },
+    {
+        "nome": "granisetrona (cloridrato) 1mg/mL sol inj",
+        "idAnvisa": "156260029"
+    },
+    {
+        "nome": "griseofulvina 500 mg com",
+        "idAnvisa": "116180013"
+    },
+    {
+        "nome": "guaifenesina 6,667mg/mL xpe",
+        "idAnvisa": "105730354"
+    },
+    {
+        "nome": "guaifenesina 13,3mg/ml xpe",
+        "idAnvisa": "105730349"
+    },
+    {
+        "nome": "haloperidol 2mg/mL sol oral",
+        "idAnvisa": "112360011"
+    },
+    {
+        "nome": "haloperidol 1mg com",
+        "idAnvisa": "112360011"
+    },
+    {
+        "nome": "haloperidol 5mg com",
+        "idAnvisa": "112360011"
+    },
+    {
+        "nome": "haloperidol 5mg/mL sol inj",
+        "idAnvisa": "112360011"
+    },
+    {
+        "nome": "haloperidol (decanoato) 50 mg/mL sol inj",
+        "idAnvisa": "112360012"
+    },
+    {
+        "nome": "hidralazina (cloridrato) 25mg drag",
+        "idAnvisa": "100680013"
+    },
+    {
+        "nome": "hidralazina (cloridrato) 50mg drag",
+        "idAnvisa": "100680013"
+    },
+    {
+        "nome": "hidroclorotiazida 25mg com",
+        "idAnvisa": "183260436"
+    },
+    {
+        "nome": "hidroclorotiazida 50mg com",
+        "idAnvisa": "183260436"
+    },
+    {
+        "nome": "hidrocortisona (acetato) 10mg/g crem derm",
+        "idAnvisa": "185690011"
+    },
+    {
+        "nome": "hidrocortisona (acetato) 10mg/g pom derm",
+        "idAnvisa": "185690011"
+    },
+    {
+        "nome": "hidrocortisona (butirato) 1mg/g crem derm",
+        "idAnvisa": "100430682"
+    },
+    {
+        "nome": "hidrocortisona (butirato) 1mg/g loc meu",
+        "idAnvisa": "100430682"
+    },
+    {
+        "nome": "hidrocortisona (succinato sódico) 100mg po liof  inj",
+        "idAnvisa": "104970020"
+    },
+    {
+        "nome": "hidrocortisona (succinato sódico) 500mg po liof  inj",
+        "idAnvisa": "104970020"
+    },
+    {
+        "nome": "hidroxicloroquina (sulfato) 400mg com rev",
+        "idAnvisa": "183260379"
+    },
+    {
+        "nome": "hidroxizina (dicloridrato) 2mg/ml sol oral",
+        "idAnvisa": "105830642"
+    },
+    {
+        "nome": "hidroxiuréia 500mg cap dura",
+        "idAnvisa": "101800093"
+    },
+    {
+        "nome": "ibandronato de sódio 150mg com rev",
+        "idAnvisa": "156260030"
+    },
+    {
+        "nome": "ibrutinibe 140mg cap gel dura",
+        "idAnvisa": "112363412"
+    },
+    {
+        "nome": "ibuprofeno 30mg/mL sus or",
+        "idAnvisa": "178170807"
+    },
+    {
+        "nome": "ibuprofeno 50mg/mL sus or",
+        "idAnvisa": "178170807"
+    },
+    {
+        "nome": "ibuprofeno 100mg/mL sus or",
+        "idAnvisa": "178170807"
+    },
+    {
+        "nome": "ibuprofeno 200mg com rev",
+        "idAnvisa": "121100455"
+    },
+    {
+        "nome": "ibuprofeno 400 mg cap mole",
+        "idAnvisa": "121100455"
+    },
+    {
+        "nome": "ibuprofeno 600mg com rev",
+        "idAnvisa": "102160156"
+    },
+    {
+        "nome": "ibuprofeno 600mg cap mole",
+        "idAnvisa": "178170780"
+    },
+    {
+        "nome": "ibuprofeno arginina 1155mg gran",
+        "idAnvisa": "100840148"
+    },
+    {
+        "nome": "ibuprofeno arginina 770mg gran",
+        "idAnvisa": "100840148"
+    },
+    {
+        "nome": "icatibanto (acetato) 10mg/mL sol inj",
+        "idAnvisa": "169790003"
+    },
+    {
+        "nome": "idarrubicina (cloridrato) 5mg/5mL po liof sol inj",
+        "idAnvisa": "102160174"
+    },
+    {
+        "nome": "idarrubicina (cloridrato) 10mg/10mL po liof sol inj",
+        "idAnvisa": "102160174"
+    },
+    {
+        "nome": "ifosfamida 40mg/ml po prep extemp",
+        "idAnvisa": "106830171"
+    },
+    {
+        "nome": "imatinib (mesilato) 100mg com rev",
+        "idAnvisa": "100680174"
+    },
+    {
+        "nome": "imatinib (mesilato) 400mg com rev",
+        "idAnvisa": "100680174"
+    },
+    {
+        "nome": "imipramina (cloridrato) 10mg drag",
+        "idAnvisa": "137640143"
+    },
+    {
+        "nome": "imipramina (cloridrato) 25mg drag",
+        "idAnvisa": "137640143"
+    },
+    {
+        "nome": "imiquimode 50mg/g crem derm",
+        "idAnvisa": "103900176"
+    },
+    {
+        "nome": "indacaterol (maleato) 150mcg cap dura po inal or",
+        "idAnvisa": "100681073"
+    },
+    {
+        "nome": "indacaterol (maleato) 300mcg cap dura po inal or",
+        "idAnvisa": "100681073"
+    },
+    {
+        "nome": "indapamida 2,5mg drag",
+        "idAnvisa": "112780048"
+    },
+    {
+        "nome": "indapamida 1,5mg com rev lib prol",
+        "idAnvisa": "112780048"
+    },
+    {
+        "nome": "indinavir (sulfato) 400mg cap dura",
+        "idAnvisa": "100290004"
+    },
+    {
+        "nome": "indometacina 25mg cap dura",
+        "idAnvisa": "137640119"
+    },
+    {
+        "nome": "indometacina 50mg cap dura",
+        "idAnvisa": "137640119"
+    },
+    {
+        "nome": "indometacina 100mg sup",
+        "idAnvisa": "100290170"
+    },
+    {
+        "nome": "ipratrópio (brometo) 0,25mg/mL sol inal",
+        "idAnvisa": "103670004"
+    },
+    {
+        "nome": "ipratrópio (brometo) 20 mcg/dose aer dosif",
+        "idAnvisa": "103670004"
+    },
+    {
+        "nome": "irbesartana 150mg com",
+        "idAnvisa": "183260450"
+    },
+    {
+        "nome": "irbesartana 300mg com",
+        "idAnvisa": "183260450"
+    },
+    {
+        "nome": "irinotecano (cloridrato tri-hidratado) 20mg/mL sol inj",
+        "idAnvisa": "121100434"
+    },
+    {
+        "nome": "isoconazol (nitrato) 10mg/g crem vag",
+        "idAnvisa": "170560099"
+    },
+    {
+        "nome": "isoconazol (nitrato) 600mg ovul",
+        "idAnvisa": "170560099"
+    },
+    {
+        "nome": "isoconazol (nitrato) 10mg/g crem derm",
+        "idAnvisa": "185690008"
+    },
+    {
+        "nome": "isoconazol (nitrato) 10mg/mL sol top",
+        "idAnvisa": "185690008"
+    },
+    {
+        "nome": "isoflurano 1ml/mL sol inal",
+        "idAnvisa": "100630222"
+    },
+    {
+        "nome": "isoniazida 100mg com ver",
+        "idAnvisa": "110630073"
+    },
+    {
+        "nome": "isotretinoína 10mg cap mole",
+        "idAnvisa": "105830755"
+    },
+    {
+        "nome": "isotretinoína 20mg cap mole",
+        "idAnvisa": "101000182"
+    },
+    {
+        "nome": "isotretinoína 0,5mg/g gel",
+        "idAnvisa": "106750046"
+    },
+    {
+        "nome": "isotretinoína 0,5mg/g crem derm",
+        "idAnvisa": "106750046"
+    },
+    {
+        "nome": "itraconazol 100mg cap dura",
+        "idAnvisa": "112360028"
+    },
+    {
+        "nome": "ivabradina (cloridrato) 5mg com rev",
+        "idAnvisa": "112780071"
+    },
+    {
+        "nome": "ivabradina (cloridrato) 7,5mg com rev",
+        "idAnvisa": "112780071"
+    },
+    {
+        "nome": "ivermectina 6mg com",
+        "idAnvisa": "105530351"
+    },
+    {
+        "nome": "ivermectina 10mg/g crem derm",
+        "idAnvisa": "129160205"
+    },
+    {
+        "nome": "lacidipino 4mg com rev",
+        "idAnvisa": "101070179"
+    },
+    {
+        "nome": "lacosamida 50mg com rev",
+        "idAnvisa": "123610081"
+    },
+    {
+        "nome": "lacosamida 100mg com rev",
+        "idAnvisa": "123610081"
+    },
+    {
+        "nome": "lacosamida 150mg com rev",
+        "idAnvisa": "123610081"
+    },
+    {
+        "nome": "lacosamida 200mg com rev",
+        "idAnvisa": "123610081"
+    },
+    {
+        "nome": "lacosamida 10mg/ml sol oral",
+        "idAnvisa": "123610081"
+    },
+    {
+        "nome": "lacosamida 10mg/ml sol inj",
+        "idAnvisa": "123610081"
+    },
+    {
+        "nome": "lamivudina 10mg/mL sol oral",
+        "idAnvisa": "102980245"
+    },
+    {
+        "nome": "lamivudina 150mg com rev",
+        "idAnvisa": "101070236"
+    },
+    {
+        "nome": "lamotrigina 25mg com",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 50mg com",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 100mg com",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 5mg com disp",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 25mg com disp",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 50mg com disp",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 100mg com disp",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lamotrigina 200mg com disp",
+        "idAnvisa": "101070006"
+    },
+    {
+        "nome": "lansoprazol 15mg cap dura lib retard",
+        "idAnvisa": "183260178"
+    },
+    {
+        "nome": "lansoprazol 30mg cap dura lib retard",
+        "idAnvisa": "167730301"
+    },
+    {
+        "nome": "lapatinibe (ditosilato) 250mg com rev",
+        "idAnvisa": "100681137"
+    },
+    {
+        "nome": "latanoprosta 50mcg/mL sol oft",
+        "idAnvisa": "102160275"
+    },
+    {
+        "nome": "leflunomida 20mg com rev",
+        "idAnvisa": "183260442"
+    },
+    {
+        "nome": "leflunomida 100mg com rev",
+        "idAnvisa": "183260442"
+    },
+    {
+        "nome": "lenalidomida 2,5mg cap dura",
+        "idAnvisa": "196140002"
+    },
+    {
+        "nome": "lenalidomida 5mg cap dura",
+        "idAnvisa": "196140002"
+    },
+    {
+        "nome": "lenalidomida 10mg cap dura",
+        "idAnvisa": "196140002"
+    },
+    {
+        "nome": "lenalidomida 15mg cap dura",
+        "idAnvisa": "196140002"
+    },
+    {
+        "nome": "lenalidomida 25mg cap dura",
+        "idAnvisa": "196140002"
+    },
+    {
+        "nome": "lenvatinibe (mesilato) 4mg cap dura",
+        "idAnvisa": "173100003"
+    },
+    {
+        "nome": "lenvatinibe (mesilato) 10mg cap dura",
+        "idAnvisa": "173100003"
+    },
+    {
+        "nome": "lercanidipino (cloridrato) 10mg com rev",
+        "idAnvisa": "196140002"
+    },
+    {
+        "nome": "lercanidipino (cloridrato) 20mg com rev",
+        "idAnvisa": "101810454"
+    },
+    {
+        "nome": "letrozol 2,5mg com rev",
+        "idAnvisa": "100680100"
+    },
+    {
+        "nome": "leuprorrelina (acetato) 5,0mg/ml sol inj",
+        "idAnvisa": "198600007"
+    },
+    {
+        "nome": "leuprorrelina (acetato) 3,75mg/1mL po liof sus inj + diluente",
+        "idAnvisa": "198600007"
+    },
+    {
+        "nome": "leuprorrelina (acetato) 11,25mg/2mL po liof sus inj + diluente",
+        "idAnvisa": "198600007"
+    },
+    {
+        "nome": "levamisol (cloridrato) 80mg com",
+        "idAnvisa": "112363331"
+    },
+    {
+        "nome": "levamisol (cloridrato) 150mg com",
+        "idAnvisa": "112363331"
+    },
+    {
+        "nome": "levanlodipino (besiltato) 2,5mg com",
+        "idAnvisa": "109740219"
+    },
+    {
+        "nome": "levanlodipino (besiltato) 5mg com",
+        "idAnvisa": "109740219"
+    },
+    {
+        "nome": "levetiracetam 250mg com rev",
+        "idAnvisa": "123610083"
+    },
+    {
+        "nome": "levetiracetam 100mg/mL sol oral",
+        "idAnvisa": "123610083"
+    },
+    {
+        "nome": "levetiracetam 750mg com rev",
+        "idAnvisa": "123610083"
+    },
+    {
+        "nome": "levetiracetam 500 mg com rev",
+        "idAnvisa": "105730515"
+    },
+    {
+        "nome": "levetiracetam 1000 mg com rev",
+        "idAnvisa": "105730515"
+    },
+    {
+        "nome": "levetiracetam 500mg com rev lib prol",
+        "idAnvisa": "123610093"
+    },
+    {
+        "nome": "levetiracetam 750mg com rev lib prol",
+        "idAnvisa": "123610093"
+    },
+    {
+        "nome": "levobunolol (cloridrato) 5mg/mL sol oft",
+        "idAnvisa": "101470041"
+    },
+    {
+        "nome": "levocetirizina (dicloridrato) 5mg/ml sol oral",
+        "idAnvisa": "100580105"
+    },
+    {
+        "nome": "levocetirizina (dicloridrato) 5mg com rev",
+        "idAnvisa": "100580105"
+    },
+    {
+        "nome": "levofloxacino (hemiidratado) 750mg com rev",
+        "idAnvisa": "100431111"
+    },
+    {
+        "nome": "levofloxacino (hemiidratado) 5mg/ml sol inj bolsa",
+        "idAnvisa": "102980303"
+    },
+    {
+        "nome": "levofloxacino (hemiidratado) 500mg com rev",
+        "idAnvisa": "112363316"
+    },
+    {
+        "nome": "levofloxacino (hemiidratado) 250mg com rev",
+        "idAnvisa": "101180149"
+    },
+    {
+        "nome": "levomalato de cabozantinibe 20mg com rev",
+        "idAnvisa": "169770004"
+    },
+    {
+        "nome": "levomalato de cabozantinibe 40mg com rev",
+        "idAnvisa": "169770004"
+    },
+    {
+        "nome": "levomalato de cabozantinibe 60mg com rev",
+        "idAnvisa": "169770004"
+    },
+    {
+        "nome": "levomepromazina (cloridrato) 40mg/ml sol oral",
+        "idAnvisa": "183260316"
+    },
+    {
+        "nome": "levomepromazina (cloridrato) 5mg/ml sol inj",
+        "idAnvisa": "183260316"
+    },
+    {
+        "nome": "levomepromazina (maleato) 25mg com rev",
+        "idAnvisa": "183260316"
+    },
+    {
+        "nome": "levomepromazina (maleato) 100mg com rev",
+        "idAnvisa": "183260316"
+    },
+    {
+        "nome": "levonorgestrel 1,5mg com",
+        "idAnvisa": "105730259"
+    },
+    {
+        "nome": "levonorgestrel 52mg sistema intrauterino",
+        "idAnvisa": "170560106"
+    },
+    {
+        "nome": "levosimendana 2,5mg/ml sol inj",
+        "idAnvisa": "105530255"
+    },
+    {
+        "nome": "levotiroxina sódica 137mg com",
+        "idAnvisa": "105530329"
+    },
+    {
+        "nome": "levotiroxina sódica 38mcg com",
+        "idAnvisa": "105730366"
+    },
+    {
+        "nome": "levotiroxina sódica 25mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 50mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 75mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 88mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 100mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 112mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 125mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 150mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 175mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 200mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 300mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 12,5mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 37,5mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "levotiroxina sódica 62,5mcg com",
+        "idAnvisa": "183260353"
+    },
+    {
+        "nome": "lidocaína 700mg emplastro",
+        "idAnvisa": "186100002"
+    },
+    {
+        "nome": "lidocaína (cloridrato) 20mg/mL geléia top",
+        "idAnvisa": "137640158"
+    },
+    {
+        "nome": "lidocaína (cloridrato) 20mg/mL sol inj",
+        "idAnvisa": "102980357"
+    },
+    {
+        "nome": "lidocaína (cloridrato) 10mg/ml sol inj",
+        "idAnvisa": "102980357"
+    },
+    {
+        "nome": "lidocaína base 50mg/g pom derm",
+        "idAnvisa": "137640158"
+    },
+    {
+        "nome": "lidocaína base 40mg/g crem derm",
+        "idAnvisa": "105730589"
+    },
+    {
+        "nome": "lidocaína base 100mg/ml sol top",
+        "idAnvisa": "102980357"
+    },
+    {
+        "nome": "limeciclina 150mg cap dura",
+        "idAnvisa": "129160022"
+    },
+    {
+        "nome": "limeciclina 300mg cap dura",
+        "idAnvisa": "129160022"
+    },
+    {
+        "nome": "linagliptina 5 mg com rev",
+        "idAnvisa": "103670167"
+    },
+    {
+        "nome": "lincomicina (cloridrato) 300mg/mL sol inj",
+        "idAnvisa": "102160130"
+    },
+    {
+        "nome": "linezolida 2mg/mL sol inj infus",
+        "idAnvisa": "102160177"
+    },
+    {
+        "nome": "linezolida 600mg com rev",
+        "idAnvisa": "102160177"
+    },
+    {
+        "nome": "lisdexanfetamina (dimesilato) 30mg cap dura",
+        "idAnvisa": "169790004"
+    },
+    {
+        "nome": "lisdexanfetamina (dimesilato) 50mg cap dura",
+        "idAnvisa": "169790004"
+    },
+    {
+        "nome": "lisdexanfetamina (dimesilato) 70mg cap dura",
+        "idAnvisa": "169790004"
+    },
+    {
+        "nome": "lisinopril 5mg com",
+        "idAnvisa": "116180041"
+    },
+    {
+        "nome": "lisinopril 10mg com",
+        "idAnvisa": "116180041"
+    },
+    {
+        "nome": "lisinopril 20mg com",
+        "idAnvisa": "116180041"
+    },
+    {
+        "nome": "lítio (carbonato) 300mg com rev",
+        "idAnvisa": "100430518"
+    },
+    {
+        "nome": "lítio (carbonato) 450mg com rev lib prol",
+        "idAnvisa": "100430518"
+    },
+    {
+        "nome": "loperamida (cloridrato) 2mg com",
+        "idAnvisa": "112360015"
+    },
+    {
+        "nome": "loratadina 10mg com",
+        "idAnvisa": "170560110"
+    },
+    {
+        "nome": "loratadina 1mg/mL xpe",
+        "idAnvisa": "170560110"
+    },
+    {
+        "nome": "loratadina 10mg cap mole",
+        "idAnvisa": "102351328"
+    },
+    {
+        "nome": "lorazepam 1mg com",
+        "idAnvisa": "121100035"
+    },
+    {
+        "nome": "lorazepam 2mg com",
+        "idAnvisa": "121100035"
+    },
+    {
+        "nome": "lornoxicam 8mg com rev",
+        "idAnvisa": "109740216"
+    },
+    {
+        "nome": "losartana potássica 50mg com rev",
+        "idAnvisa": "100290007"
+    },
+    {
+        "nome": "losartana potássica 100mg com rev",
+        "idAnvisa": "100290007"
+    },
+    {
+        "nome": "losartana potássica 25mg com rev",
+        "idAnvisa": "105730583"
+    },
+    {
+        "nome": "loteprednol (etabonato) 5mg/ml sus oft",
+        "idAnvisa": "119610007"
+    },
+    {
+        "nome": "loteprednol (etabonato) 2mg/ml sus oft",
+        "idAnvisa": "119610005"
+    },
+    {
+        "nome": "lovastatina 10mg com",
+        "idAnvisa": "100470393"
+    },
+    {
+        "nome": "lovastatina 20mg com",
+        "idAnvisa": "100470393"
+    },
+    {
+        "nome": "lovastatina 40mg com",
+        "idAnvisa": "100470393"
+    },
+    {
+        "nome": "loxoprofeno sódico 60mg com",
+        "idAnvisa": "104540159"
+    },
+    {
+        "nome": "lurasidona (cloridrato) 20mg com rev",
+        "idAnvisa": "104540184"
+    },
+    {
+        "nome": "lurasidona (cloridrato) 40mg com rev",
+        "idAnvisa": "104540184"
+    },
+    {
+        "nome": "lurasidona (cloridrato) 80mg com rev",
+        "idAnvisa": "104540184"
+    },
+    {
+        "nome": "malato de sunitinibe 12,5mg cap dura",
+        "idAnvisa": "121100466"
+    },
+    {
+        "nome": "malato de sunitinibe 25mg cap dura",
+        "idAnvisa": "121100466"
+    },
+    {
+        "nome": "malato de sunitinibe 37,5mg cap dura",
+        "idAnvisa": "121100466"
+    },
+    {
+        "nome": "malato de sunitinibe 50mg cap dura",
+        "idAnvisa": "121100466"
+    },
+    {
+        "nome": "maleato de asenapina 5mg com subl",
+        "idAnvisa": "101710188"
+    },
+    {
+        "nome": "maleato de asenapina 10mg com subl",
+        "idAnvisa": "101710188"
+    },
+    {
+        "nome": "maleato de fluvoxamina 50mg com rev",
+        "idAnvisa": "105530352"
+    },
+    {
+        "nome": "maleato de fluvoxamina 100mg com rev",
+        "idAnvisa": "105530352"
+    },
+    {
+        "nome": "manidipino (dicloridrato) 10mg com",
+        "idAnvisa": "100580089"
+    },
+    {
+        "nome": "manidipino (dicloridrato) 20mg com",
+        "idAnvisa": "100580089"
+    },
+    {
+        "nome": "maraviroque 150mg com rev",
+        "idAnvisa": "101070283"
+    },
+    {
+        "nome": "maraviroque 300mg com rev",
+        "idAnvisa": "101070283"
+    },
+    {
+        "nome": "mebendazol 500mg com",
+        "idAnvisa": "112363333"
+    },
+    {
+        "nome": "mebendazol 20mg/mL sus or",
+        "idAnvisa": "112363333"
+    },
+    {
+        "nome": "mebeverina (cloridrato) 200mg cap lib prol",
+        "idAnvisa": "105530353"
+    },
+    {
+        "nome": "mebutato de ingenol 150mcg/g gel",
+        "idAnvisa": "185690005"
+    },
+    {
+        "nome": "mebutato de ingenol 500mcg/g gel",
+        "idAnvisa": "185690005"
+    },
+    {
+        "nome": "meclizina (cloridrato) 12,5mg com",
+        "idAnvisa": "101180165"
+    },
+    {
+        "nome": "meclizina (cloridrato) 25mg com",
+        "idAnvisa": "101180165"
+    },
+    {
+        "nome": "meclizina (cloridrato) 50mg com",
+        "idAnvisa": "101180165"
+    },
+    {
+        "nome": "medroxiprogesterona (acetato) 150mg/mL sus inj",
+        "idAnvisa": "121100367"
+    },
+    {
+        "nome": "medroxiprogesterona (acetato) 2,5mg com",
+        "idAnvisa": "102160196"
+    },
+    {
+        "nome": "medroxiprogesterona (acetato) 5mg com",
+        "idAnvisa": "102160196"
+    },
+    {
+        "nome": "medroxiprogesterona (acetato) 10mg com",
+        "idAnvisa": "102160196"
+    },
+    {
+        "nome": "medroxiprogesterona (acetato) 160mg/mL sus inj",
+        "idAnvisa": "121100367"
+    },
+    {
+        "nome": "mefenâmico, ácido 500mg com",
+        "idAnvisa": "102160093"
+    },
+    {
+        "nome": "megestrol (acetato) 160 mg com",
+        "idAnvisa": "106460123"
+    },
+    {
+        "nome": "meglumina (antimoniato) 300mg/mL sol inj",
+        "idAnvisa": "183260322"
+    },
+    {
+        "nome": "melfalana 2 mg com rev",
+        "idAnvisa": "101070176"
+    },
+    {
+        "nome": "melfalana 50mg/10mL po liof sol inj",
+        "idAnvisa": "101070176"
+    },
+    {
+        "nome": "meloxicam 7,5mg com",
+        "idAnvisa": "100430039"
+    },
+    {
+        "nome": "meloxicam 15mg com",
+        "idAnvisa": "102980289"
+    },
+    {
+        "nome": "memantina (cloridrato) 10mg com rev",
+        "idAnvisa": "104750050"
+    },
+    {
+        "nome": "memantina (cloridrato) 20mg com rev",
+        "idAnvisa": "104750050"
+    },
+    {
+        "nome": "memantina (cloridrato) 10mg/mL sol oral",
+        "idAnvisa": "101180615"
+    },
+    {
+        "nome": "memantina (cloridrato) 5mg com orodisp",
+        "idAnvisa": "102351324"
+    },
+    {
+        "nome": "memantina (cloridrato) 10mg com orodisp",
+        "idAnvisa": "102351324"
+    },
+    {
+        "nome": "memantina (cloridrato) 15mg com orodisp",
+        "idAnvisa": "102351324"
+    },
+    {
+        "nome": "memantina (cloridrato) 20mg com orodisp",
+        "idAnvisa": "102351324"
+    },
+    {
+        "nome": "mepivacaína (cloridrato) 30mg/mL sol inj",
+        "idAnvisa": "109930008"
+    },
+    {
+        "nome": "mercaptopurina 50mg com",
+        "idAnvisa": "137640133"
+    },
+    {
+        "nome": "meropeném triidratado 500mg/10mL po sol inj",
+        "idAnvisa": "121100433"
+    },
+    {
+        "nome": "meropeném triidratado 1000mg/20mL po sol inj",
+        "idAnvisa": "121100433"
+    },
+    {
+        "nome": "meropeném triidratado 2g/20mL po sol inj",
+        "idAnvisa": "100431008"
+    },
+    {
+        "nome": "mesalazina 400mg com rev",
+        "idAnvisa": "155840259"
+    },
+    {
+        "nome": "mesalazina 1000mg sup ret",
+        "idAnvisa": "128760002"
+    },
+    {
+        "nome": "mesalazina 500mg com lib prol",
+        "idAnvisa": "128760002"
+    },
+    {
+        "nome": "mesalazina 10mg/mL enema ret",
+        "idAnvisa": "128760002"
+    },
+    {
+        "nome": "mesalazina 250mg sup",
+        "idAnvisa": "100890168"
+    },
+    {
+        "nome": "mesalazina 3g sus ret",
+        "idAnvisa": "100890168"
+    },
+    {
+        "nome": "mesalazina 500mg sup ret",
+        "idAnvisa": "106390248"
+    },
+    {
+        "nome": "mesalazina 800mg com rev",
+        "idAnvisa": "106390248"
+    },
+    {
+        "nome": "mesalazina 1200mg com lib prol",
+        "idAnvisa": "106390248"
+    },
+    {
+        "nome": "mesilato de osimertinibe 40mg com rev",
+        "idAnvisa": "116180254"
+    },
+    {
+        "nome": "mesilato de osimertinibe 80mg com rev",
+        "idAnvisa": "116180254"
+    },
+    {
+        "nome": "mesilato de rasagilina 1mg com",
+        "idAnvisa": "155730033"
+    },
+    {
+        "nome": "mesna 100mg/mL sol inj",
+        "idAnvisa": "106830170"
+    },
+    {
+        "nome": "metadona (cloridrato) 10mg/mL sol inj",
+        "idAnvisa": "102980138"
+    },
+    {
+        "nome": "metadona (cloridrato) 5mg com",
+        "idAnvisa": "102980138"
+    },
+    {
+        "nome": "metadona (cloridrato) 10mg com",
+        "idAnvisa": "102980138"
+    },
+    {
+        "nome": "metformina (cloridrato) 500mg com rev",
+        "idAnvisa": "100890193"
+    },
+    {
+        "nome": "metformina (cloridrato) 850mg com rev",
+        "idAnvisa": "100890193"
+    },
+    {
+        "nome": "metformina (cloridrato) 1000mg com rev",
+        "idAnvisa": "100890193"
+    },
+    {
+        "nome": "metformina (cloridrato) 750mg com lib prol",
+        "idAnvisa": "100890340"
+    },
+    {
+        "nome": "metformina (cloridrato) 500mg com lib prol",
+        "idAnvisa": "100890340"
+    },
+    {
+        "nome": "metformina (cloridrato) 1000mg com lib prol",
+        "idAnvisa": "100890340"
+    },
+    {
+        "nome": "metildopa 250mg com rev",
+        "idAnvisa": "137640117"
+    },
+    {
+        "nome": "metildopa 500mg com rev",
+        "idAnvisa": "137640117"
+    },
+    {
+        "nome": "metilergotamina (maletato) 0,125mg drag",
+        "idAnvisa": "100680076"
+    },
+    {
+        "nome": "metilergotamina (maletato) 0,2mg/mL sol inj",
+        "idAnvisa": "100680076"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 18mg com rev lib prol",
+        "idAnvisa": "112363357"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 36mg com rev lib prol",
+        "idAnvisa": "112363357"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 54mg com rev lib prol",
+        "idAnvisa": "112363357"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 10mg com",
+        "idAnvisa": "100680080"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 10mg cap dura  lib mod",
+        "idAnvisa": "100680080"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 20mg cap dura  lib mod",
+        "idAnvisa": "100680080"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 30mg cap dura  lib mod",
+        "idAnvisa": "100680080"
+    },
+    {
+        "nome": "metilfenidato (cloridrato) 40mg cap dura  lib mod",
+        "idAnvisa": "100680080"
+    },
+    {
+        "nome": "metilprednisolona (aceponato) 1mg/g crem derm",
+        "idAnvisa": "185690010"
+    },
+    {
+        "nome": "metilprednisolona (aceponato) 1mg/g loç derm",
+        "idAnvisa": "185690010"
+    },
+    {
+        "nome": "metilprednisolona (aceponato) 1mg/g sol top",
+        "idAnvisa": "185690010"
+    },
+    {
+        "nome": "metilprednisolona (acetato) 40mg/mL sus inj",
+        "idAnvisa": "102160126"
+    },
+    {
+        "nome": "metilprednisolona (succinato sódico) 40mg /1mL po liof sol inj",
+        "idAnvisa": "102160146"
+    },
+    {
+        "nome": "metilprednisolona (succinato sódico) 125mg/2mL po liof sol inj",
+        "idAnvisa": "102160146"
+    },
+    {
+        "nome": "metilprednisolona (succinato sódico) 500mg/8mL po liof sol inj",
+        "idAnvisa": "102160146"
+    },
+    {
+        "nome": "metilprednisolona (succinato sódico) 1000mg /16mL po liof sol inj",
+        "idAnvisa": "102160146"
+    },
+    {
+        "nome": "metoclopramida (cloridrato) 10mg com",
+        "idAnvisa": "183260318"
+    },
+    {
+        "nome": "metoclopramida (cloridrato) 5mg/ml sol inj",
+        "idAnvisa": "103700281"
+    },
+    {
+        "nome": "metoclopramida (cloridrato) 4mg/ml sol oral",
+        "idAnvisa": "103700281"
+    },
+    {
+        "nome": "metoprolol (succinato) 25mg com rev lib prol",
+        "idAnvisa": "116180077"
+    },
+    {
+        "nome": "metoprolol (succinato) 50mg com rev lib prol",
+        "idAnvisa": "116180077"
+    },
+    {
+        "nome": "metoprolol (succinato) 100mg com rev lib prol",
+        "idAnvisa": "116180077"
+    },
+    {
+        "nome": "metoprolol (tartarato) 100mg com",
+        "idAnvisa": "116180071"
+    },
+    {
+        "nome": "metoprolol (tartarato) 1mg/mL sol inj",
+        "idAnvisa": "116180071"
+    },
+    {
+        "nome": "metoprolol (tartarato) 100mg com rev",
+        "idAnvisa": "100680066"
+    },
+    {
+        "nome": "metotrexato 25mg/mL sol inj",
+        "idAnvisa": "155730002"
+    },
+    {
+        "nome": "metotrexato 100mg/mL sol inj",
+        "idAnvisa": "155730002"
+    },
+    {
+        "nome": "metronidazol 7,5mg/g gel",
+        "idAnvisa": "129160007"
+    },
+    {
+        "nome": "metronidazol 250mg com rev",
+        "idAnvisa": "183260377"
+    },
+    {
+        "nome": "metronidazol 400mg com rev",
+        "idAnvisa": "183260377"
+    },
+    {
+        "nome": "metronidazol 5mg/mL sol inj",
+        "idAnvisa": "183260377"
+    },
+    {
+        "nome": "metronidazol 100mg/g geleia vag",
+        "idAnvisa": "113000078"
+    },
+    {
+        "nome": "micafungina sódica 100mg po liof sol inj",
+        "idAnvisa": "177170001"
+    },
+    {
+        "nome": "micafungina sódica 50mg po liof sol inj",
+        "idAnvisa": "177170001"
+    },
+    {
+        "nome": "micofenolato sódico 180mg com rev",
+        "idAnvisa": "100680897"
+    },
+    {
+        "nome": "micofenolato sódico 360mg com rev",
+        "idAnvisa": "100680897"
+    },
+    {
+        "nome": "miconazol 20mg/ml gel or",
+        "idAnvisa": "112363402"
+    },
+    {
+        "nome": "miconazol (nitrato) 20mg/ml emulsão",
+        "idAnvisa": "155840555"
+    },
+    {
+        "nome": "miconazol (nitrato) 20mg/g crem vag",
+        "idAnvisa": "103700296"
+    },
+    {
+        "nome": "miconazol (nitrato) 20mg/ml sol aer",
+        "idAnvisa": "104971357"
+    },
+    {
+        "nome": "midazolam 1mg/mL sol inj",
+        "idAnvisa": "103900204"
+    },
+    {
+        "nome": "midazolam 5mg/mL sol inj",
+        "idAnvisa": "103900204"
+    },
+    {
+        "nome": "midazolam (maleato) 7,5mg com rev",
+        "idAnvisa": "103900204"
+    },
+    {
+        "nome": "midazolam (maleato) 15mg com rev",
+        "idAnvisa": "103900204"
+    },
+    {
+        "nome": "miglustate 100mg cap dura",
+        "idAnvisa": "112363431"
+    },
+    {
+        "nome": "milrinona (lactato) 1mg/mL sol inj",
+        "idAnvisa": "183260321"
+    },
+    {
+        "nome": "minociclina (cloridrato) 100mg com rev",
+        "idAnvisa": "123520091"
+    },
+    {
+        "nome": "minoxidil 10mg com",
+        "idAnvisa": "102160171"
+    },
+    {
+        "nome": "minoxidil 50 mg/mL sol capilar",
+        "idAnvisa": "101910304"
+    },
+    {
+        "nome": "mirabegrona 25 mg com rev lib prol",
+        "idAnvisa": "177170009"
+    },
+    {
+        "nome": "mirabegrona 50 mg com rev lib prol",
+        "idAnvisa": "177170009"
+    },
+    {
+        "nome": "mirtazapina 15mg com orodisp",
+        "idAnvisa": "101710077"
+    },
+    {
+        "nome": "mirtazapina 30mg com orodisp",
+        "idAnvisa": "101710077"
+    },
+    {
+        "nome": "mirtazapina 45mg com orodisp",
+        "idAnvisa": "101710077"
+    },
+    {
+        "nome": "mirtazapina 30mg com rev",
+        "idAnvisa": "100470462"
+    },
+    {
+        "nome": "mirtazapina 45mg com rev",
+        "idAnvisa": "100470462"
+    },
+    {
+        "nome": "misoprostol 100mcg com vag",
+        "idAnvisa": "115570044"
+    },
+    {
+        "nome": "mitoxantrona 2mg/ml sol inj",
+        "idAnvisa": "116880019"
+    },
+    {
+        "nome": "mitotano 500mg com rev",
+        "idAnvisa": "164250003"
+    },
+    {
+        "nome": "modafinila 100mg com",
+        "idAnvisa": "100330145"
+    },
+    {
+        "nome": "modafinila 200mg com",
+        "idAnvisa": "100330145"
+    },
+    {
+        "nome": "mofetila (micofenolato) 500mg com rev",
+        "idAnvisa": "101000539"
+    },
+    {
+        "nome": "mometasona (furoato) 200mcg cap dura po inal or + inal",
+        "idAnvisa": "178170788"
+    },
+    {
+        "nome": "mometasona (furoato) 400mcg cap dura po inal or + inal",
+        "idAnvisa": "178170788"
+    },
+    {
+        "nome": "mometasona (furoato) 50mcg/dose sus spr nas",
+        "idAnvisa": "101710191"
+    },
+    {
+        "nome": "mometasona (furoato) 1mg/g crem derm",
+        "idAnvisa": "100330114"
+    },
+    {
+        "nome": "mometasona (furoato) 1mg/g pom derm",
+        "idAnvisa": "100330114"
+    },
+    {
+        "nome": "monoetanolamina (oleato) 50mg/mL sol inj",
+        "idAnvisa": "149160002"
+    },
+    {
+        "nome": "montelucaste sódico 10mg com rev",
+        "idAnvisa": "100290005"
+    },
+    {
+        "nome": "montelucaste sódico 4mg com mast",
+        "idAnvisa": "100290005"
+    },
+    {
+        "nome": "montelucaste sódico 5mg com mast",
+        "idAnvisa": "100290005"
+    },
+    {
+        "nome": "montelucaste sódico 4mg grânulo",
+        "idAnvisa": "105730405"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 10mg/mL sol inj",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 10mg/mL sol oral",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 0,1mg/mL sol inj",
+        "idAnvisa": "102980363"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 0,2mg/mL sol inj",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 1mg/mL sol inj",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 10mg com",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 30mg com",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 30mg cap gel lib retard",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 60mg cap gel lib retard",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "morfina (sulfato pentahidratado) 100mg cap gel lib retard",
+        "idAnvisa": "102980097"
+    },
+    {
+        "nome": "moxifloxacino (cloridrato) 1,6mg/mL sol infus endovenosa",
+        "idAnvisa": "170560031"
+    },
+    {
+        "nome": "moxifloxacino (cloridrato) 400mg com rev",
+        "idAnvisa": "170560031"
+    },
+    {
+        "nome": "moxifloxacino (cloridrato) 5mg/mL sol oft",
+        "idAnvisa": "100681112"
+    },
+    {
+        "nome": "mupirocina 20mg/g pom derm",
+        "idAnvisa": "101070078"
+    },
+    {
+        "nome": "nafazolina (cloridrato) 0,5mg sol nas",
+        "idAnvisa": "105730050"
+    },
+    {
+        "nome": "nalbufina (cloridrato) 10mg/mL sol inj",
+        "idAnvisa": "102980284"
+    },
+    {
+        "nome": "naloxona (cloridrato) 0,4mg/mL sol inj",
+        "idAnvisa": "102980283"
+    },
+    {
+        "nome": "naltrexona (cloridrato) 50 mg com",
+        "idAnvisa": "102980164"
+    },
+    {
+        "nome": "naproxeno 250mg com",
+        "idAnvisa": "103700446"
+    },
+    {
+        "nome": "naproxeno 500mg com",
+        "idAnvisa": "103700446"
+    },
+    {
+        "nome": "naproxeno sódico 275mg com rev",
+        "idAnvisa": "170560047"
+    },
+    {
+        "nome": "naproxeno sódico 550mg com rev",
+        "idAnvisa": "170560047"
+    },
+    {
+        "nome": "naratriptana (cloridrato) 2,5 mg com rev",
+        "idAnvisa": "101070259"
+    },
+    {
+        "nome": "nebivolol (cloridrato) 5mg com",
+        "idAnvisa": "109740211"
+    },
+    {
+        "nome": "neostigmina (metilsulfato) 0,5mg/mL sol inj",
+        "idAnvisa": "105750043"
+    },
+    {
+        "nome": "nepafenaco 1mg/ml sus oft",
+        "idAnvisa": "100681105"
+    },
+    {
+        "nome": "nevirapina 200mg comprimido",
+        "idAnvisa": "110630063"
+    },
+    {
+        "nome": "nicotina 7mg ades",
+        "idAnvisa": "134800106"
+    },
+    {
+        "nome": "nicotina 14mg ades",
+        "idAnvisa": "134800106"
+    },
+    {
+        "nome": "nicotina 21mg ades",
+        "idAnvisa": "134800106"
+    },
+    {
+        "nome": "nicotina 2mg pastilha",
+        "idAnvisa": "134800107"
+    },
+    {
+        "nome": "nicotina 4mg pastilha",
+        "idAnvisa": "134800107"
+    },
+    {
+        "nome": "nicotina 2mg goma",
+        "idAnvisa": "112363423"
+    },
+    {
+        "nome": "nicotina 4mg goma",
+        "idAnvisa": "112363423"
+    },
+    {
+        "nome": "nifedipino 10mg cap mole",
+        "idAnvisa": "104290001"
+    },
+    {
+        "nome": "nifedipino 20mg com rev mult lib prol",
+        "idAnvisa": "104290001"
+    },
+    {
+        "nome": "nifedipino 30mg com rev mult lib prol",
+        "idAnvisa": "104290001"
+    },
+    {
+        "nome": "nifedipino 60mg com rev mult lib prol",
+        "idAnvisa": "104290001"
+    },
+    {
+        "nome": "nifedipino 10mg com rev",
+        "idAnvisa": "104290001"
+    },
+    {
+        "nome": "nifedipino 20mg com rev",
+        "idAnvisa": "104290001"
+    },
+    {
+        "nome": "nilotinibe 200mg cap dura",
+        "idAnvisa": "100681060"
+    },
+    {
+        "nome": "nilotinibe 150mg cap dura",
+        "idAnvisa": "100681061"
+    },
+    {
+        "nome": "nimesulida 50mg sup",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 100mg sup",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 100mg com",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 100mg com disp",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 100mg gran",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 50mg/mL sus or",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 10mg/mL sus or",
+        "idAnvisa": "105730301"
+    },
+    {
+        "nome": "nimesulida 200 mg cap lib prol",
+        "idAnvisa": "104300041"
+    },
+    {
+        "nome": "nimesulida 20mg/g gel",
+        "idAnvisa": "118190069"
+    },
+    {
+        "nome": "nimesulida betaciclodextrina 400mg com",
+        "idAnvisa": "178170098"
+    },
+    {
+        "nome": "nistatina 100.000UI/ml sus or",
+        "idAnvisa": "103700078"
+    },
+    {
+        "nome": "nistatina 25.000 UI creme vaginal",
+        "idAnvisa": "103700078"
+    },
+    {
+        "nome": "nitazoxanida 500mg com rev",
+        "idAnvisa": "103900173"
+    },
+    {
+        "nome": "nitazoxanida 20mg/mL sus or",
+        "idAnvisa": "103900173"
+    },
+    {
+        "nome": "nitrato de miconazol 20mg/g po uso top",
+        "idAnvisa": "104971155"
+    },
+    {
+        "nome": "nitrato de miconazol 20mg/g crem derm",
+        "idAnvisa": "104971155"
+    },
+    {
+        "nome": "nitrofurantoína 100mg cap dura",
+        "idAnvisa": "178170787"
+    },
+    {
+        "nome": "nitroglicerina 25mg ades",
+        "idAnvisa": "100680092"
+    },
+    {
+        "nome": "nitroglicerina 50mg ades",
+        "idAnvisa": "100680092"
+    },
+    {
+        "nome": "nitroglicerina 5mg/mL sol inj",
+        "idAnvisa": "102980133"
+    },
+    {
+        "nome": "nitroprusseto sódico diidratado 50mg po liof inj + diluente 2 mL",
+        "idAnvisa": "102980218"
+    },
+    {
+        "nome": "nitrofural 2mg/g pom derm",
+        "idAnvisa": "172870508"
+    },
+    {
+        "nome": "nitrofural 2mg/mL sol top",
+        "idAnvisa": "172870508"
+    },
+    {
+        "nome": "nomegestrol (acetato) 5mg com",
+        "idAnvisa": "155730020"
+    },
+    {
+        "nome": "norepinefrina (hemitartarato) 2mg/mL sol inj",
+        "idAnvisa": "103870030"
+    },
+    {
+        "nome": "noretisterona 0,35mg com",
+        "idAnvisa": "112363334"
+    },
+    {
+        "nome": "norfloxacino 400mg com rev",
+        "idAnvisa": "183260141"
+    },
+    {
+        "nome": "nortriptilina (cloridrato) 2mg/mL sol oral",
+        "idAnvisa": "100680025"
+    },
+    {
+        "nome": "nortriptilina (cloridrato) 10mg cap dura",
+        "idAnvisa": "100680025"
+    },
+    {
+        "nome": "nortriptilina (cloridrato) 25mg cap dura",
+        "idAnvisa": "100680025"
+    },
+    {
+        "nome": "nortriptilina (cloridrato) 50mg cap dura",
+        "idAnvisa": "100680025"
+    },
+    {
+        "nome": "nortriptilina (cloridrato) 75mg cap dura",
+        "idAnvisa": "100680025"
+    },
+    {
+        "nome": "ocitocina 5UI/mL sol inj",
+        "idAnvisa": "100680034"
+    },
+    {
+        "nome": "ocitocina 40UI/mL sol spr nas",
+        "idAnvisa": "100680034"
+    },
+    {
+        "nome": "octreotida 0,05mg/mL sol inj",
+        "idAnvisa": "100680009"
+    },
+    {
+        "nome": "octreotida 0,1mg/mL sol inj",
+        "idAnvisa": "100680009"
+    },
+    {
+        "nome": "octreotida 0,5mg/mL sol inj",
+        "idAnvisa": "100680009"
+    },
+    {
+        "nome": "octreotida (acetato) 10mg/2,5mL po sus inj",
+        "idAnvisa": "100680009"
+    },
+    {
+        "nome": "octreotida (acetato) 20mg/2,5mL po sus inj",
+        "idAnvisa": "100680009"
+    },
+    {
+        "nome": "octreotida (acetato) 30mg/2,5mL po sus inj",
+        "idAnvisa": "100680009"
+    },
+    {
+        "nome": "ofloxacino 3mg/mL sol oft",
+        "idAnvisa": "101470027"
+    },
+    {
+        "nome": "olanzapina 2,5mg com rev",
+        "idAnvisa": "112600021"
+    },
+    {
+        "nome": "olanzapina 5mg com rev",
+        "idAnvisa": "112600021"
+    },
+    {
+        "nome": "olanzapina 10mg com rev",
+        "idAnvisa": "112600021"
+    },
+    {
+        "nome": "olanzapina 5mg com orodisp",
+        "idAnvisa": "112600021"
+    },
+    {
+        "nome": "olanzapina 10mg com orodisp",
+        "idAnvisa": "112600021"
+    },
+    {
+        "nome": "olaparibe 100mg com rev",
+        "idAnvisa": "116180268"
+    },
+    {
+        "nome": "olaparibe 150mg com rev",
+        "idAnvisa": "116180268"
+    },
+    {
+        "nome": "olaparibe 50mg cap dura",
+        "idAnvisa": "116180255"
+    },
+    {
+        "nome": "olmesartana medoxomila 20mg com rev",
+        "idAnvisa": "104540172"
+    },
+    {
+        "nome": "olmesartana medoxomila 40mg com rev",
+        "idAnvisa": "104540172"
+    },
+    {
+        "nome": "olodaterol (cloridratro) 2,5mcg sol inal",
+        "idAnvisa": "103670171"
+    },
+    {
+        "nome": "olopatadina (cloridrato) 1mg/mL sol oft",
+        "idAnvisa": "100681110"
+    },
+    {
+        "nome": "olopatadina (cloridrato) 2mg/mL sol oft",
+        "idAnvisa": "100681110"
+    },
+    {
+        "nome": "omeprazol (sódico) 40mg/ml pó liof inj",
+        "idAnvisa": "100430730"
+    },
+    {
+        "nome": "omeprazol magnésico 10mg com rev",
+        "idAnvisa": "116180075"
+    },
+    {
+        "nome": "omeprazol magnésico 20mg com rev",
+        "idAnvisa": "116180075"
+    },
+    {
+        "nome": "omeprazol magnésico 40mg com rev",
+        "idAnvisa": "116180075"
+    },
+    {
+        "nome": "ondansetrona (cloridrato) 4mg com desint or",
+        "idAnvisa": "109740194"
+    },
+    {
+        "nome": "ondansetrona (cloridrato) 8mg com desint or",
+        "idAnvisa": "109740194"
+    },
+    {
+        "nome": "ondansetrona (cloridrato) 2mg/mL sol inj",
+        "idAnvisa": "100681139"
+    },
+    {
+        "nome": "ondansetrona (cloridrato) 4mg com rev",
+        "idAnvisa": "116370146"
+    },
+    {
+        "nome": "ondansetrona (cloridrato) 8mg com rev",
+        "idAnvisa": "116370146"
+    },
+    {
+        "nome": "orlistate 120mg cap dura",
+        "idAnvisa": "155840527"
+    },
+    {
+        "nome": "oseltamivir (fosfato) 12mg/mL po sus or",
+        "idAnvisa": "101000555"
+    },
+    {
+        "nome": "oseltamivir (fosfato) 30mg cap dura",
+        "idAnvisa": "101000555"
+    },
+    {
+        "nome": "oseltamivir (fosfato) 45mg cap dura",
+        "idAnvisa": "101000555"
+    },
+    {
+        "nome": "oseltamivir (fosfato) 75mg cap dura",
+        "idAnvisa": "101000555"
+    },
+    {
+        "nome": "oxacilina sódica 500mg po sol inj",
+        "idAnvisa": "103700282"
+    },
+    {
+        "nome": "oxaliplatina 50mg po liof sol inj",
+        "idAnvisa": "105730585"
+    },
+    {
+        "nome": "oxaliplatina 100mg po liof sol inj",
+        "idAnvisa": "105730585"
+    },
+    {
+        "nome": "oxaliplatina 5,0 mg/mL sol inj",
+        "idAnvisa": "183260426"
+    },
+    {
+        "nome": "oxamniquina 250mg cap dura",
+        "idAnvisa": "102160014"
+    },
+    {
+        "nome": "oxamniquina 50mg/mL sus or",
+        "idAnvisa": "102160014"
+    },
+    {
+        "nome": "oxcarbazepina 300mg com rev",
+        "idAnvisa": "100680046"
+    },
+    {
+        "nome": "oxcarbazepina 600mg com rev",
+        "idAnvisa": "100680046"
+    },
+    {
+        "nome": "oxcarbazepina 60mg/mL sus or",
+        "idAnvisa": "100680046"
+    },
+    {
+        "nome": "oxibutinina (cloridrato) 1mg/mL xpe",
+        "idAnvisa": "101180108"
+    },
+    {
+        "nome": "oxibutinina (cloridrato) 5,0mg com",
+        "idAnvisa": "101180108"
+    },
+    {
+        "nome": "oxibutinina (cloridrato) 5mg com rev lib control",
+        "idAnvisa": "101180108"
+    },
+    {
+        "nome": "oxibutinina (cloridrato) 10mg com rev lib control",
+        "idAnvisa": "101180108"
+    },
+    {
+        "nome": "oxiconazol (nitrato) 10mg/g crem derm",
+        "idAnvisa": "170560025"
+    },
+    {
+        "nome": "oxiconazol (nitrato) 10mg/g sol top",
+        "idAnvisa": "125680113"
+    },
+    {
+        "nome": "oximetazolina (cloridrato) 0,25 g/ml sol got nas",
+        "idAnvisa": "170560112"
+    },
+    {
+        "nome": "oximetazolina (cloridrato) 0,50 mg/ml sol spr nas",
+        "idAnvisa": "170560112"
+    },
+    {
+        "nome": "paclitaxel 6mg/mL sol inj",
+        "idAnvisa": "101800151"
+    },
+    {
+        "nome": "paclitaxel (ligado à albumina) 100mg po liof sus inj",
+        "idAnvisa": "196140001"
+    },
+    {
+        "nome": "palbociclibe 75 mg cap dura",
+        "idAnvisa": "121100467"
+    },
+    {
+        "nome": "palbociclibe 100 mg cap dura",
+        "idAnvisa": "121100467"
+    },
+    {
+        "nome": "palbociclibe 125 mg cap dura",
+        "idAnvisa": "121100467"
+    },
+    {
+        "nome": "paliperidona 3mg com rev lib prol",
+        "idAnvisa": "112363388"
+    },
+    {
+        "nome": "paliperidona 6mg com rev lib prol",
+        "idAnvisa": "112363388"
+    },
+    {
+        "nome": "paliperidona 9mg com rev lib prol",
+        "idAnvisa": "112363388"
+    },
+    {
+        "nome": "palmitato de paliperidona 100mg/mL sus inj",
+        "idAnvisa": "112363398"
+    },
+    {
+        "nome": "palmitato de paliperidona 200mg/mL sus inj",
+        "idAnvisa": "112363398"
+    },
+    {
+        "nome": "pamidronato dissódico 60mg/10mL po liof sol inj",
+        "idAnvisa": "102980310"
+    },
+    {
+        "nome": "pamidronato dissódico 90 mg/10mL po liof sol inj",
+        "idAnvisa": "102980310"
+    },
+    {
+        "nome": "pamidronato dissódico 9 mg/mL sol inj",
+        "idAnvisa": "102980310"
+    },
+    {
+        "nome": "pantoprazol magnésico 40 mg com rev lib retard",
+        "idAnvisa": "106390256"
+    },
+    {
+        "nome": "pantoprazol sódico 4mg/ 10mL po liof sol inj",
+        "idAnvisa": "106390182"
+    },
+    {
+        "nome": "pantoprazol sódico 20mg com rev lib retard",
+        "idAnvisa": "106390182"
+    },
+    {
+        "nome": "pantoprazol sódico 40mg com rev lib retard",
+        "idAnvisa": "106390182"
+    },
+    {
+        "nome": "paracetamol 500 mg com efer",
+        "idAnvisa": "101070169"
+    },
+    {
+        "nome": "paracetamol 140 mg/ml sus or",
+        "idAnvisa": "178170795"
+    },
+    {
+        "nome": "paracetamol 160 mg com mast",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 500 mg com rev",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 750 mg com rev",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 650 mg com rev",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 100 mg/mL sus or",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 32 mg/mL sus or",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 500 mg com rev gelat",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 200 mg/mL sol oral",
+        "idAnvisa": "112363326"
+    },
+    {
+        "nome": "paracetamol 500mg po prep extemp",
+        "idAnvisa": "121420001"
+    },
+    {
+        "nome": "paracetamol 10mg/ml sol infus IV",
+        "idAnvisa": "100410163"
+    },
+    {
+        "nome": "parecoxibe sódico 40 mg/2mL po liof sol inj",
+        "idAnvisa": "102160137"
+    },
+    {
+        "nome": "paricalcitol 5 mcg/ml sol inj",
+        "idAnvisa": "198600008"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 20mg com rev",
+        "idAnvisa": "101070073"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 12,5mg com rev lib prol",
+        "idAnvisa": "101070224"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 25mg com rev lib prol",
+        "idAnvisa": "101070224"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 10mg com rev",
+        "idAnvisa": "100330127"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 30mg com rev",
+        "idAnvisa": "100330090"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 15mg com rev",
+        "idAnvisa": "100430947"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 25mg com rev",
+        "idAnvisa": "100430947"
+    },
+    {
+        "nome": "paroxetina (cloridrato) 40mg com rev",
+        "idAnvisa": "100430637"
+    },
+    {
+        "nome": "pazopanibe (cloridrato) 200mg com rev",
+        "idAnvisa": "100681136"
+    },
+    {
+        "nome": "pazopanibe (cloridrato) 400mg com rev",
+        "idAnvisa": "100681136"
+    },
+    {
+        "nome": "pemetrexede dissódico heptaidratado 100mg po liof sol inj",
+        "idAnvisa": "112600166"
+    },
+    {
+        "nome": "pemetrexede dissódico heptaidratado 500mg po liof sol inj",
+        "idAnvisa": "112600166"
+    },
+    {
+        "nome": "pentoxifilina 400 mg com rev lib prol",
+        "idAnvisa": "102350496"
+    },
+    {
+        "nome": "perampanel 2mg com rev",
+        "idAnvisa": "125760029"
+    },
+    {
+        "nome": "perampanel 4mg com rev",
+        "idAnvisa": "125760029"
+    },
+    {
+        "nome": "perampanel 6mg com rev",
+        "idAnvisa": "125760029"
+    },
+    {
+        "nome": "perampanel 8mg com rev",
+        "idAnvisa": "125760029"
+    },
+    {
+        "nome": "perampanel 10mg com rev",
+        "idAnvisa": "125760029"
+    },
+    {
+        "nome": "perampanel 12mg com rev",
+        "idAnvisa": "125760029"
+    },
+    {
+        "nome": "periciazina 10mg/ml sol oral",
+        "idAnvisa": "183260317"
+    },
+    {
+        "nome": "periciazina 40mg/mL sol oral",
+        "idAnvisa": "183260317"
+    },
+    {
+        "nome": "periciazina 10mg com rev",
+        "idAnvisa": "183260317"
+    },
+    {
+        "nome": "perindorpil arginina 5mg com rev",
+        "idAnvisa": "112780074"
+    },
+    {
+        "nome": "perindorpil arginina 10mg com ver",
+        "idAnvisa": "112780074"
+    },
+    {
+        "nome": "perindopril erbumina 4mg com",
+        "idAnvisa": "112780051"
+    },
+    {
+        "nome": "perindopril erbumina 8mg com",
+        "idAnvisa": "112780051"
+    },
+    {
+        "nome": "permetrina 10mg/g loç",
+        "idAnvisa": "137640154"
+    },
+    {
+        "nome": "permetrina 10mg/g sab",
+        "idAnvisa": "137640163"
+    },
+    {
+        "nome": "permetrina 10mg/mL xamp",
+        "idAnvisa": "137640163"
+    },
+    {
+        "nome": "permetrina 50mg/mL loç cremosa",
+        "idAnvisa": "137640163"
+    },
+    {
+        "nome": "petidina (cloridrato) 50mg/mL sol inj",
+        "idAnvisa": "183260425"
+    },
+    {
+        "nome": "picossulfato sódico monoidratado 7,5mg sol oral",
+        "idAnvisa": "183260429"
+    },
+    {
+        "nome": "pilocarpina (cloridrato) 10mg/ml sol oft",
+        "idAnvisa": "101470111"
+    },
+    {
+        "nome": "pilocarpina (cloridrato) 20mg/ml sol oft",
+        "idAnvisa": "101470111"
+    },
+    {
+        "nome": "pilocarpina (cloridrato) 40mg/ml sol oft",
+        "idAnvisa": "101470111"
+    },
+    {
+        "nome": "pimecrolimo 10mg/g crem derm",
+        "idAnvisa": "100680883"
+    },
+    {
+        "nome": "pinavério (brometo) 50mg com rev",
+        "idAnvisa": "106390254"
+    },
+    {
+        "nome": "pinavério (brometo) 100 mg com rev",
+        "idAnvisa": "106390254"
+    },
+    {
+        "nome": "pioglitazona (cloridrato) 15mg com",
+        "idAnvisa": "100330165"
+    },
+    {
+        "nome": "pioglitazona (cloridrato) 30mg com",
+        "idAnvisa": "100330165"
+    },
+    {
+        "nome": "pioglitazona (cloridrato) 45mg com",
+        "idAnvisa": "100330165"
+    },
+    {
+        "nome": "piracetam 200mg/mL sol inj",
+        "idAnvisa": "183260420"
+    },
+    {
+        "nome": "piracetam 800mg com rev",
+        "idAnvisa": "183260420"
+    },
+    {
+        "nome": "pirenoxina sódica 0,85mg com oft",
+        "idAnvisa": "101470126"
+    },
+    {
+        "nome": "pirfenidona 267mg cap dura",
+        "idAnvisa": "101000663"
+    },
+    {
+        "nome": "piroxicam 20mg cap dura",
+        "idAnvisa": "102160013"
+    },
+    {
+        "nome": "piroxicam 20mg sup",
+        "idAnvisa": "102160013"
+    },
+    {
+        "nome": "piroxicam 20mg com sol",
+        "idAnvisa": "102160013"
+    },
+    {
+        "nome": "piroxicam 20mg/mL sol inj",
+        "idAnvisa": "102160013"
+    },
+    {
+        "nome": "piroxicam 5mg/g gel",
+        "idAnvisa": "102160013"
+    },
+    {
+        "nome": "piroxicam 20mg com dissol inst",
+        "idAnvisa": "102160013"
+    },
+    {
+        "nome": "pitavastatina 2mg com rev",
+        "idAnvisa": "112600187"
+    },
+    {
+        "nome": "pitavastatina 4mg com rev",
+        "idAnvisa": "112600187"
+    },
+    {
+        "nome": "plerixafor 20mg/mL sol inj",
+        "idAnvisa": "183260325"
+    },
+    {
+        "nome": "poliacrílico, ácido 2mg/g gel oft",
+        "idAnvisa": "131190002"
+    },
+    {
+        "nome": "policresuleno 18mg/g gel",
+        "idAnvisa": "106390084"
+    },
+    {
+        "nome": "policresuleno 360mg/mL sol ginecológica",
+        "idAnvisa": "106390084"
+    },
+    {
+        "nome": "poliestirenossulfonato cálcico 900mg/g (890mg/g) po sol or",
+        "idAnvisa": "121100022"
+    },
+    {
+        "nome": "polimixina b (sulfato) 250.000UI/mL po liof",
+        "idAnvisa": "127480011"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 0,125mg com",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 0,25mg com",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 1mg com",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 0,375mg com  lib prol",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 0,75mg com  lib prol",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 1,5mg com  lib prol",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 3mg com  lib prol",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "pramipexol (dicloridrato) 4,5mg com  lib prol",
+        "idAnvisa": "103670107"
+    },
+    {
+        "nome": "prasugrel (cloridrato) 5mg com rev",
+        "idAnvisa": "104540178"
+    },
+    {
+        "nome": "prasugrel (cloridrato) 10mg com rev",
+        "idAnvisa": "104540178"
+    },
+    {
+        "nome": "pravastatina sódica 10mg com",
+        "idAnvisa": "183260106"
+    },
+    {
+        "nome": "pravastatina sódica 20mg com",
+        "idAnvisa": "183260106"
+    },
+    {
+        "nome": "pravastatina sódica 40mg com",
+        "idAnvisa": "183260106"
+    },
+    {
+        "nome": "praziquantel 500 mg com",
+        "idAnvisa": "100890072"
+    },
+    {
+        "nome": "prazosina (cloridrato) 1mg cap dura lib lenta",
+        "idAnvisa": "102160016"
+    },
+    {
+        "nome": "prazosina (cloridrato) 2mg cap dura lib lenta",
+        "idAnvisa": "102160016"
+    },
+    {
+        "nome": "prazosina (cloridrato) 4mg cap dura lib lenta",
+        "idAnvisa": "102160016"
+    },
+    {
+        "nome": "prednisolona 5mg com",
+        "idAnvisa": "105730330"
+    },
+    {
+        "nome": "prednisolona 20mg com",
+        "idAnvisa": "105730330"
+    },
+    {
+        "nome": "prednisolona 3mg/mL sol oral",
+        "idAnvisa": "105730330"
+    },
+    {
+        "nome": "prednisolona 11mg/mL sol oral",
+        "idAnvisa": "178170789"
+    },
+    {
+        "nome": "prednisolona 40mg com",
+        "idAnvisa": "178170789"
+    },
+    {
+        "nome": "prednisolona (acetato) 10mg/mL sus oft",
+        "idAnvisa": "101470006"
+    },
+    {
+        "nome": "prednisolona (acetato) 1,2mg/mL sus oft",
+        "idAnvisa": "101470006"
+    },
+    {
+        "nome": "prednisolona (fosfato sódico) 1,34mg/mL sol oral",
+        "idAnvisa": "183260443"
+    },
+    {
+        "nome": "prednisona 5mg com",
+        "idAnvisa": "100290189"
+    },
+    {
+        "nome": "prednisona 20mg com",
+        "idAnvisa": "100290189"
+    },
+    {
+        "nome": "pregabalina 25mg cap dura",
+        "idAnvisa": "102160155"
+    },
+    {
+        "nome": "pregabalina 75mg cap dura",
+        "idAnvisa": "102160155"
+    },
+    {
+        "nome": "pregabalina 150mg cap dura",
+        "idAnvisa": "102160155"
+    },
+    {
+        "nome": "pregabalina 50mg cap dura",
+        "idAnvisa": "122140092"
+    },
+    {
+        "nome": "pregabalina 100mg cap dura",
+        "idAnvisa": "122140092"
+    },
+    {
+        "nome": "pregabalina 75mg com",
+        "idAnvisa": "105730464"
+    },
+    {
+        "nome": "pregabalina 150mg com",
+        "idAnvisa": "105730464"
+    },
+    {
+        "nome": "progesterona 100mg cap mole",
+        "idAnvisa": "187590001"
+    },
+    {
+        "nome": "progesterona 200mg cap mole",
+        "idAnvisa": "187590001"
+    },
+    {
+        "nome": "progesterona 80mg/g gel vag",
+        "idAnvisa": "100890365"
+    },
+    {
+        "nome": "promestrieno 10mg cap mole",
+        "idAnvisa": "155730019"
+    },
+    {
+        "nome": "promestrieno 10mg/g crem vag",
+        "idAnvisa": "100431093"
+    },
+    {
+        "nome": "prometazina 0,02g/g crem derm",
+        "idAnvisa": "183260308"
+    },
+    {
+        "nome": "prometazina (cloridrato) 25mg com rev",
+        "idAnvisa": "183260358"
+    },
+    {
+        "nome": "prometazina (cloridrato) 25mg/mL sol inj",
+        "idAnvisa": "183260358"
+    },
+    {
+        "nome": "propafenona (cloridrato) 300 mg com rev",
+        "idAnvisa": "105530309"
+    },
+    {
+        "nome": "propafenona (cloridrato) 150mg com rev",
+        "idAnvisa": "100330184"
+    },
+    {
+        "nome": "propatilnitrato 10mg com",
+        "idAnvisa": "103900182"
+    },
+    {
+        "nome": "propiltiouracila 100 mg com",
+        "idAnvisa": "109740013"
+    },
+    {
+        "nome": "propofol 10mg/mL emul  inj",
+        "idAnvisa": "137640155"
+    },
+    {
+        "nome": "propofol 20mg/mL emul  inj",
+        "idAnvisa": "137640155"
+    },
+    {
+        "nome": "propranolol (cloridrato) 40mg com",
+        "idAnvisa": "103920147"
+    },
+    {
+        "nome": "propranolol (cloridrato) 80mg com",
+        "idAnvisa": "103920147"
+    },
+    {
+        "nome": "proprionato de halobetasol 0,5mg/g crem derm",
+        "idAnvisa": "110130267"
+    },
+    {
+        "nome": "prucaloprida 1mg com rev",
+        "idAnvisa": "112363404"
+    },
+    {
+        "nome": "prucaloprida 2 mg com rev",
+        "idAnvisa": "112363404"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 25mg com rev",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 100mg com rev",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 200mg com rev",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 300mg com rev",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 50mg com rev lib prol",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 200mg com rev lib prol",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 300mg com rev lib prol",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "quetiapina (hemifumarato) 400mg com rev lib prol",
+        "idAnvisa": "116180232"
+    },
+    {
+        "nome": "rabeprazol sódico 10mg com rev lib retard",
+        "idAnvisa": "112363348"
+    },
+    {
+        "nome": "rabeprazol sódico 20mg com rev lib retard",
+        "idAnvisa": "112363348"
+    },
+    {
+        "nome": "racecadotrila 100mg cap",
+        "idAnvisa": "156260002"
+    },
+    {
+        "nome": "racecadotrila 10mg po sol or",
+        "idAnvisa": "156260002"
+    },
+    {
+        "nome": "racecadotrila 30mg po sol or",
+        "idAnvisa": "156260002"
+    },
+    {
+        "nome": "raloxifeno (cloridrato) 60mg com rev",
+        "idAnvisa": "112600070"
+    },
+    {
+        "nome": "raltegravir potássico 400mg com rev",
+        "idAnvisa": "100290173"
+    },
+    {
+        "nome": "ramelteona 8mg com rev",
+        "idAnvisa": "106390275"
+    },
+    {
+        "nome": "ramipril 2,5mg com",
+        "idAnvisa": "100330086"
+    },
+    {
+        "nome": "ramipril 5mg com",
+        "idAnvisa": "100330086"
+    },
+    {
+        "nome": "ramipril 10mg com",
+        "idAnvisa": "100330086"
+    },
+    {
+        "nome": "ranelato de estrôncio 2g/30mL pó gran sus or",
+        "idAnvisa": "112780070"
+    },
+    {
+        "nome": "ranitidina (cloridrato) 40mg/mL sol oral",
+        "idAnvisa": "105730437"
+    },
+    {
+        "nome": "ranolazina 500mg com rev lib prol",
+        "idAnvisa": "109740232"
+    },
+    {
+        "nome": "ranolazina 1000mg com rev lib prol",
+        "idAnvisa": "109740232"
+    },
+    {
+        "nome": "remifentanila (cloridrato) 1,0 mg po liof sol inj",
+        "idAnvisa": "137640167"
+    },
+    {
+        "nome": "remifentanila (cloridrato) 2,0mg po liof sol inj",
+        "idAnvisa": "137640167"
+    },
+    {
+        "nome": "remifentanila (cloridrato) 5,0 mg po liof sol inj",
+        "idAnvisa": "137640167"
+    },
+    {
+        "nome": "repaglinida 0,5 mg com",
+        "idAnvisa": "110130256"
+    },
+    {
+        "nome": "repaglinida 1 mg com",
+        "idAnvisa": "110130256"
+    },
+    {
+        "nome": "repaglinida 2 mg com",
+        "idAnvisa": "110130256"
+    },
+    {
+        "nome": "rifamicina sv sódica 10mg/mL sol top (spr)",
+        "idAnvisa": "183260406"
+    },
+    {
+        "nome": "rifampicina 20mg/ml sus or",
+        "idAnvisa": "110390016"
+    },
+    {
+        "nome": "rifampicina 300mg cap dura",
+        "idAnvisa": "183260374"
+    },
+    {
+        "nome": "rifaximina 550mg com rev",
+        "idAnvisa": "109740276"
+    },
+    {
+        "nome": "risedronato sódico 35mg com rev",
+        "idAnvisa": "183260417"
+    },
+    {
+        "nome": "risedronato sódico 150mg com rev",
+        "idAnvisa": "183260417"
+    },
+    {
+        "nome": "risedronato sódico 35mg com rev lib retard",
+        "idAnvisa": "113000269"
+    },
+    {
+        "nome": "risperidona 1mg/mL sol oral",
+        "idAnvisa": "112360031"
+    },
+    {
+        "nome": "risperidona 0,25mg com rev",
+        "idAnvisa": "112360031"
+    },
+    {
+        "nome": "risperidona 0,50mg com rev",
+        "idAnvisa": "112360031"
+    },
+    {
+        "nome": "risperidona 1,0mg com rev",
+        "idAnvisa": "112360031"
+    },
+    {
+        "nome": "risperidona 2,0mg com rev",
+        "idAnvisa": "112360031"
+    },
+    {
+        "nome": "risperidona 3,0mg com rev",
+        "idAnvisa": "112360031"
+    },
+    {
+        "nome": "ritonavir 80mg/mL sol oral",
+        "idAnvisa": "198600009"
+    },
+    {
+        "nome": "ritonavir 100mg com rev",
+        "idAnvisa": "198600009"
+    },
+    {
+        "nome": "rivaroxabana 2,5mg com ver",
+        "idAnvisa": "170560048"
+    },
+    {
+        "nome": "rivaroxabana 10mg com rev",
+        "idAnvisa": "170560048"
+    },
+    {
+        "nome": "rivaroxabana 15mg com rev",
+        "idAnvisa": "170560048"
+    },
+    {
+        "nome": "rivaroxabana 20mg com rev",
+        "idAnvisa": "170560048"
+    },
+    {
+        "nome": "rivastigmina 9,0mg ades",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina 18mg ades",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina 27mg ades",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina 36 mg ades",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina (hemitartarato) 2 mg/mL sol oral",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina (hemitartarato) 1,5mg cap dura",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina (hemitartarato) 3,0mg cap dura",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina (hemitartarato) 4,5mg cap dura",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rivastigmina (hemitartarato) 6,0mg cap dura",
+        "idAnvisa": "100680099"
+    },
+    {
+        "nome": "rizatriptano (benzoato) 10mg com rev",
+        "idAnvisa": "100290014"
+    },
+    {
+        "nome": "rocurônio (brometo) 10mg/mL sol inj",
+        "idAnvisa": "101710096"
+    },
+    {
+        "nome": "roflumilaste 500mcg com rev",
+        "idAnvisa": "116180263"
+    },
+    {
+        "nome": "ropivacaína (cloridrato) 2,0mg/mL sol inj",
+        "idAnvisa": "137640157"
+    },
+    {
+        "nome": "ropivacaína (cloridrato) 7,5mg/mL sol inj",
+        "idAnvisa": "137640157"
+    },
+    {
+        "nome": "ropivacaína (cloridrato) 10mg/mL sol inj",
+        "idAnvisa": "137640157"
+    },
+    {
+        "nome": "rosuvastatina cálcica 5,0mg com rev",
+        "idAnvisa": "116180200"
+    },
+    {
+        "nome": "rosuvastatina cálcica 10,0mg com rev",
+        "idAnvisa": "116180200"
+    },
+    {
+        "nome": "rosuvastatina cálcica 20mg com rev",
+        "idAnvisa": "116180200"
+    },
+    {
+        "nome": "rosuvastatina cálcica 40mg com rev",
+        "idAnvisa": "116180200"
+    },
+    {
+        "nome": "rotigotina 4,5mg ades transd",
+        "idAnvisa": "123610082"
+    },
+    {
+        "nome": "rotigotina 9mg ades transd",
+        "idAnvisa": "123610082"
+    },
+    {
+        "nome": "rotigotina 13,5mg ades transd",
+        "idAnvisa": "123610082"
+    },
+    {
+        "nome": "rotigotina 18mg ades transd",
+        "idAnvisa": "123610082"
+    },
+    {
+        "nome": "rupatadina (fumarato) 10 mg com",
+        "idAnvisa": "105730567"
+    },
+    {
+        "nome": "ruxolitinibe (fosfato) 5mg com",
+        "idAnvisa": "100681121"
+    },
+    {
+        "nome": "ruxolitinibe (fosfato) 15mg com",
+        "idAnvisa": "100681121"
+    },
+    {
+        "nome": "ruxolitinibe (fosfato) 20mg com",
+        "idAnvisa": "100681121"
+    },
+    {
+        "nome": "salbutamol (sulfato) 1mg/ml sol p/ neb",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 5mg/ml sol p/ neb",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 120,5 mcg/dose sus era inal or + inal",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 0,48mg/mL xpe",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 0,5mg/mL sol inj",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 2,4mg com",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 4,8mg com",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 6,0mg/mL sol inal got",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "salbutamol (sulfato) 0,4mg/mL sol oral",
+        "idAnvisa": "101070226"
+    },
+    {
+        "nome": "saquinavir 200mg cap mole",
+        "idAnvisa": "102980309"
+    },
+    {
+        "nome": "saxagliptina (cloridrato) 5mg com rev",
+        "idAnvisa": "116180261"
+    },
+    {
+        "nome": "saxagliptina (cloridrato) 2,5mg com rev",
+        "idAnvisa": "116180261"
+    },
+    {
+        "nome": "secnidazol 500mg com rev",
+        "idAnvisa": "125680172"
+    },
+    {
+        "nome": "secnidazol 1000mg com rev",
+        "idAnvisa": "183260440"
+    },
+    {
+        "nome": "sertralina (cloridrato) 25 mg com rev",
+        "idAnvisa": "105730593"
+    },
+    {
+        "nome": "sertralina (cloridrato) 75mg com rev",
+        "idAnvisa": "105730593"
+    },
+    {
+        "nome": "sertralina (cloridrato) 50mg com rev",
+        "idAnvisa": "102160263"
+    },
+    {
+        "nome": "sertralina (cloridrato) 100mg com rev",
+        "idAnvisa": "102160263"
+    },
+    {
+        "nome": "sevelamer (cloridrato) 800mg com rev",
+        "idAnvisa": "183260445"
+    },
+    {
+        "nome": "sevoflurano 1 ml/ml liq",
+        "idAnvisa": "198600006"
+    },
+    {
+        "nome": "sildenafil (citrato) 20mg com rev",
+        "idAnvisa": "102160265"
+    },
+    {
+        "nome": "sildenafil (citrato) 25mg com rev",
+        "idAnvisa": "102160262"
+    },
+    {
+        "nome": "sildenafil (citrato) 50mg com rev",
+        "idAnvisa": "102160262"
+    },
+    {
+        "nome": "sildenafil (citrato) 100mg com rev",
+        "idAnvisa": "102160262"
+    },
+    {
+        "nome": "simeprevir sódico 150mg cap gel dura",
+        "idAnvisa": "112363409"
+    },
+    {
+        "nome": "simeticona 40mg com",
+        "idAnvisa": "173900009"
+    },
+    {
+        "nome": "simeticona 75mg/ml emul got",
+        "idAnvisa": "173900009"
+    },
+    {
+        "nome": "simeticona 150mg/mL emul got",
+        "idAnvisa": "178170107"
+    },
+    {
+        "nome": "simeticona 80mg com",
+        "idAnvisa": "178170107"
+    },
+    {
+        "nome": "simeticona 150mg com",
+        "idAnvisa": "178170107"
+    },
+    {
+        "nome": "simeticona 125mg com mast",
+        "idAnvisa": "154230171"
+    },
+    {
+        "nome": "sinvastatina 10mg com rev",
+        "idAnvisa": "100470270"
+    },
+    {
+        "nome": "sinvastatina 20mg com rev",
+        "idAnvisa": "100470472"
+    },
+    {
+        "nome": "sinvastatina 40mg com rev",
+        "idAnvisa": "100470270"
+    },
+    {
+        "nome": "sirolimo 1mg drag",
+        "idAnvisa": "121100453"
+    },
+    {
+        "nome": "sirolimo 2mg drag",
+        "idAnvisa": "121100453"
+    },
+    {
+        "nome": "sitagliptina (fosfato) 25mg com rev",
+        "idAnvisa": "100290172"
+    },
+    {
+        "nome": "sitagliptina (fosfato) 50mg com rev",
+        "idAnvisa": "100290172"
+    },
+    {
+        "nome": "sitagliptina (fosfato) 100mg com rev",
+        "idAnvisa": "100290172"
+    },
+    {
+        "nome": "sofosbuvir 400 mg com rev",
+        "idAnvisa": "109290001"
+    },
+    {
+        "nome": "solifenacina (succinato) 5mg com rev",
+        "idAnvisa": "177170002"
+    },
+    {
+        "nome": "solifenacina (succinato) 10mg com rev",
+        "idAnvisa": "177170002"
+    },
+    {
+        "nome": "somatostatina 3mg/1mL po liof sol inj + diluente 1mL",
+        "idAnvisa": "111240181"
+    },
+    {
+        "nome": "sorafenibe (tosilato) 200mg com rev",
+        "idAnvisa": "170560029"
+    },
+    {
+        "nome": "subcitrato de bismuto coloidal 120mg com rev",
+        "idAnvisa": "178170108"
+    },
+    {
+        "nome": "sufentanila (citrato) 5mcg/mL sol inj",
+        "idAnvisa": "112360032"
+    },
+    {
+        "nome": "sufentanila (citrato) 50mcg/mL sol inj",
+        "idAnvisa": "112360032"
+    },
+    {
+        "nome": "sugamadex sódico 100mg/mL sol inj",
+        "idAnvisa": "101710179"
+    },
+    {
+        "nome": "sulfadiazina de prata 10mg/g crem derm",
+        "idAnvisa": "118360001"
+    },
+    {
+        "nome": "sulpirida 200mg com",
+        "idAnvisa": "183260427"
+    },
+    {
+        "nome": "sulpirida 50mg cap dura",
+        "idAnvisa": "183260427"
+    },
+    {
+        "nome": "sultamicilina 250mg/5mL po sus or",
+        "idAnvisa": "102160218"
+    },
+    {
+        "nome": "sultamicilina (tosilato) 375mg com rev",
+        "idAnvisa": "102160207"
+    },
+    {
+        "nome": "sumatripano (succinato) 50mg com rev",
+        "idAnvisa": "101070194"
+    },
+    {
+        "nome": "sumatripano (succinato) 100mg com rev",
+        "idAnvisa": "101070194"
+    },
+    {
+        "nome": "sumatripano (succinato) 6mg/ml sol inj",
+        "idAnvisa": "100330163"
+    },
+    {
+        "nome": "suxametônio (cloreto) 100mg po liof  inj",
+        "idAnvisa": "104970206"
+    },
+    {
+        "nome": "suxametônio (cloreto) 500mg po liof  inj",
+        "idAnvisa": "104970206"
+    },
+    {
+        "nome": "tacrolimo 0,3mg/g pom",
+        "idAnvisa": "185690007"
+    },
+    {
+        "nome": "tacrolimo 1mg/g pom",
+        "idAnvisa": "185690007"
+    },
+    {
+        "nome": "tacrolimo 1mg cap dura",
+        "idAnvisa": "177170007"
+    },
+    {
+        "nome": "tacrolimo 5mg cap dura",
+        "idAnvisa": "177170007"
+    },
+    {
+        "nome": "tacrolimo 5mg/mL sol inj",
+        "idAnvisa": "177170007"
+    },
+    {
+        "nome": "tadalafila 5mg com rev",
+        "idAnvisa": "112600074"
+    },
+    {
+        "nome": "tadalafila 20mg com rev",
+        "idAnvisa": "112600074"
+    },
+    {
+        "nome": "tafamidis meglumina 20mg cap mole",
+        "idAnvisa": "121100462"
+    },
+    {
+        "nome": "tafenoquina (succinato) 150mg com rev",
+        "idAnvisa": "101070343"
+    },
+    {
+        "nome": "tafluprosta 15mcg/mL sol oft",
+        "idAnvisa": "191980004"
+    },
+    {
+        "nome": "tamoxifeno (citrato) 10mg com rev",
+        "idAnvisa": "116180036"
+    },
+    {
+        "nome": "tamoxifeno (citrato) 20mg com rev",
+        "idAnvisa": "116180036"
+    },
+    {
+        "nome": "tansulosina (cloridrato) 0,40mg cap",
+        "idAnvisa": "154230182"
+    },
+    {
+        "nome": "tartarato de vareniclina 0,5mg com rev",
+        "idAnvisa": "121100463"
+    },
+    {
+        "nome": "tartarato de vareniclina 1mg com rev",
+        "idAnvisa": "121100463"
+    },
+    {
+        "nome": "tegaserode (maleato) 6mg com",
+        "idAnvisa": "100680185"
+    },
+    {
+        "nome": "teicoplanina 200mg/3mL (66,66mg/mL) po liof sol inj",
+        "idAnvisa": "183260373"
+    },
+    {
+        "nome": "teicoplanina 400mg/3mL (133,33mg/mL) po liof sol inj",
+        "idAnvisa": "183260373"
+    },
+    {
+        "nome": "telmisartana 40mg/8mL po liof sol inj",
+        "idAnvisa": "103670110"
+    },
+    {
+        "nome": "telmisartana 40mg com",
+        "idAnvisa": "103670110"
+    },
+    {
+        "nome": "telmisartana 80mg com",
+        "idAnvisa": "103670110"
+    },
+    {
+        "nome": "temozolomida 5mg cap dura",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "temozolomida 20mg cap dura",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "temozolomida 100mg cap dura",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "temozolomida 140mg cap dura",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "temozolomida 180mg cap dura",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "temozolomida 250mg cap dura",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "temozolomida 100 mg po liof sol inj",
+        "idAnvisa": "101710194"
+    },
+    {
+        "nome": "tenofovir desoproxila (fumarato) 300 mg com rev",
+        "idAnvisa": "109290005"
+    },
+    {
+        "nome": "tenoxicam 20mg pó liófilo sol inj",
+        "idAnvisa": "100430757"
+    },
+    {
+        "nome": "tenoxicam 40mg pó liófilo sol inj",
+        "idAnvisa": "100430757"
+    },
+    {
+        "nome": "tenoxicam 20mg com rev",
+        "idAnvisa": "101000144"
+    },
+    {
+        "nome": "tensirolimo 25mg/mL sol inj",
+        "idAnvisa": "121100461"
+    },
+    {
+        "nome": "teofilina 100mg cap microgran",
+        "idAnvisa": "105530305"
+    },
+    {
+        "nome": "teofilina 200mg cap microgran",
+        "idAnvisa": "105530305"
+    },
+    {
+        "nome": "teofilina 300mg cap microgran",
+        "idAnvisa": "105530305"
+    },
+    {
+        "nome": "terazosina (cloridrato) 2mg com",
+        "idAnvisa": "105530184"
+    },
+    {
+        "nome": "terazosina (cloridrato) 5mg com",
+        "idAnvisa": "105530184"
+    },
+    {
+        "nome": "terbinafina 10mg/g gel",
+        "idAnvisa": "100681063"
+    },
+    {
+        "nome": "terbinafina (cloridrato) 250mg com",
+        "idAnvisa": "100680073"
+    },
+    {
+        "nome": "terbinafina (cloridrato) 10mg/g crem derm",
+        "idAnvisa": "100681063"
+    },
+    {
+        "nome": "terbinafina (cloridrato) 10mg/mL sol top (spr)",
+        "idAnvisa": "100681063"
+    },
+    {
+        "nome": "terbutalina (sulfato) 0,5mg/mL sol inj",
+        "idAnvisa": "104971176"
+    },
+    {
+        "nome": "terbutalina (sulfato) 0,30 mg/mL xpe",
+        "idAnvisa": "125680088"
+    },
+    {
+        "nome": "terconazol 8,0mg/g crem vag",
+        "idAnvisa": "112360020"
+    },
+    {
+        "nome": "teriflunomida 14 mg com rev",
+        "idAnvisa": "183260315"
+    },
+    {
+        "nome": "terizidona 250mg cap gel dura",
+        "idAnvisa": "151890001"
+    },
+    {
+        "nome": "terlipressina (acetato) 1mg/5mL po liof sol inj",
+        "idAnvisa": "128760006"
+    },
+    {
+        "nome": "testosterona 10mg/ml gel",
+        "idAnvisa": "187590003"
+    },
+    {
+        "nome": "testosterona (cipionato) 100mg/mL sol inj",
+        "idAnvisa": "135690600"
+    },
+    {
+        "nome": "tetraciclina (cloridrato) 500 mg cap dura",
+        "idAnvisa": "125680171"
+    },
+    {
+        "nome": "tiabendazol 50mg/g pom derm",
+        "idAnvisa": "104971151"
+    },
+    {
+        "nome": "tiabendazol 50mg/mL loç",
+        "idAnvisa": "104971151"
+    },
+    {
+        "nome": "tianfenicol 500mg cap mole",
+        "idAnvisa": "100840034"
+    },
+    {
+        "nome": "tibolona 1,25mg com",
+        "idAnvisa": "100330087"
+    },
+    {
+        "nome": "tibolona 2,5mg com",
+        "idAnvisa": "101710072"
+    },
+    {
+        "nome": "ticagrelor 90mg com rev",
+        "idAnvisa": "116180238"
+    },
+    {
+        "nome": "tigeciclina 50mg po liof sol inj",
+        "idAnvisa": "121100263"
+    },
+    {
+        "nome": "timolol (maleato) 5mg/ml sol oft",
+        "idAnvisa": "100290032"
+    },
+    {
+        "nome": "timolol (maleato) 5mg/mL gel oft",
+        "idAnvisa": "100290032"
+    },
+    {
+        "nome": "tinidazol 500mg com rev",
+        "idAnvisa": "102160164"
+    },
+    {
+        "nome": "tiocolchicosídeo 4mg com",
+        "idAnvisa": "183260378"
+    },
+    {
+        "nome": "tiocolchicosídeo 2mg/mL sol inj",
+        "idAnvisa": "183260384"
+    },
+    {
+        "nome": "tioconazol 10mg/mL crem derm",
+        "idAnvisa": "121100356"
+    },
+    {
+        "nome": "tioconazol 0,01 po dermat",
+        "idAnvisa": "121100356"
+    },
+    {
+        "nome": "tioconazol 280mg/g sol top",
+        "idAnvisa": "102160040"
+    },
+    {
+        "nome": "tioguanina 40mg com",
+        "idAnvisa": "137640134"
+    },
+    {
+        "nome": "tiopental sódico 500mg po liof inj",
+        "idAnvisa": "102980094"
+    },
+    {
+        "nome": "tiopental sódico 1g po liof inj",
+        "idAnvisa": "102980094"
+    },
+    {
+        "nome": "tioridazina (cloridrato) 10mg drag",
+        "idAnvisa": "105750008"
+    },
+    {
+        "nome": "tioridazina (cloridrato) 25 mg drag",
+        "idAnvisa": "105750008"
+    },
+    {
+        "nome": "tioridazina (cloridrato) 50mg drag",
+        "idAnvisa": "105750008"
+    },
+    {
+        "nome": "tioridazina (cloridrato) 100mg drag",
+        "idAnvisa": "105750008"
+    },
+    {
+        "nome": "tioridazina (cloridrato) 200mg com lib retard",
+        "idAnvisa": "105750008"
+    },
+    {
+        "nome": "tiotrópio (brometo) monohidratado 2,5mcg/dose sol aer inal or + inal",
+        "idAnvisa": "103670137"
+    },
+    {
+        "nome": "tipranavir 250mg cap mole",
+        "idAnvisa": "103670162"
+    },
+    {
+        "nome": "tipranavir 100mg/ml sol oral",
+        "idAnvisa": "103670162"
+    },
+    {
+        "nome": "tirofibana (cloridrato) 0,25mg/ml sol inj",
+        "idAnvisa": "137640120"
+    },
+    {
+        "nome": "tizanidina (cloridrato) 2mg com",
+        "idAnvisa": "100680055"
+    },
+    {
+        "nome": "tobramicina 75mg/ml sol inal",
+        "idAnvisa": "100580112"
+    },
+    {
+        "nome": "tobramicina 60mg/mL sol inal",
+        "idAnvisa": "188300066"
+    },
+    {
+        "nome": "tobramicina 3mg/mL sol oft",
+        "idAnvisa": "100681100"
+    },
+    {
+        "nome": "tobramicina 3mg/mL pom oft",
+        "idAnvisa": "100681100"
+    },
+    {
+        "nome": "tobramicina 28mcg/dose cap dura po inal or + inal",
+        "idAnvisa": "188300067"
+    },
+    {
+        "nome": "tolterodina (tartarato) 4,0 mg cap dura lib prol",
+        "idAnvisa": "102160278"
+    },
+    {
+        "nome": "topiramato 25mg com rev",
+        "idAnvisa": "112363327"
+    },
+    {
+        "nome": "topiramato 50mg com rev",
+        "idAnvisa": "112363327"
+    },
+    {
+        "nome": "topiramato 100mg com rev",
+        "idAnvisa": "112363327"
+    },
+    {
+        "nome": "topotecano (cloridrato) 4mg/4 mL po liof sol inj",
+        "idAnvisa": "100681140"
+    },
+    {
+        "nome": "tramadol (cloridrato) 100mg/mL sol oral",
+        "idAnvisa": "102160160"
+    },
+    {
+        "nome": "tramadol (cloridrato) 50mg cap dura",
+        "idAnvisa": "102160160"
+    },
+    {
+        "nome": "tramadol (cloridrato) 50mg/mL sol inj",
+        "idAnvisa": "102160160"
+    },
+    {
+        "nome": "tramadol (cloridrato) 100mg com rev",
+        "idAnvisa": "102160160"
+    },
+    {
+        "nome": "tranexâmico, ácido 0,05 sol inj",
+        "idAnvisa": "156510045"
+    },
+    {
+        "nome": "travoprosta 0,04mg/mL sol oft",
+        "idAnvisa": "100681109"
+    },
+    {
+        "nome": "trazodona (cloridrato) 50mg com rev",
+        "idAnvisa": "101180130"
+    },
+    {
+        "nome": "trazodona (cloridrato) 100mg com rev",
+        "idAnvisa": "101180130"
+    },
+    {
+        "nome": "trazodona (cloridrato) 150mg com lib cont",
+        "idAnvisa": "101180601"
+    },
+    {
+        "nome": "tretinoína 0,25mg/g gel",
+        "idAnvisa": "101910267"
+    },
+    {
+        "nome": "tretinoína 0,5mg/g gel",
+        "idAnvisa": "101910267"
+    },
+    {
+        "nome": "tretinoína 0,25mg/g crem derm",
+        "idAnvisa": "101070340"
+    },
+    {
+        "nome": "tretinoína 0,5mg/g crem derm",
+        "idAnvisa": "101070340"
+    },
+    {
+        "nome": "tretinoína 1mg/g crem derm",
+        "idAnvisa": "101070340"
+    },
+    {
+        "nome": "tretinoína 10mg cap mole",
+        "idAnvisa": "103900198"
+    },
+    {
+        "nome": "triancinolona acetonida 0,5mcg/dose sol spr nas",
+        "idAnvisa": "105730314"
+    },
+    {
+        "nome": "triancinolona acetonida 550mcg/mL sus spr nas",
+        "idAnvisa": "183260446"
+    },
+    {
+        "nome": "triancinolona acetonida 1mg/g pasta",
+        "idAnvisa": "137640162"
+    },
+    {
+        "nome": "trimebutina (maleato) 200mg cap mole",
+        "idAnvisa": "178170113"
+    },
+    {
+        "nome": "trimetazidina ( dicloridrato) 20 mg com rev",
+        "idAnvisa": "112780055"
+    },
+    {
+        "nome": "trimetazidina ( dicloridrato) 35 mg com rev",
+        "idAnvisa": "112780055"
+    },
+    {
+        "nome": "trióxido de arsênio 1mg/ml sol inj",
+        "idAnvisa": "155730037"
+    },
+    {
+        "nome": "triptorrelina(acetato) 0,1mg/ml sol inj",
+        "idAnvisa": "128760014"
+    },
+    {
+        "nome": "triptorrelina(acetato) 3,75mg po liof sus inj + diluente",
+        "idAnvisa": "128760009"
+    },
+    {
+        "nome": "triptorrelina(embonato) 3,75mg/2mL po liof sus inj + diluente",
+        "idAnvisa": "105730120"
+    },
+    {
+        "nome": "trometamol (fosfomicina) 3g gran",
+        "idAnvisa": "100840139"
+    },
+    {
+        "nome": "trometamol cetorolaco (cetorolaco trometamina) 30mg/mL sol inj",
+        "idAnvisa": "103900190"
+    },
+    {
+        "nome": "trometamol cetorolaco (cetorolaco trometamina) 5,0 mg/mL sol oft",
+        "idAnvisa": "104971286"
+    },
+    {
+        "nome": "trometamol cetorolaco (cetorolaco trometamina) 4,0 mg/mL sol oft",
+        "idAnvisa": "101470046"
+    },
+    {
+        "nome": "trometamol cetorolaco (cetorolaco trometamina) 10mg com sub lingual",
+        "idAnvisa": "135690611"
+    },
+    {
+        "nome": "trometamol cetorolaco (cetorolaco trometamina) 20mg/mL sol oral",
+        "idAnvisa": "135690611"
+    },
+    {
+        "nome": "tropicamica 10mg/mL sol oft",
+        "idAnvisa": "100681107"
+    },
+    {
+        "nome": "undecilato de testosterona 250mg/ml sol inj",
+        "idAnvisa": "170560061"
+    },
+    {
+        "nome": "uréia 100 mg/g crem derm",
+        "idAnvisa": "129160024"
+    },
+    {
+        "nome": "uréia 100 mg/mL loç derm",
+        "idAnvisa": "129160024"
+    },
+    {
+        "nome": "uréia 200mg/g crem derm",
+        "idAnvisa": "101810419"
+    },
+    {
+        "nome": "valaciclovir (cloridrato) 500mg com rev",
+        "idAnvisa": "101070174"
+    },
+    {
+        "nome": "valerato de estradiol 2mg drag",
+        "idAnvisa": "170560068"
+    },
+    {
+        "nome": "valerato de estradiol 1mg drag",
+        "idAnvisa": "170560068"
+    },
+    {
+        "nome": "valproato de sódio 50mg/mL xpe",
+        "idAnvisa": "105530315"
+    },
+    {
+        "nome": "valproato de sódio 300mg com rev",
+        "idAnvisa": "105530315"
+    },
+    {
+        "nome": "valproato de sódio 500 mg com rev",
+        "idAnvisa": "105530315"
+    },
+    {
+        "nome": "valsartana 40mg com rev",
+        "idAnvisa": "100680065"
+    },
+    {
+        "nome": "valsartana 80mg com rev",
+        "idAnvisa": "100680065"
+    },
+    {
+        "nome": "valsartana 160mg com rev",
+        "idAnvisa": "100680065"
+    },
+    {
+        "nome": "valsartana 320mg com rev",
+        "idAnvisa": "100680065"
+    },
+    {
+        "nome": "vancomicina (cloridrato) 500mg po liof sol inj",
+        "idAnvisa": "155620005"
+    },
+    {
+        "nome": "vancomicina (cloridrato) 1000mg po liof sol inj",
+        "idAnvisa": "155620005"
+    },
+    {
+        "nome": "vandetanibe 100mg com rev",
+        "idAnvisa": "183260326"
+    },
+    {
+        "nome": "vardenafil (cloridrato) 5mg com rev",
+        "idAnvisa": "170560034"
+    },
+    {
+        "nome": "vardenafil (cloridrato) 10mg com rev",
+        "idAnvisa": "170560034"
+    },
+    {
+        "nome": "vardenafil (cloridrato) 20mg com rev",
+        "idAnvisa": "170560034"
+    },
+    {
+        "nome": "varfarina sódica 1mg com",
+        "idAnvisa": "103900147"
+    },
+    {
+        "nome": "varfarina sódica 2mg com",
+        "idAnvisa": "103900147"
+    },
+    {
+        "nome": "varfarina sódica 2,5mg com",
+        "idAnvisa": "103900147"
+    },
+    {
+        "nome": "varfarina sódica 5mg com",
+        "idAnvisa": "103900147"
+    },
+    {
+        "nome": "varfarina sódica 7,5mg com",
+        "idAnvisa": "103900147"
+    },
+    {
+        "nome": "varfarina sódica 10 mg com",
+        "idAnvisa": "103900147"
+    },
+    {
+        "nome": "vecurônio (brometo) 4mg/mL pó liófilo com diluente",
+        "idAnvisa": "102980305"
+    },
+    {
+        "nome": "vecurônio (brometo) 10mg pó liófilo",
+        "idAnvisa": "102980305"
+    },
+    {
+        "nome": "vemurafenibe 240mg com rev",
+        "idAnvisa": "101000656"
+    },
+    {
+        "nome": "venlafaxina (cloridrato) 37,5mg cap dura lib prol",
+        "idAnvisa": "102160270"
+    },
+    {
+        "nome": "venlafaxina (cloridrato) 75mg cap dura lib prol",
+        "idAnvisa": "102160270"
+    },
+    {
+        "nome": "venlafaxina (cloridrato) 150mg cap dura lib prol",
+        "idAnvisa": "102160270"
+    },
+    {
+        "nome": "venlafaxina (cloridrato) 37,5mg com lib prol",
+        "idAnvisa": "146820036"
+    },
+    {
+        "nome": "venlafaxina (cloridrato) 75mg com lib prol",
+        "idAnvisa": "146820036"
+    },
+    {
+        "nome": "venlafaxina (cloridrato) 150mg com lib prol",
+        "idAnvisa": "146820036"
+    },
+    {
+        "nome": "verapamil (cloridrato) 120mg com rev retard",
+        "idAnvisa": "105530267"
+    },
+    {
+        "nome": "verapamil (cloridrato) 240mg com rev retard",
+        "idAnvisa": "105530267"
+    },
+    {
+        "nome": "verapamil (cloridrato) 80mg com rev",
+        "idAnvisa": "105530267"
+    },
+    {
+        "nome": "verteporfina 15mg/30mL po liof sol inj",
+        "idAnvisa": "100680890"
+    },
+    {
+        "nome": "vilazodona (cloridrato) 10mg com rev",
+        "idAnvisa": "101830082"
+    },
+    {
+        "nome": "vilazodona (cloridrato) 20mg com rev",
+        "idAnvisa": "101830082"
+    },
+    {
+        "nome": "vilazodona (cloridrato) 40mg com rev",
+        "idAnvisa": "101830082"
+    },
+    {
+        "nome": "vildagliptina 50mg com",
+        "idAnvisa": "100681050"
+    },
+    {
+        "nome": "vimblastina (sulfato) 10mg po liof sol inj",
+        "idAnvisa": "155620015"
+    },
+    {
+        "nome": "vimblastina (sulfato) 1mg/1mL sol inj",
+        "idAnvisa": "100330130"
+    },
+    {
+        "nome": "viminol (hidroxibenzoato) 70mg cap dura",
+        "idAnvisa": "100840020"
+    },
+    {
+        "nome": "vimpocetina 5mg com",
+        "idAnvisa": "101550233"
+    },
+    {
+        "nome": "vincristina (sulfato) 1mg/mL sol inj",
+        "idAnvisa": "122140017"
+    },
+    {
+        "nome": "vinorelbina (tartarato) 10mg/mL sol inj",
+        "idAnvisa": "101620249"
+    },
+    {
+        "nome": "vismodegibe 150mg cap dura",
+        "idAnvisa": "101000664"
+    },
+    {
+        "nome": "vonoprazana (fumarato) 10mg com rev",
+        "idAnvisa": "106390282"
+    },
+    {
+        "nome": "vonoprazana (fumarato) 20mg com rev",
+        "idAnvisa": "106390282"
+    },
+    {
+        "nome": "voriconazol 50mg com rev",
+        "idAnvisa": "102160090"
+    },
+    {
+        "nome": "voriconazol 200mg com rev",
+        "idAnvisa": "102160090"
+    },
+    {
+        "nome": "voriconazol 200mg/19mL po liof sol inj",
+        "idAnvisa": "102160090"
+    },
+    {
+        "nome": "vortioxetina (Bromidrato) 5mg com rev",
+        "idAnvisa": "104750052"
+    },
+    {
+        "nome": "vortioxetina (Bromidrato) 10mg com rev",
+        "idAnvisa": "104750052"
+    },
+    {
+        "nome": "vortioxetina (Bromidrato) 15mg com rev",
+        "idAnvisa": "104750052"
+    },
+    {
+        "nome": "vortioxetina (Bromidrato) 20mg com rev",
+        "idAnvisa": "104750052"
+    },
+    {
+        "nome": "xilometazolina (cloridrato) 1mg/mL sol got nas",
+        "idAnvisa": "100680084"
+    },
+    {
+        "nome": "zidovudina 10mg/mL xpe",
+        "idAnvisa": "101830143"
+    },
+    {
+        "nome": "zidovudina 100 mg cap gel dura",
+        "idAnvisa": "110630048"
+    },
+    {
+        "nome": "ziprasidona (cloridrato monoidratado) 40 mg cap dura",
+        "idAnvisa": "102160271"
+    },
+    {
+        "nome": "ziprasidona (cloridrato monoidratado) 80 mg cap dura",
+        "idAnvisa": "102160271"
+    },
+    {
+        "nome": "zoledrônico, ácido 4mg/5ml sol inj",
+        "idAnvisa": "100330157"
+    },
+    {
+        "nome": "zoledrônico, ácido 4mg/5mL po liof sol inj",
+        "idAnvisa": "146820032"
+    },
+    {
+        "nome": "zoledrônico, ácido 5mg/100ml sol inj",
+        "idAnvisa": "100681026"
+    },
+    {
+        "nome": "zoledrônico, ácido 4mg/100ml sol inj",
+        "idAnvisa": "100680154"
+    },
+    {
+        "nome": "zolmitriptana 2,5 mg com rev",
+        "idAnvisa": "116180067"
+    },
+    {
+        "nome": "zolmitriptana 2,5 mg com orodisp",
+        "idAnvisa": "116180067"
+    },
+    {
+        "nome": "zolpidem (hemitartarato) 5 mg com subl",
+        "idAnvisa": "135690643"
+    },
+    {
+        "nome": "zolpidem (hemitartarato) 10 mg com rev",
+        "idAnvisa": "183260352"
+    },
+    {
+        "nome": "zolpidem (hemitartarato) 6,25 mg com multicamada de lib prol",
+        "idAnvisa": "113001001"
+    },
+    {
+        "nome": "zolpidem (hemitartarato) 12,5 mg com multicamada de lib prol",
+        "idAnvisa": "113001001"
+    },
+    {
+        "nome": "zopiclona 7,5 mg com rev",
+        "idAnvisa": "183260428"
+    }
+]
