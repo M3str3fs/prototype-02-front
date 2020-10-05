@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { UsuarioDadosMedicosModel } from 'src/model/usuario-dados-medicos.model';
+import { UsuarioDadosMedicosModel } from '../model/usuario-dados-medicos.model';
 import { UiDataList } from '../util/ui-data-list.util';
 import { AppCoreKeys } from './app-core.keys';
 
@@ -47,7 +47,7 @@ export class AppCoreService {
         const item = this.contextList.itens().find(i => i.key === AppCoreKeys.USUARIO_MEDICO);
         return !!item && !!item.value && !!(item.value as UsuarioDadosMedicosModel).ativo;
     }
-    
+
     public isSecretario() {
         const item = this.contextList.itens().find(i => i.key === AppCoreKeys.USUARIO_SECRETARIO_MEDICOS);
         return !!item && !!item.value && !!item.value.length;

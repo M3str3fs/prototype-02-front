@@ -1,0 +1,12 @@
+ {
+    "indent_size": 4,
+    "indent_level": 0,
+    "brace_style": "end-expand,preserve-inline",
+    "break_chained_methods": false,
+    "jslint_happy": false,
+    "space_after_anon_function": false,
+    "keep_function_indentation": true,
+    "preserve_newlines": true,
+    "wrap_attributes": "auto",
+    "indent_handlebars": true
+}

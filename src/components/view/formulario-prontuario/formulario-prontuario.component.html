@@ -1,0 +1,135 @@
+<div class="row">
+    <div class="col-12 mt-2 mb-4">
+        <div class="d-flex 2-100" *ngIf="consulta">
+            <div class="card mb-2 w-100">
+                <div class="card-header">
+                    <b>Informações do Paciente</b>
+                </div>
+                <div class="card-body">
+                    <app-cadastro-rapido-usuario-component custom-title="Paciente" [usuario-id]="consulta.idUsuarioPaciente" [read-only]="true"></app-cadastro-rapido-usuario-component>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex 2-100" *ngIf="consulta">
+            <div class="card mb-2 w-100">
+                <div class="card-header">
+                    <b>Informações do Médico</b>
+                </div>
+                <div class="card-body">
+                    <app-cadastro-rapido-usuario-component custom-title="Médico" [usuario-id]="consulta.idUsuarioMedico" [read-only]="true"></app-cadastro-rapido-usuario-component>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-between w-100">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <b>Queixa</b>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-md-5 mb-1">
+                            <label class="control-label">Sintoma</label>
+                            <input type="text" class="form-control" [(ngModel)]="sintoma">
+                        </div>
+                        <div class="col-12 col-md-4 mb-1">
+                            <label class="control-label">Início</label>
+                            <input type="date" class="form-control" [(ngModel)]="sintomaInicio">
+                        </div>
+                        <div class="col-12 col-md-3 mb-1 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="addQueixa(sintoma,sintomaInicio)" [disabled]="!sintoma || !sintomaInicio">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer p-0">
+                    <ui-data-list [ui-data-list]="queixa" [removable]="true" [item-property-function]="getUiDataListQueixaLabel">
+                    </ui-data-list>
+                </div>
+            </div>
+            <div class="mr-2"></div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <b>Diagnóstico</b>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-md-9 mb-1">
+                            <label class="control-label">Doença</label>
+                            <br>
+                            <ui-data-selector [(ngModel)]="doenca" [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('cid')">
+                            </ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-3 mb-1 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="addDiagnostico(doenca)" [disabled]="!doenca">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer p-0">
+                    <ui-data-list [ui-data-list]="diagnostico" [removable]="true" [item-property-function]="getUiDataListDiagnosticoLabel">
+                    </ui-data-list>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-between w-100">
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <b>Prescrições</b>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 mb-2 mb-1">
+                            <label class="control-label">Medicamento</label>
+                            <br>
+                            <ui-data-selector [(ngModel)]="medicamento" [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('medicamento')">
+                            </ui-data-selector>
+                        </div>
+                        <div class="col-12 col-md-3 mb-1">
+                            <label class="control-label">Dosagem</label>
+                            <input type="text" class="form-control" [(ngModel)]="medicamentoDosagem">
+                        </div>
+                        <div class="col-12 col-md-2 mb-1">
+                            <label class="control-label">Duração</label>
+                            <input type="text" class="form-control" [(ngModel)]="medicamentoDuracao">
+                        </div>
+                        <div class="col-12 col-md-3 mb-1">
+                            <label class="control-label">Frequência</label>
+                            <input type="text" class="form-control" [(ngModel)]="medicamentoFrequencia">
+                        </div>
+                        <div class="col-12 col-md-3 mb-1">
+                            <label class="control-label">Frequência</label>
+                            <input type="text" class="form-control" [(ngModel)]="medicamentoFrequencia">
+                        </div>
+                        <div class="col-12 col-md-3 d-flex align-items-end">
+                            <button class="btn btn-primary" (click)="addPrescricao(medicamento, medicamentoDosagem, medicamentoFrequencia, medicamentoDuracao)" [disabled]="!medicamento || !medicamentoDosagem || !medicamentoFrequencia || !medicamentoDuracao">
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer p-0">
+                    <ui-data-list [ui-data-list]="prescricoes" [removable]="true" [item-property-function]="getUiDataListPrescricaoLabel">
+                    </ui-data-list>
+                </div>
+            </div>
+            <div class="mr-2"></div>
+            <div class="card w-100 mb-2">
+                <div class="card-header">
+                    <b>Observação</b>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 mb-2">
+                            <textarea class="w-100 mt-2" placeholder="Digite sua mensagem..." style="outline: none;border: none;resize: none;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-itens-center justify-content-between w-100">
+            <button class="btn btn-primary" (click)="doSave()">Salvar</button>
+        </div>
+    </div>
+</div>

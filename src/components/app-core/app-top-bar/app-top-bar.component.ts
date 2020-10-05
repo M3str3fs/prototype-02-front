@@ -40,13 +40,14 @@ export class AppTopBarComponent implements OnInit {
 
     public getMenu(): MenuOpcao[] {
         let routes: MenuOpcao[] = [
-            { alias: 'Home', path: HomeRoute.path },
+            // { alias: 'Home', path: HomeRoute.path },
             // { alias: 'Busca de Médicos', path: BuscaMedicosRoute.path },
         ];
 
         if (this.appCoreService.isMedicoAtivo()) {
             routes = [
                 ...routes,
+                { alias: 'Home', path: HomeRoute.path },
                 { alias: 'Nova Consulta', path: ConsultaRoute.path, queryParams: { medico: this.getUsuario()._id } },
                 { alias: 'Minha Agenda', path: AgendamentoRoute.path, queryParams: { medico: this.getUsuario()._id } }
             ]

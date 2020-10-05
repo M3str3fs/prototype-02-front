@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from "@angular/core";
 import { UsuarioDadosAnamneseHfModel, UsuarioDadosAnamneseHpModel, UsuarioDadosAnamneseHsHvModel } from '../model/usuario-dados-anamnese.model';
 import { UsuarioModel } from '../model/usuario.model';
-import { UsuarioDadosMedicosConsultaModel, UsuarioDadosMedicosHorarioAtendimentoModel, UsuarioDadosMedicosModel, UsuarioDadosMedicosSolicitacaoAgendamentoModel } from '../model/usuario-dados-medicos.model';
+import { UsuarioDadosMedicosConsultaModel, UsuarioDadosMedicosHorarioAtendimentoModel, UsuarioDadosMedicosModel, UsuarioDadosMedicosProntuarioModel, UsuarioDadosMedicosSolicitacaoAgendamentoModel } from '../model/usuario-dados-medicos.model';
 import { __usuarios } from '../model/common.mock';
 import { ApiBaseService, PaginacaoResponse } from './api-base.service';
 
@@ -82,7 +82,7 @@ export class ApiUsuarioService extends ApiBaseService {
             params: this.cleanParams({
                 id: id,
                 usuario: usuario
-            })    
+            })
         }).toPromise();
     }
 
@@ -95,7 +95,7 @@ export class ApiUsuarioService extends ApiBaseService {
             params: this.cleanParams({
                 id: id,
                 usuario: usuario
-            })    
+            })
         }).toPromise();
     }
 
@@ -108,7 +108,7 @@ export class ApiUsuarioService extends ApiBaseService {
             params: this.cleanParams({
                 id: id,
                 usuario: usuario
-            })    
+            })
         }).toPromise();
     }
 
@@ -116,8 +116,8 @@ export class ApiUsuarioService extends ApiBaseService {
         return this.httpClient.get<UsuarioDadosMedicosModel[]>('http://localhost:3000/usuario/dados-medicos', {
             params: this.cleanParams({
                 ids: ids.join(','),
-                usuarios:  usuarios.join(',')
-            })    
+                usuarios: usuarios.join(',')
+            })
         }).toPromise();
     }
 
@@ -146,7 +146,7 @@ export class ApiUsuarioService extends ApiBaseService {
     }
 
     public createUsuarioDadosMedicosSolicitacaoAgendamento(model: UsuarioDadosMedicosSolicitacaoAgendamentoModel) {
-        return this.httpClient.post('http://localhost:3000/usuario/dados-medicos/solicitacao-agendamento', model,
+        return this.httpClient.post<UsuarioDadosMedicosSolicitacaoAgendamentoModel>('http://localhost:3000/usuario/dados-medicos/solicitacao-agendamento', model,
             {
                 params: {
                     medico: model.idUsuarioMedico
@@ -166,7 +166,16 @@ export class ApiUsuarioService extends ApiBaseService {
     }
 
     public createUsuarioDadosMedicosConsulta(model: UsuarioDadosMedicosConsultaModel) {
-        return this.httpClient.post('http://localhost:3000/usuario/dados-medicos/consulta', model,
+        return this.httpClient.post<UsuarioDadosMedicosConsultaModel>('http://localhost:3000/usuario/dados-medicos/consulta', model,
+            {
+                params: {
+                    medico: model.idUsuarioMedico
+                }
+            }).toPromise();
+    }
+
+    public updateUsuarioDadosMedicosConsulta(model: UsuarioDadosMedicosConsultaModel) {
+        return this.httpClient.put<UsuarioDadosMedicosConsultaModel>('http://localhost:3000/usuario/dados-medicos/consulta', model,
             {
                 params: {
                     medico: model.idUsuarioMedico
@@ -175,7 +184,7 @@ export class ApiUsuarioService extends ApiBaseService {
     }
 
     public queryUsuarioDadosMedicosConsulta(id: string, medico: string, alvoDe: string, alvoAte: string) {
-        return this.httpClient.get<UsuarioDadosMedicosSolicitacaoAgendamentoModel[]>('http://localhost:3000/usuario/dados-medicos/consulta', {
+        return this.httpClient.get<UsuarioDadosMedicosConsultaModel[]>('http://localhost:3000/usuario/dados-medicos/consulta', {
             params: this.cleanParams({
                 id: id,
                 medico: medico,
@@ -185,6 +194,39 @@ export class ApiUsuarioService extends ApiBaseService {
         }).toPromise();
     }
 
-    
+    public createUsuarioDadosMedicosProntuario(model: UsuarioDadosMedicosProntuarioModel) {
+        return this.httpClient.post<UsuarioDadosMedicosProntuarioModel>('http://localhost:3000/usuario/dados-medicos/prontuario', model,
+            {
+                params: {
+                    medico: model.idUsuarioMedico,
+                    paciente: model.idUsuarioPaciente,
+                    consulta: model.idConsulta
+                }
+            }).toPromise();
+    }
+
+    public updateUsuarioDadosMedicosProntuario(model: UsuarioDadosMedicosProntuarioModel) {
+        return this.httpClient.put<UsuarioDadosMedicosProntuarioModel>('http://localhost:3000/usuario/dados-medicos/prontuario', model,
+            {
+                params: {
+                    medico: model.idUsuarioMedico,
+                    paciente: model.idUsuarioPaciente,
+                    consulta: model.idConsulta
+                }
+            }).toPromise();
+    }
+
+    public queryUsuarioDadosMedicosProntuario(ids: string[] = [], consulta: string = undefined, paciente: string = undefined, medico: string = undefined,) {
+        return this.httpClient.get<UsuarioDadosMedicosProntuarioModel[]>('http://localhost:3000/usuario/dados-medicos/prontuario', {
+            params: this.cleanParams({
+                ids: ids.join(','),
+                consulta: consulta,
+                paciente: paciente,
+                medico: medico
+            })
+        }).toPromise();
+    }
+
+
 
 }

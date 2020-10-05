@@ -1,6 +1,7 @@
 import { IfStmt } from '@angular/compiler';
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
-import { Component, Output, EventEmitter, Input, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter, Input, OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import { AppCoreService } from 'src/services/app-core.service';
 import { UsuarioModel } from '../../../model/usuario.model';
 import { ApiUsuarioService } from '../../../services/api-usuario.service';
 
@@ -9,9 +10,10 @@ import { ApiUsuarioService } from '../../../services/api-usuario.service';
     templateUrl: './app-cadastro-rapido-usuario.component.html',
     styleUrls: ['./app-cadastro-rapido-usuario.component.scss']
 })
-export class AppCadastroRapidoUsuarioComponent implements OnInit {
+export class AppCadastroRapidoUsuarioComponent implements OnInit, OnChanges {
 
     constructor(
+        private appCoreService: AppCoreService,
         private apiUsuarioService: ApiUsuarioService
     ) {
 
@@ -20,32 +22,43 @@ export class AppCadastroRapidoUsuarioComponent implements OnInit {
     @Input('usuario-id')
     public _usuarioId: string = undefined;
 
-    @Input('readonly-when-selected-or-created')
-    public _readonlyWhenSelectedOrCreated: boolean = false;
-
     @Input('custom-title')
     public _customTitle: boolean = false;
+
+    @Input('read-only')
+    public _readOnly: boolean = false;
 
     @Output('on-usuario-confirmado')
     public _onUsuarioConfirmado: EventEmitter<UsuarioModel> = new EventEmitter();
 
-
     public oUsuarioNovo = { label: 'Novo', id: 'N' };
     public oUsuarioExistente = { label: 'Existente', id: 'E' };
     public oSelecaoUsuario = [this.oUsuarioNovo, this.oUsuarioExistente];
-
+    public usuarioSelecionado: UsuarioModel;
 
     public sUsuario: string;
     public usuario: UsuarioModel;
 
     public ngOnInit() {
-        if (this._usuarioId) {
+        this.doInit(this._usuarioId);
+    }
+
+    public ngOnChanges(changes: SimpleChanges) {
+        if (changes['_usuarioId']) {
+            this.doInit(this._usuarioId);
+        }
+    }
+
+    public doInit(id: string) {
+        if (id) {
+            this.appCoreService.setLoading(this.doInit)
             this.apiUsuarioService.query([this._usuarioId])
                 .then((r) => {
                     this.usuario = r[0];
-                    this.sUsuario = this.oUsuarioNovo.id;
-                    this.sUsuario = this._readonlyWhenSelectedOrCreated ? this.oUsuarioNovo.id : this.oUsuarioExistente.id;
-                });
+                    this.usuarioSelecionado = this.usuario;
+                    this.sUsuario = this.oUsuarioExistente.id;
+                })
+                .finally(() => this.appCoreService.setLoaded(this.doInit));
         }
         else {
             this.sUsuario = this.oUsuarioNovo.id;
@@ -62,8 +75,7 @@ export class AppCadastroRapidoUsuarioComponent implements OnInit {
 
     public doCadastrarUsuario() {
         return this.apiUsuarioService.post(this.usuario)
-            .then((response) => this.usuario = response)
-            .then(() => this.onUsuarioConfirmado());
+            .then((response) => this.onUsuarioConfirmado(response));
     }
 
     public onUsuarioSelecaoSelecionada() {
@@ -77,8 +89,9 @@ export class AppCadastroRapidoUsuarioComponent implements OnInit {
         }
     }
 
-    public onUsuarioConfirmado() {
+    public onUsuarioConfirmado(usuario: UsuarioModel) {
         this.sUsuario = this.oUsuarioNovo.id;
+        this.usuario = usuario;
         this._onUsuarioConfirmado.emit(this.usuario);
     }
 
@@ -97,11 +110,11 @@ export class AppCadastroRapidoUsuarioComponent implements OnInit {
     }
 
     public isSomenteLeitura() {
-        return this._readonlyWhenSelectedOrCreated && this.usuario && this.usuario._id;
+        return this._readOnly;
     }
 
-    public isUsuarioSomenteLeitura() {
-        return !!this.usuario._id;
+    public isUsuarioSelecionado() {
+        return this.usuario && this.usuario._id;
     }
 
 }

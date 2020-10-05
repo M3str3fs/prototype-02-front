@@ -13,15 +13,18 @@ import { UsuarioPerfilMedicoComponent } from './usuario-perfil-medico/usuario-pe
 import { UsuarioPerfilComponent } from './usuario-perfil/usuario-perfil.component';
 import { ConsultaComponent } from './consulta/consulta.component';
 import { AppCoreModule } from '../app-core/app-core.module';
-
+import { HomeMedicoComponent } from './home-medico/home-medico.component';
+import { FormularioProntuarioComponent } from './formulario-prontuario/formulario-prontuario.component';
 
 @NgModule({
     declarations: [
         ProntuarioComponent,
+        FormularioProntuarioComponent,
         AnamneseComponent,
         AutenticacaoComponent,
         HomeComponent,
         HomeSecretarioComponent,
+        HomeMedicoComponent,
         BuscaMedicosComponent,
         UsuarioPerfilComponent,
         UsuarioPerfilMedicoComponent,

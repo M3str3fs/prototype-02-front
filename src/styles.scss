@@ -9,3 +9,8 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 body {
     overflow: overlay;
 }
+
+.overflow-auto {
+    overflow: hidden;
+    overflow-y: auto;
+}

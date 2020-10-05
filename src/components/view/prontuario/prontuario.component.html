@@ -1,87 +1,127 @@
-<div class="row" *ngIf="prontuario">
-  <div class="col-12">
-    <div class="card">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-12">
-            <label class="mr-1">Paciente:</label><span>{{getUsuarioPaciente().nome}}</span>
-            <span class="mr-4"></span>
-            <label class="mr-1">Doutor:</label><span>{{getUsuarioDoutor().nome}}</span>
-            <span class="mr-4"></span>
-            <label class="mr-1">Data:</label><span>{{prontuario.dataInicio}}</span>
-          </div>
-        </div>
-      </div>
-    </div>  
-  </div>
-  <div class="col-12 mt-2" *ngFor="let historico of prontuario.historicos">
-    <div class="card">
-      <div class="card-body">
-        <span class="badge badge-primary">{{historico.type}}</span>
-        <span class="mr-4"></span>
-        <label class="mr-1">Doutor:</label><span>{{getUsuarioDoutor().nome}}</span>
-        <span class="mr-4"></span>
-        <label class="mr-1">Data:</label><span>{{historico.dataLancamento}}</span>
-        <br>
-        <br>
-        <blockquote class="blockquote">
-          <p class="mb-0">{{historico.description}}</p>
-        </blockquote>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 mt-2 d-flex justify-content-end mb-4">
-    <div class="card w-100">
-      <div class="card-header text-left">
-        <div class="btn-group" data-toggle="buttons" role="group">
-          <button class="btn btn-outline btn-sm" disabled><i class="material-icons">attach_file</i></button>
-          <label class="btn btn-outline btn-sm active">
-            <input autocomplete="off" checked name="options2" type="checkbox">
-            <i class="material-icons">format_bold</i>
-          </label>
-          <label class="btn btn-outline btn-sm active">
-            <input autocomplete="off" checked name="options2" type="checkbox">
-            <i class="material-icons">format_italic</i>
-          </label>
-          <label class="btn btn-outline btn-sm active">
-            <input autocomplete="off" checked name="options2" type="checkbox">
-            <i class="material-icons">format_underlined</i>
-          </label>
-          <div class="btn-group" role="group">
-            <button aria-expanded="false" aria-haspopup="true" class="btn btn-outline btn-sm dropdown-toggle"
-              data-toggle="dropdown" id="toggleBtnDrop1" type="button"><i
-                class="material-icons">format_color_text</i></button>
-            <div aria-labelledby="toggleBtnDrop1" class="dropdown-menu dropdown-menu-sm">
-              <a class="dropdown-item" href="#">Colour 1</a>
-              <a class="dropdown-item" href="#">Colour 2</a>
-              <a class="dropdown-item" href="#">Colour 3</a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <label class="mr-1">Paciente:</label><span>Renan Vinicius Carvalho Favero</span>
+                            <span class="mr-4"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="btn-group" role="group">
-            <button aria-expanded="false" aria-haspopup="true" class="btn btn-outline btn-sm dropdown-toggle"
-              data-toggle="dropdown" id="toggleBtnDrop2" type="button"><i
-                class="material-icons">format_color_fill</i></button>
-            <div aria-labelledby="toggleBtnDrop2" class="dropdown-menu dropdown-menu-sm">
-              <a class="dropdown-item" href="#">Colour 1</a>
-              <a class="dropdown-item" href="#">Colour 2</a>
-              <a class="dropdown-item" href="#">Colour 3</a>
+        </div>
+        <div class="col-12 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <span class="badge badge-primary">Consulta</span>
+                    <span class="mr-4"></span>
+                    <label class="mr-1">Doutor:</label><span>Paula Lobo</span>
+                    <span class="mr-4"></span>
+                    <label class="mr-1">Data:</label><span>04/05/2020</span>
+                    <br>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Paciênte apresenta sintomas iniciais da Gripe H1N1, Fazer uso de Tamiflu X ml ao dia, por 15 dias</p>
+                    </blockquote>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-10">
-            <textarea class="w-100" placeholder="Digite sua mensagem..."
-              style="outline: none;border: none;margin-top: 0px;margin-bottom: 0px;resize: none;"></textarea>
-          </div>
-          <div class="col-2 d-flex justify-content-end">
-            <button class="btn btn-primary">
-              Incluir
-            </button>
-          </div>
+        <div class="col-12 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <span class="badge badge-primary">Consulta</span>
+                    <span class="mr-4"></span>
+                    <label class="mr-1">Doutor:</label><span>Matheus Carvalho</span>
+                    <span class="mr-4"></span>
+                    <label class="mr-1">Data:</label><span>04/05/2020</span>
+                    <br>
+                    <br>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Paciênte apresenta sintomas iniciais da Rinite Alergica, Fazer uso de Corticoide X ml ao dia, por 7 dias</p>
+                    </blockquote>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="col-12 mt-2 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <b>Novo Registro</b>
+                </div>
+                <div class="card-body d-flex flex-column p-2">
+                    <div class="w-100 mb-3">
+                        <div class="card w-100">
+                            <div class="card-header">
+                                <b>Diagnóstico</b>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 mb-2">
+                                        <label class="control-label">Doença</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-9 mb-2">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-2">
+                                        <label class="control-label">Observação</label>
+                                        <textarea class="w-100 mt-2" placeholder="Digite sua mensagem..." style="outline: none;border: none;resize: none;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between w-100">
+                        <div class="card w-100">
+                            <div class="card-header">
+                                <b>Sintomática</b>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-md-3">
+                                        <label class="control-label">Sintoma</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <label class="control-label">Início</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mr-2"></div>
+                        <div class="card w-100">
+                            <div class="card-header">
+                                <b>Préscrições</b>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-md-3">
+                                        <label class="control-label">Medicamento</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <label class="control-label">Dosagem</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <label class="control-label">Duração</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <label class="control-label">Vezes ao Dia</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

@@ -6,13 +6,16 @@ import { UiDataList } from '../../../../util/ui-data-list.util';
     templateUrl: './ui-data-list.component.html',
     styleUrls: ['./ui-data-list.component.scss']
 })
-export class UiDataListComponent {
+export class UiDataListComponent<T> {
 
     @Input('ui-data-list')
     public _uiDataList: UiDataList = undefined;
 
     @Input('item-property')
-    public _itemProperty: string = undefined
+    public _itemProperty: string = undefined;
+
+    @Input('item-property-function')
+    public _itemPropertyFunction: (item: T) => string = undefined;
 
     @Input('removable')
     public _removable: boolean = false;

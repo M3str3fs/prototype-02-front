@@ -1,4 +1,14 @@
 <div class="row">
+    <div class="col-12 mb-2" *ngIf="consulta && consulta._id">
+        <div class="card">
+            <div class="card-header">
+                <b>Ferramentas</b>
+            </div>
+            <div class="card-body">
+                <button class="btn btn-primary" (click)="doGoIncluirRegistroProntuario(consulta)">Incluir Registro no Prontuário</button>
+            </div>
+        </div>
+    </div>
     <div class="col-12 mb-2" *ngIf="medico">
         <div class="card">
             <div class="card-header">
@@ -20,7 +30,7 @@
                 <b>Informações do Paciente</b>
             </div>
             <div class="card-body">
-                <app-cadastro-rapido-usuario-component custom-title="Paciente" [usuario-id]="paciente ? paciente._id : undefined" [readonly-when-selected-or-created]="true" (on-usuario-confirmado)="onPacienteConfirmado($event)"></app-cadastro-rapido-usuario-component>
+                <app-cadastro-rapido-usuario-component custom-title="Paciente" [usuario-id]="paciente ? paciente._id : undefined" (on-usuario-confirmado)="onPacienteConfirmado($event)"></app-cadastro-rapido-usuario-component>
             </div>
         </div>
     </div>
@@ -38,11 +48,11 @@
                     </div>
                     <div class="col-12 col-md-4 mb-2">
                         <b>Complemento (Plano)</b>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" [(ngModel)]="convenioComplemento">
                     </div>
                     <div class="col-12 col-md-4 mb-2">
                         <b>Identificação</b>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" [(ngModel)]="convenioIdentificacao">
                     </div>
                 </div>
             </div>

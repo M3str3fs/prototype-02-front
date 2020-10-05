@@ -18,7 +18,6 @@ export interface UsuarioDadosMedicosHorarioAtendimentoModel {
     fim: string;
 }
 
-
 export interface UsuarioDadosMedicosSolicitacaoAgendamentoModel {
     _id: string;
     idUsuarioPaciente: string;
@@ -50,6 +49,36 @@ export interface UsuarioDadosMedicosConsultaModel {
     convenioIdentificacao: string;
     valor: number;
 };
+
+export interface UsuarioDadosMedicosProntuarioModel {
+    _id: string;
+    idConsulta: string;
+    idUsuarioPaciente: string;
+    idUsuarioMedico: string;
+    queixa: UsuarioDadosMedicosProntuarioQueixaModel[];
+    prescricoes: UsuarioDadosMedicosProntuarioPrescricaoModel[];
+    diagnostico: UsuarioDadosMedicosProntuarioDiagnosticoModel[];
+    observacao: string;
+};
+
+export interface UsuarioDadosMedicosProntuarioQueixaModel {
+    data: string;
+    inicio: string;
+    sintoma: string;
+}
+
+export interface UsuarioDadosMedicosProntuarioPrescricaoModel {
+    data: string;
+    medicamento: string;
+    medicamentoDosagem: string;
+    medicamentoFrequencia: string;
+    medicamentoDuracao: string;
+}
+
+export interface UsuarioDadosMedicosProntuarioDiagnosticoModel {
+    data: string;
+    doenca: string;
+}
 
 export interface UsuarioDadosMedicosRecomendacaoEspecialidadeModel {
     _id: string;

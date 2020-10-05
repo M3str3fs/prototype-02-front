@@ -1,0 +1,21 @@
+<div class="row mb-3">
+    <div class="col-12 col-md-4 mb-2">
+        <b>Data Alvo</b>
+        <input type="text" class="form-control" placeholder="Fim" [value]="getDateScreenFormat(_alvo)" disabled>
+    </div>
+</div>
+<app-cadastro-rapido-usuario-component custom-title="Paciente" [usuario-id]="paciente ? paciente._id : undefined" (on-usuario-confirmado)="onPacienteConfirmado($event)">
+</app-cadastro-rapido-usuario-component>
+<div class="row">
+    <div class="col-12 mb-2">
+        <b>Observação</b>
+        <textarea class="form-control" placeholder="Observação"></textarea>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 text-right">
+        <button type="button" class="btn btn-outline-dark" (click)="doCloseAgendamento()">Fechar</button>
+        <span class="mr-2"></span>
+        <button type="button" class="btn btn-outline-primary" (click)="doSaveAgendamento()" [disabled]="!paciente">Salvar</button>
+    </div>
+</div>

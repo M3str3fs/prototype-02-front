@@ -4,12 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { AppTopBarComponent } from './app-top-bar/app-top-bar.component';
 import { AppLoadingComponent } from './app-loading/app-loading.component';
 import { AppCadastroRapidoUsuarioComponent } from './app-cadastro-rapido-usuario/app-cadastro-rapido-usuario.component';
+import { AppCadastroAgendamentoComponent } from './app-cadastro-agendamento/app-cadastro-agendamento.component';
+import { AppPainelMedicoComponent } from './app-painel-medico/app-painel-medico.component';
 import { UiCoreModule } from '../ui-core/ui-core.module';
 
 const COMPONENTES = [
     AppTopBarComponent,
     AppLoadingComponent,
-    AppCadastroRapidoUsuarioComponent
+    AppCadastroRapidoUsuarioComponent,
+    AppCadastroAgendamentoComponent,
+    AppPainelMedicoComponent
 ];
 
 @NgModule({
