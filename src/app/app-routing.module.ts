@@ -19,7 +19,7 @@ import { NaoAutenticacaoGuard } from '../guard/nao-autenticacao.guard';
 import { AgendamentoRoute, AnamneseRoute, AutenticacaoPassportFailureRoute, AutenticacaoPassportSuccessRoute, AutenticacaoRoute, BuscaMedicosRoute, ConsultaRoute, HomeMedicoRoute, HomePacienteRoute, HomeRoute, HomeSecretarioRoute, ProntuarioFormularioRoute, ProntuarioRoute, UsuarioMeuPerfilMedicoRoute, UsuarioMeuPerfilRoute, UsuarioPerfilMedicoRoute, UsuarioPerfilRoute } from './app-routing.route';
 import { FormularioProntuarioComponent } from 'src/components/view/formulario-prontuario/formulario-prontuario.component';
 
-
+  
 @NgModule({
   declarations: [],
   imports: [
