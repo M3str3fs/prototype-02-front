@@ -39,7 +39,7 @@ export class AutenticacaoComponent implements OnInit {
     }
 
     public doAuthenticateWithGoogle() {
-        window.location.href = 'http://localhost:3000/google';
+        window.location.href = 'https://prototype-02.herokuapp.com/google';
     }
 
     public doAuthenticate(token: string) {

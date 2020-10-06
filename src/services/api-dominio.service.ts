@@ -16,7 +16,7 @@ export class ApiDominioService extends ApiBaseService {
   }
 
   public get(ids: string[] = [], grupos: string[] = []) {
-    return this.httpClient.get<DominioModel[]>('http://localhost:3000/dominio', {
+    return this.httpClient.get<DominioModel[]>(`${process.env.PREFIX_BACK}/dominio`, {
       params: {
         ids: ids.join(','),
         grupos: grupos.join(','),
@@ -29,7 +29,7 @@ export class ApiDominioService extends ApiBaseService {
     valor: string = undefined
   ) {
     return this.buildApiPaginacaoRequest((pLimit, pNumber) => {
-      return this.httpClient.get<PaginacaoResponse<DominioModel[]>>('http://localhost:3000/dominio/paged-query', {
+      return this.httpClient.get<PaginacaoResponse<DominioModel[]>>(`${process.env.PREFIX_BACK}/dominio/paged-query`, {
         params: {
           grupos: grupos.join(','),
           valor: valor,
