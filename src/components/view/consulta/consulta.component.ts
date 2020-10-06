@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { ConsultaRoute, ProntuarioFormularioRoute } from 'src/app/app-routing.route';
+import { ConsultaRoute, ProntuarioFormularioRoute, ProntuarioRoute } from 'src/app/app-routing.route';
 import { UsuarioDadosMedicosConsultaModel, UsuarioDadosMedicosSolicitacaoAgendamentoModel } from 'src/model/usuario-dados-medicos.model';
 import { ApiUsuarioService } from 'src/services/api-usuario.service';
 import { DominioModel } from '../../../model/dominio.model';
@@ -65,7 +65,7 @@ export class ConsultaComponent implements OnInit {
 
     public doLoadConsultaExistente(consulta: string) {
         this.appCoreService.setLoading(this.doLoadConsultaExistente);
-        this.apiUsuarioService.queryUsuarioDadosMedicosConsulta(consulta, undefined, undefined, undefined).then((r) => this.consulta = r[0])
+        this.apiUsuarioService.queryUsuarioDadosMedicosConsulta([consulta], undefined, undefined, undefined).then((r) => this.consulta = r[0])
             .then(() =>
                 Promise.all([
                     this.apiUsuarioService.query([this.consulta.idUsuarioMedico]).then((r) => this.medico = r[0]),
@@ -84,11 +84,19 @@ export class ConsultaComponent implements OnInit {
         this.paciente = paciente;
     }
 
-    public doGoIncluirRegistroProntuario(consulta: UsuarioDadosMedicosConsultaModel) {
+    public doGoProntuarioConsulta(consulta: UsuarioDadosMedicosConsultaModel) {
         this.router.navigate([ProntuarioFormularioRoute.path], {
             queryParams: {
                 'consulta': consulta._id,
                 'medico': consulta.idUsuarioMedico
+            }
+        });
+    }
+
+    public doGoProntuarioGeral(paciente: UsuarioModel) {
+        this.router.navigate([ProntuarioRoute.path], {
+            queryParams: {
+                'paciente': paciente._id,
             }
         });
     }

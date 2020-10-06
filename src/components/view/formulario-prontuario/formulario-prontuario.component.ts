@@ -68,7 +68,7 @@ export class FormularioProntuarioComponent implements OnInit {
                 }
                 return;
             })
-            .then(() => this.apiUsuarioService.queryUsuarioDadosMedicosConsulta(consulta, undefined, undefined, undefined))
+            .then(() => this.apiUsuarioService.queryUsuarioDadosMedicosConsulta([consulta], undefined, undefined, undefined))
             .then((r) => this.consulta = r[0])
             .finally(() => this.appCoreService.setLoaded(this.doLoad));
     }

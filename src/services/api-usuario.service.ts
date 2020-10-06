@@ -183,10 +183,10 @@ export class ApiUsuarioService extends ApiBaseService {
             }).toPromise();
     }
 
-    public queryUsuarioDadosMedicosConsulta(id: string, medico: string, alvoDe: string, alvoAte: string) {
+    public queryUsuarioDadosMedicosConsulta(ids: string[] = [], medico: string, alvoDe: string, alvoAte: string) {
         return this.httpClient.get<UsuarioDadosMedicosConsultaModel[]>('http://localhost:3000/usuario/dados-medicos/consulta', {
             params: this.cleanParams({
-                id: id,
+                ids: ids.join(','),
                 medico: medico,
                 alvoDe: alvoDe,
                 alvoAte: alvoAte

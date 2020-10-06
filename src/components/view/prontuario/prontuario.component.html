@@ -12,116 +12,50 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 mt-2">
-            <div class="card">
-                <div class="card-body">
-                    <span class="badge badge-primary">Consulta</span>
-                    <span class="mr-4"></span>
-                    <label class="mr-1">Doutor:</label><span>Paula Lobo</span>
-                    <span class="mr-4"></span>
-                    <label class="mr-1">Data:</label><span>04/05/2020</span>
-                    <br>
-                    <br>
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Paciênte apresenta sintomas iniciais da Gripe H1N1, Fazer uso de Tamiflu X ml ao dia, por 15 dias</p>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 mt-2">
-            <div class="card">
-                <div class="card-body">
-                    <span class="badge badge-primary">Consulta</span>
-                    <span class="mr-4"></span>
-                    <label class="mr-1">Doutor:</label><span>Matheus Carvalho</span>
-                    <span class="mr-4"></span>
-                    <label class="mr-1">Data:</label><span>04/05/2020</span>
-                    <br>
-                    <br>
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Paciênte apresenta sintomas iniciais da Rinite Alergica, Fazer uso de Corticoide X ml ao dia, por 7 dias</p>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 mt-2 mb-4">
-            <div class="card">
-                <div class="card-header">
-                    <b>Novo Registro</b>
-                </div>
-                <div class="card-body d-flex flex-column p-2">
-                    <div class="w-100 mb-3">
-                        <div class="card w-100">
-                            <div class="card-header">
-                                <b>Diagnóstico</b>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-12 col-md-3 mb-2">
-                                        <label class="control-label">Doença</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-12 col-md-9 mb-2">
-
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 mb-2">
-                                        <label class="control-label">Observação</label>
-                                        <textarea class="w-100 mt-2" placeholder="Digite sua mensagem..." style="outline: none;border: none;resize: none;"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between w-100">
-                        <div class="card w-100">
-                            <div class="card-header">
-                                <b>Sintomática</b>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <label class="control-label">Sintoma</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-12 col-md-3">
-                                        <label class="control-label">Início</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mr-2"></div>
-                        <div class="card w-100">
-                            <div class="card-header">
-                                <b>Préscrições</b>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <label class="control-label">Medicamento</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-12 col-md-3">
-                                        <label class="control-label">Dosagem</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-12 col-md-3">
-                                        <label class="control-label">Duração</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-12 col-md-3">
-                                        <label class="control-label">Vezes ao Dia</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <ng-container *ngIf="consultas.length && medicos.length && dominios.length">
+            <div class="col-12 mt-2" *ngFor="let prontuario of prontuarios">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="badge badge-primary">Consulta</span>
+                        <span class="mr-4"></span>
+                        <label class="mr-1">Médico:</label><span>{{getMedico(prontuario.idUsuarioMedico).nome}}</span>
+                        <span class="mr-4"></span>
+                        <label class="mr-1">Data:</label><span>{{getDateScreenFormat(getConsulta(prontuario.idConsulta).data)}}</span>
+                        <br>
+                        <br>
+                        <blockquote class="blockquote">
+                            <span class="badge badge-dark mb-1" style="font-size: 0.8em;">Queixa</span>
+                            <ng-container *ngFor="let item of prontuario.queixa">
+                                <p class="mb-1" style="font-weight: 300;font-size: 0.8em;">
+                                    <span class="badge badge-light mr-1">{{getDateScreenFormat(item.data)}}</span>
+                                    <span class="mr-1">{{item.sintoma}}</span>
+                                </p>
+                            </ng-container>
+                        </blockquote>
+                        <blockquote class="blockquote">
+                            <span class="badge badge-dark mb-1" style="font-size: 0.8em;">Diagnóstico</span>
+                            <ng-container *ngFor="let item of prontuario.diagnostico">
+                                <p class="mb-1" style="font-weight: 300;font-size: 0.8em;">
+                                    <span class="badge badge-light mr-1">{{getDateScreenFormat(item.data)}}</span>
+                                    <span class="mr-1">{{getDominio(item.doenca).valor}}</span>
+                                </p>
+                            </ng-container>
+                        </blockquote>
+                        <blockquote class="blockquote">
+                            <span class="badge badge-dark mb-1" style="font-size: 0.8em;">Prescrição</span>
+                            <ng-container *ngFor="let item of prontuario.prescricoes">
+                                <p class="mb-1" style="font-weight: 300;font-size: 0.8em;">
+                                    <span class="badge badge-light mr-1">{{getDateScreenFormat(item.data)}}</span>
+                                    <span class="mr-1">{{getDominio(item.medicamento).valor}}</span>
+                                    <span class="mr-1">{{item.medicamentoDosagem}}</span>
+                                    <span class="mr-1">{{item.medicamentoDuracao}}</span>
+                                    <span class="mr-1">{{item.medicamentoFrequencia}}</span>
+                                </p>
+                            </ng-container>
+                        </blockquote>
                     </div>
                 </div>
             </div>
-        </div>
+        </ng-container>
     </div>
 </div>

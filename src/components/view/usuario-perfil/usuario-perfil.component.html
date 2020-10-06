@@ -68,7 +68,7 @@
                             <b>Doenças Prévias</b>
                             <br>
                             <ui-data-selector [(ngModel)]="doencaPreviaSelecionada"
-                                [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('cid')">
+                                [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('doenca')">
                             </ui-data-selector>
                         </div>
                         <div class="col-12 col-md-2 d-flex align-items-end">
@@ -333,7 +333,7 @@
                             <b>Fatores de Risco</b>
                             <br>
                             <ui-data-selector [(ngModel)]="fatorRiscoSelecionado" [label]="getUiDataSelectDominioLabel"
-                                [query]="getUiDataSelectDominioQuery('cid')"></ui-data-selector>
+                                [query]="getUiDataSelectDominioQuery('doenca')"></ui-data-selector>
                         </div>
                         <div class="col-12 col-md-2 d-flex align-items-end">
                             <button class="btn btn-primary" (click)="fatoresRisco.add(fatorRiscoSelecionado)"
@@ -356,7 +356,7 @@
                             <b>Imunizações (Vacínas)</b>
                             <br>
                             <ui-data-selector [(ngModel)]="imunizacaoSelecionada" [label]="getUiDataSelectDominioLabel"
-                                [query]="getUiDataSelectDominioQuery('cid')"></ui-data-selector>
+                                [query]="getUiDataSelectDominioQuery('doenca')"></ui-data-selector>
                         </div>
                         <div class="col-12 col-md-2 d-flex align-items-end">
                             <button class="btn btn-primary" (click)="imunizacoes.add(imunizacaoSelecionada)"
@@ -414,7 +414,7 @@
                             <b>Doenças Familiáres</b>
                             <br>
                             <ui-data-selector [(ngModel)]="doencaFamiliarSelecionada"
-                                [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('cid')">
+                                [label]="getUiDataSelectDominioLabel" [query]="getUiDataSelectDominioQuery('doenca')">
                             </ui-data-selector>
                         </div>
                         <div class="col-12 col-md-2 d-flex align-items-end">
