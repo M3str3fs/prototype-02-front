@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  PREFIX_BACK: 'https://healthcare-prototype.herokuapp.com'
 };
