@@ -5,6 +5,7 @@ import { UsuarioModel } from '../../../model/usuario.model';
 import { ApiUsuarioService } from '../../../services/api-usuario.service';
 import { AppCoreKeys } from '../../../services/app-core.keys';
 import { AppCoreService } from '../../../services/app-core.service';
+import { environment } from '../../../environments/environment';
 
 @Component({
     selector: 'autenticacao-component',
@@ -39,7 +40,7 @@ export class AutenticacaoComponent implements OnInit {
     }
 
     public doAuthenticateWithGoogle() {
-        window.location.href = `${process.env.PREFIX_BACK}/google`;
+        window.location.href = `${environment.PREFIX_BACK}/google`;
     }
 
     public doAuthenticate(token: string) {

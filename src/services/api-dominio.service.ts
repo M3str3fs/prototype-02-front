@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { of } from 'rxjs';
 import { DominioModel } from 'src/model/dominio.model';
 import { ApiBaseService, PaginacaoResponse } from './api-base.service';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -16,7 +17,7 @@ export class ApiDominioService extends ApiBaseService {
   }
 
   public get(ids: string[] = [], grupos: string[] = []) {
-    return this.httpClient.get<DominioModel[]>(`${process.env.PREFIX_BACK}/dominio`, {
+    return this.httpClient.get<DominioModel[]>(`${environment.PREFIX_BACK}/dominio`, {
       params: {
         ids: ids.join(','),
         grupos: grupos.join(','),
@@ -29,7 +30,7 @@ export class ApiDominioService extends ApiBaseService {
     valor: string = undefined
   ) {
     return this.buildApiPaginacaoRequest((pLimit, pNumber) => {
-      return this.httpClient.get<PaginacaoResponse<DominioModel[]>>(`${process.env.PREFIX_BACK}/dominio/paged-query`, {
+      return this.httpClient.get<PaginacaoResponse<DominioModel[]>>(`${environment.PREFIX_BACK}/dominio/paged-query`, {
         params: {
           grupos: grupos.join(','),
           valor: valor,
